@@ -1,0 +1,199 @@
+week,start,end,kind,a_course,a_week,a_learn,a_apply,b_course,b_week,b_learn,b_apply
+1,2026-10-12,2026-10-18,content,M101,1,"Functions, domain and range, composition, transformations",Plot families of functions with matplotlib; write helpers that shift and scale any f(x),C101,1,"Self-assess against CS50P problem sets; fill gaps in typing, OOP and pytest","Refactor one work script into a typed, tested Python package"
+2,2026-10-19,2026-10-25,content,M101,2,Linear and quadratic functions; systems of equations,Fit a linear cost model to monthly spend data and solve for break-even volume,C101,2,"Packaging, CLIs, docstrings and static type checks","Add a CLI, README and mypy-clean types; push to GitHub"
+3,2026-10-26,2026-11-01,content,M101,3,"Polynomial and rational functions, asymptotes",Model average cost per unit (fixed/x + variable) and find where it flattens,C101,3,Sign-off,Evidence and memo
+4,2026-11-02,2026-11-08,content,M101,4,"Exponential and logarithmic functions, log rules",Fit exponential user growth with a log-linear fit in NumPy; report the doubling time,C102,1,"Shell, scripting and command-line tooling",Automate a local data task end to end with a bash script
+5,2026-11-09,2026-11-15,content,M101,5,"Compound interest, the number e, continuous growth and decay",Build a loan and savings calculator comparing compounding frequencies,C102,2,"Git internals, branching, pull request workflow",Run this repo with branches and PRs for every course
+6,2026-11-16,2026-11-22,content,M101,6,"Trigonometry essentials: unit circle, sine and cosine, periodic functions",Model seasonal sales with a sine term and overlay it on real monthly data,C102,3,"Testing: unit, integration and data quality tests",Write a pytest suite with data checks for a small pipeline
+7,2026-11-23,2026-11-29,content,M101,7,"Sequences, series, sigma notation, geometric series",Compute cumulative retention and customer value as a geometric series,C102,4,"Linting, formatting, type checking, pre-commit","Add ruff, mypy and pre-commit hooks to the pipeline"
+8,2026-11-30,2026-12-06,content,M101,8,"Inequalities, absolute value, mathematical notation and first proofs",Rewrite five KPI definitions from work in precise math notation,C102,5,Continuous integration with GitHub Actions,Workflow that runs lint and tests on every push and PR
+9,2026-12-07,2026-12-13,content,M101,9,Final: exam,Build and memo,C102,6,"Environments, packaging, Docker basics",Containerize the pipeline and run it from the image
+10,2026-12-14,2026-12-20,content,M102,1,Limits and continuity,Estimate limits numerically in Python; find where a tiered pricing function is discontinuous,C102,7,"Continuous delivery, semantic versioning, release practices",Tag-triggered release workflow that builds and publishes the image
+11,2026-12-21,2026-12-27,Christmas,,,,,,,,
+12,2026-12-28,2027-01-03,New Year,,,,,,,,
+13,2027-01-04,2027-01-10,content,M102,2,"Derivative definition; power, product and quotient rules",Implement a finite-difference derivative and compare it with analytic results,C102,8,Code review and documentation; architecture decision records,Write a review checklist and two ADRs for the pipeline
+14,2027-01-11,2027-01-17,content,M102,3,"Chain rule, implicit differentiation, derivatives of exp and log",Derive and code marginal revenue for a fitted demand curve,C102,9,Final: exam,Build and memo
+15,2027-01-18,2027-01-24,content,M102,4,Related rates and linear approximation,Approximate the revenue effect of a 1% price change and check it against the exact value,C103,1,"Kimball review: star schemas, grain, slowly changing dimensions, conformed dimensions",Design a star schema for a public retail dataset
+16,2027-01-25,2027-01-31,content,M102,5,"Optimization, extrema, curve sketching",Find the profit-maximizing price for a fitted demand and cost curve,C103,2,"dbt fundamentals: sources, models, tests, documentation",dbt project on DuckDB (no cloud cost) with tests and generated docs
+17,2027-02-01,2027-02-07,content,M102,6,"Mean value theorem, L'Hopital's rule, Newton's method",Implement Newton's method to solve break-even and rate-of-return equations,C103,3,Sign-off,Evidence and memo
+18,2027-02-08,2027-02-14,content,M102,7,Riemann sums and the Fundamental Theorem of Calculus,Code trapezoid and Riemann integrators; total revenue from a marginal revenue curve,B103,1,"Defining the problem: SMART questions, stakeholders, decision owners",Rewrite a vague request from work into a crisp problem statement
+19,2027-02-15,2027-02-21,content,M102,8,"Substitution, area between curves, average value",Compute consumer surplus from a demand curve and average daily load from a usage curve,B103,2,Issue trees and MECE structuring,Issue tree for a real work problem
+20,2027-02-22,2027-02-28,content,M102,9,Final: exam,Build and memo,B103,3,Hypothesis-driven analysis and prioritization,Prioritized workplan for that problem
+21,2027-03-01,2027-03-07,content,S101,1,"Data, study design, observational vs experimental, sampling bias",Critique the sampling behind one dataset you use at work,B103,4,Analysis planning and 80/20 thinking,"Ghost deck: headlines first, analyses second"
+22,2027-03-08,2027-03-14,content,S101,2,"Numerical and categorical summaries, distributions, visualization","EDA notebook on a public dataset (e.g., PSA OpenSTAT or a Kaggle retail dataset)",B103,5,"Pyramid principle: governing thought, SCQA",Rewrite a long work email using SCQA
+23,2027-03-15,2027-03-21,content,S101,3,Probability basics and conditional probability,Compute conversion probabilities by customer segment from data,B103,6,Storylines and action titles,Five-slide storyline for a past project
+24,2027-03-22,2027-03-28,Holy Week,,,,,,,,
+25,2027-03-29,2027-04-04,content,S101,4,Normal and binomial distributions,Simulate both in NumPy and compare against the formulas,B103,7,Data visualization for executives,Redesign three charts from your own dashboards
+26,2027-04-05,2027-04-11,content,S101,5,"Sampling distributions, central limit theorem, confidence intervals",Bootstrap vs formula confidence interval for average order value,B103,8,Presenting and handling objections,Record a 5-minute presentation and critique it
+27,2027-04-12,2027-04-18,content,S101,6,"Hypothesis testing, p-values, type I and II errors",Test whether a sales uplift after a campaign is significant,B103,9,Final: exam,Build and memo
+28,2027-04-19,2027-04-25,content,S101,7,"Inference for proportions and means: t-tests, chi-square",Two-sample t-test and chi-square test on segment data,B101,1,"Scarcity, opportunity cost, incentives",Opportunity-cost analysis of a real decision at work
+29,2027-04-26,2027-05-02,content,S101,8,Simple and multiple linear regression,Regress sales on price and promotion; interpret each coefficient in plain words,B101,2,"Demand, supply, equilibrium",Plot supply and demand curves from a public commodity dataset
+30,2027-05-03,2027-05-09,content,S101,9,Final: exam,Build and memo,B101,3,Elasticity,Estimate price elasticity from sales data with a log-log regression
+31,2027-05-10,2027-05-16,content,M103,1,"Propositional logic, truth tables, quantifiers",Express SQL WHERE clauses as logical statements and test equivalences in Python,B101,4,Consumer choice: utility and budget constraints,Model how customers choose between subscription tiers
+32,2027-05-17,2027-05-23,content,M103,2,"Sets, functions, relations",Model joins and set operations on sample tables; verify results in SQL,B101,5,Production and cost curves,Fixed vs variable cost curves for a data platform
+33,2027-05-24,2027-05-30,content,M103,3,"Direct proof, contrapositive, contradiction",Write five short proofs and typeset them in Markdown with LaTeX,B101,6,"Market structures: competition, monopoly, price discrimination",Analyze tiered pricing as price discrimination
+34,2027-05-31,2027-06-06,content,M103,4,Induction and strong induction,Prove a loop invariant for two of your own pipeline functions,B101,7,Game theory,Simulate a pricing game between two competitors
+35,2027-06-07,2027-06-13,content,M103,5,"Counting: permutations, combinations, pigeonhole principle",Count partitioning and configuration options for a table design,B101,8,Market failures and information asymmetry,Explain a lemons problem in a market you know
+36,2027-06-14,2027-06-20,content,M103,6,"Inclusion-exclusion, binomial theorem, recurrence relations",Solve a recurrence for a work backlog that grows and drains each week,B101,9,Final: exam,Build and memo
+37,2027-06-21,2027-06-27,Quarterly review,,,,,,,,
+38,2027-06-28,2027-07-04,content,M103,7,"Graphs: paths, trees, connectivity, DAGs",Build your data lineage as a networkx DAG and detect cycles,B102,1,The accounting equation and double-entry bookkeeping,Build a mini general ledger in Python
+39,2027-07-05,2027-07-11,content,M103,8,"Topological sort, shortest paths, matchings",Implement topological sort and Dijkstra; schedule jobs by dependency,B102,2,"Income statement, accruals, revenue recognition",Generate an income statement from the ledger
+40,2027-07-12,2027-07-18,content,M103,9,Final: exam,Build and memo,B102,3,Balance sheet,Generate a balance sheet and check that it balances
+41,2027-07-19,2027-07-25,content,M201,1,Integration by parts,Compute expected values of continuous distributions by integration,B102,4,Cash flow statement (indirect method),Derive cash flow from two balance sheets and an income statement
+42,2027-07-26,2027-08-01,content,M201,2,Trigonometric substitution and partial fractions,Integrate a logistic growth model analytically and check it numerically,B102,5,Inventory costing and depreciation,Compare FIFO and weighted-average cost effects on profit
+43,2027-08-02,2027-08-08,content,M201,3,Improper integrals,Value a perpetuity and a continuous cash-flow stream,B102,6,Liabilities and equity,Model a loan and its effect on all three statements
+44,2027-08-09,2027-08-15,content,M201,4,Numerical integration and error bounds,Compare trapezoid and Simpson accuracy against exact answers,B102,7,"Ratio analysis: liquidity, profitability, leverage, efficiency",Parse a listed company's filings into a ratio table
+45,2027-08-16,2027-08-22,content,M201,5,Sequences and series; convergence tests,Check convergence of discounted cash-flow streams,B102,8,Reading an annual report end to end,Ten-minute health check of a listed company
+46,2027-08-23,2027-08-29,content,M201,6,Power series,Approximate exp and log with series and measure the error,B102,9,Final: exam,Build and memo
+47,2027-08-30,2027-09-05,content,M201,7,Taylor and Maclaurin series,Second-order Taylor approximation of a bond's price change (duration and convexity),C201,1,"Algorithm analysis, Big-O, union-find",Union-find for entity resolution on duplicate customer records; 8 practice problems
+48,2027-09-06,2027-09-12,content,M201,8,Parametric curves and first differential equations,Solve a logistic adoption model numerically with Euler's method,C201,2,"Stacks, queues, bags, iterators",Implement each with tests; 8 practice problems
+49,2027-09-13,2027-09-19,content,M201,9,Final: exam,Build and memo,C201,3,Elementary sorts and mergesort,External merge sort for a file larger than memory
+50,2027-09-20,2027-09-26,Quarterly review,,,,,,,,
+51,2027-09-27,2027-10-03,content,M202,1,"Vectors, dot products, geometry of linear equations",Represent customers as vectors and compute cosine similarity,C201,4,Quicksort and priority queues,Top-k heavy hitters from logs with a heap; 8 practice problems
+52,2027-10-04,2027-10-10,content,M202,2,"Elimination, matrix multiplication, inverses",Implement Gaussian elimination; compare with numpy.linalg.solve,C201,5,"Symbol tables, BSTs, balanced trees",Implement a red-black or AVL tree; 8 practice problems
+53,2027-10-11,2027-10-17,content,M202,3,"LU factorization, transposes, permutations",Time LU vs explicit inverse when solving many systems,C201,6,Hash tables,LRU cache with a hash map and linked list; 8 practice problems
+54,2027-10-18,2027-10-24,content,M202,4,"Vector spaces, column space, null space, rank",Detect collinear features in a dataset using rank,C201,7,"Graphs: BFS, DFS, topological sort, minimum spanning trees",Graph-based job scheduler for a DAG of tasks
+55,2027-10-25,2027-10-31,content,M202,5,"Orthogonality, projections, least squares, QR",Implement OLS via normal equations and via QR; compare stability,C201,8,Shortest paths and dynamic programming,Knapsack for budget allocation; 8 DP practice problems
+56,2027-11-01,2027-11-07,content,M202,6,"Determinants, eigenvalues and eigenvectors",Power iteration and PageRank on a small graph,C201,9,Final: exam,Build and memo
+57,2027-11-08,2027-11-14,content,M202,7,"Diagonalization, symmetric and positive definite matrices",Examine the covariance matrix of a real dataset,B201,1,GDP and national accounts,Pull Philippine GDP data (PSA) and chart its components
+58,2027-11-15,2027-11-21,content,M202,8,Singular value decomposition and PCA,PCA from scratch; segment customers on the top components,B201,2,Unemployment and labor markets,Chart labor force survey data over 10 years
+59,2027-11-22,2027-11-28,content,M202,9,Final: exam,Build and memo,B201,3,Inflation and price indices,CPI dashboard by commodity group
+60,2027-11-29,2027-12-05,content,S201,1,Counting and naive probability (book ch. 1),Simulate the birthday problem and check it against the formula,B201,4,"Money, banks and central banks",Track BSP policy rate and money supply
+61,2027-12-06,2027-12-12,content,S201,2,Conditional probability and Bayes' rule (ch. 2),Base-rate calculator for a fraud or anomaly alert,B201,5,Interest rates and monetary policy,Analyze how a rate change moves loan or sales volumes
+62,2027-12-13,2027-12-19,content,S201,3,"Discrete random variables: Bernoulli, binomial, hypergeometric, geometric (ch. 3-4)",Model defects per batch; simulate vs PMF,B201,6,Fiscal policy and government budgets,Chart deficit and debt-to-GDP
+63,2027-12-20,2027-12-26,Christmas,,,,,,,,
+64,2027-12-27,2028-01-02,New Year,,,,,,,,
+65,2028-01-03,2028-01-09,content,S201,4,"Expectation, linearity, indicator variables, Poisson (ch. 4)",Expected support tickets per hour with a Poisson model; staffing implications,B201,7,Exchange rates and the open economy,PHP vs USD/EUR/AUD and the remittance effect
+66,2028-01-10,2028-01-16,content,S201,5,"Continuous random variables: uniform, normal, exponential (ch. 5)",Fit time-between-events from your pipeline logs to an exponential,B201,8,Business cycles and leading indicators,Leading-indicator panel for a client's demand
+67,2028-01-17,2028-01-23,content,S201,6,Moments and moment generating functions (ch. 6),"Mean, variance and skew of an insurance claim distribution",B201,9,Final: exam,Build and memo
+68,2028-01-24,2028-01-30,content,S201,7,"Joint distributions, covariance, correlation (ch. 7)",Joint model of order size and order frequency,B202,1,The objective of the firm and the big picture,"Summarize one listed company's investment, financing and dividend decisions"
+69,2028-01-31,2028-02-06,content,S201,8,"Conditional expectation, inequalities, LLN and CLT (ch. 9-10)",Monte Carlo warranty-cost simulator with confidence bands,B202,2,Time value of money and annuities,"TVM functions in Python and in a spreadsheet, cross-checked"
+70,2028-02-07,2028-02-13,content,S201,9,Final: exam,Build and memo,B202,3,"Risk, return and CAPM",Estimate a stock's beta from price data
+71,2028-02-14,2028-02-20,content,S202,1,Inference review; t procedures and assumption checks,"Write an assumption-checking helper (normality, equal variance)",B202,4,Cost of capital (WACC),WACC for a listed Philippine company
+72,2028-02-21,2028-02-27,content,S202,2,Power and sample size,Power calculator validated against statsmodels,B202,5,"Capital budgeting: NPV, IRR, payback",Compare three projects with NPV and IRR
+73,2028-02-28,2028-03-05,content,S202,3,One-way ANOVA,Compare sales across four store formats,B202,6,Estimating cash flows,Cash flows for a data platform investment
+74,2028-03-06,2028-03-12,content,S202,4,Two-way ANOVA and interactions,Promotion x region interaction analysis,B202,7,Capital structure and dividend policy,Debt vs equity scenario for that company
+75,2028-03-13,2028-03-19,content,S202,5,Chi-square tests of independence and goodness of fit,Test whether churn depends on acquisition channel,B202,8,Discounted cash flow valuation,DCF model in Python and in a spreadsheet
+76,2028-03-20,2028-03-26,content,S202,6,"Nonparametric tests: Mann-Whitney, Wilcoxon, Kruskal-Wallis",Compare skewed delivery-time distributions,B202,9,Final: exam,Build and memo
+77,2028-03-27,2028-04-02,Quarterly review,,,,,,,,
+78,2028-04-03,2028-04-09,content,S202,7,"Multiple testing: Bonferroni, Benjamini-Hochberg",Correct p-values across 20 dashboard metrics,C202,1,"Storage: pages, files, row vs column layout",Inspect Parquet and Delta file layouts with pyarrow
+79,2028-04-10,2028-04-16,Holy Week,,,,,,,,
+80,2028-04-17,2028-04-23,content,S202,8,"Correlation, regression inference, reporting effect sizes",Statistical test report template with effect sizes and CIs,C202,2,Buffer pool management and replacement policies,Simulate an LRU buffer pool and measure hit rates
+81,2028-04-24,2028-04-30,content,S202,9,Final: exam,Build and memo,C202,3,Hash tables and B+ trees,Implement B+ tree insert and search
+82,2028-05-01,2028-05-07,content,M301,1,"Vectors in 3D, lines and planes",Plot a revenue surface over price and ad spend,C202,4,"Sorting, aggregation and join algorithms",Implement hash join and sort-merge join; benchmark both
+83,2028-05-08,2028-05-14,content,M301,2,Partial derivatives and the gradient,Compute a loss function's gradient analytically and numerically,C202,5,"Query processing models (iterator, vectorized)",Tiny Volcano-style query engine over CSV files
+84,2028-05-15,2028-05-21,content,M301,3,"Directional derivatives, tangent planes, linear approximation",Sensitivity of profit to two levers at once,C202,6,Query optimization and cost models,Read and explain EXPLAIN plans in DuckDB and Spark
+85,2028-05-22,2028-05-28,content,M301,4,"Unconstrained optimization, Hessian, second-derivative test",Gradient descent from scratch on a two-variable profit function,C202,7,"Concurrency control: two-phase locking, MVCC",Study the Delta Lake transaction log and write up how it isolates writers
+86,2028-05-29,2028-06-04,content,M301,5,Lagrange multipliers,Allocate a fixed marketing budget across two channels,C202,8,Logging and recovery,Add a write-ahead log to your toy engine
+87,2028-06-05,2028-06-11,content,M301,6,Double integrals,Probability over a region for a joint density,C202,9,Final: exam,Build and memo
+88,2028-06-12,2028-06-18,content,M301,7,"Change of variables, polar coordinates, triple integrals",Derive the normal density's normalizing constant,C203,1,Processes and CPU scheduling,Measure process vs thread overhead with Python multiprocessing
+89,2028-06-19,2028-06-25,content,M301,8,Vector fields and line integrals (survey),Light problem set; summarize where these appear in ML,C203,2,Virtual memory and paging,Profile memory of a pandas job with tracemalloc
+90,2028-06-26,2028-07-02,content,M301,9,Final: exam,Build and memo,C203,3,Memory management and allocation,Cut that job's memory with dtypes and Arrow; report the saving
+91,2028-07-03,2028-07-09,content,M302,1,"Floating point, conditioning, numerical stability",Show cancellation in the naive variance formula; fix with Welford's algorithm,C203,4,"Threads, locks, concurrency bugs",Multithreaded file processor with a correct shared counter
+92,2028-07-10,2028-07-16,Quarterly review,,,,,,,,
+93,2028-07-17,2028-07-23,content,M302,2,Convex sets and convex functions,Check convexity of common loss functions,C203,5,"Condition variables, semaphores, async I/O",asyncio downloader with a concurrency limit
+94,2028-07-24,2028-07-30,content,M302,3,Linear programming formulation,Production-planning LP with scipy.optimize.linprog,C203,6,"File systems, I/O, SSDs","Benchmark CSV, Parquet and Arrow read/write"
+95,2028-07-31,2028-08-06,content,M302,4,LP duality and shadow prices,Interpret shadow prices of capacity constraints,C203,7,"Networking basics: TCP/IP, HTTP, DNS, latency",Trace an API call and build a latency budget
+96,2028-08-07,2028-08-13,content,M302,5,Integer programming,Shift scheduling with OR-Tools CP-SAT,C203,8,Profiling and capacity planning,Right-size a cluster for one real job and document the method
+97,2028-08-14,2028-08-20,content,M302,6,Convex problems and KKT conditions,Mean-variance portfolio with cvxpy,C203,9,Final: exam,Build and memo
+98,2028-08-21,2028-08-27,content,M302,7,Newton and quasi-Newton methods,Newton vs BFGS on logistic loss,B203,1,Funnel metrics and customer journeys,Build a funnel from event data
+99,2028-08-28,2028-09-03,content,M302,8,Modeling practice and solver choice,"Benchmark SciPy, OR-Tools and cvxpy on one problem",B203,2,Customer lifetime value,CLV with a BG/NBD model (lifetimes or PyMC-Marketing)
+100,2028-09-04,2028-09-10,content,M302,9,Final: exam,Build and memo,B203,3,Attribution models,Compare last-touch and Markov-chain attribution
+101,2028-09-11,2028-09-17,content,S301,1,Transformations and order statistics,Simulate the maximum of n delivery times,B203,4,Experiment design and the overall evaluation criterion,Experiment design doc for a real feature
+102,2028-09-18,2028-09-24,content,S301,2,"Sampling distributions: chi-square, t, F",Derive and simulate the t distribution,B203,5,"Randomization, sample ratio mismatch, guardrails",Simulate an A/B test and detect SRM
+103,2028-09-25,2028-10-01,content,S301,3,Method of moments estimation,Method-of-moments fit for gamma-distributed claim sizes,B203,6,"Analysis: variance, CUPED, novelty effects",Apply CUPED and report the variance reduction
+104,2028-10-02,2028-10-08,content,S301,4,Maximum likelihood and Fisher information,MLE with scipy.optimize; compare standard errors to the bootstrap,B203,7,"Pitfalls: peeking, many metrics, interference",Simulate the false-positive rate of peeking
+105,2028-10-09,2028-10-15,Quarterly review,,,,,,,,
+106,2028-10-16,2028-10-22,content,S301,5,"Bias, variance, MSE, Cramer-Rao bound",Simulation study of estimator MSE,B203,8,Experimentation culture and decision memos,Write a decision memo template
+107,2028-10-23,2028-10-29,content,S301,6,Sufficiency and exponential families,Identify sufficient statistics for common business models,B203,9,Final: exam,Build and memo
+108,2028-10-30,2028-11-05,content,S301,7,Neyman-Pearson and likelihood ratio tests,LRT for a change in conversion rate,C301,1,"DDIA part II review: replication, partitioning, transactions, consistency",Map each concept to how Databricks and Delta Lake implement it
+109,2028-11-06,2028-11-12,content,S301,8,"Asymptotics, delta method, bootstrap",Delta-method CI for revenue per user,C301,2,"Stream processing: event time, watermarks, exactly-once",Structured Streaming pipeline with watermarking (Databricks Free Edition or local Spark)
+110,2028-11-13,2028-11-19,content,S301,9,Final: exam,Build and memo,C301,3,Sign-off,Evidence and memo
+111,2028-11-20,2028-11-26,content,S302,1,"OLS review, interpretation and uncertainty",Fit and interpret a price-demand regression,B302,1,"Strategy kernel: diagnosis, guiding policy, coherent action",Diagnose the strategy of a Philippine company
+112,2028-11-27,2028-12-03,content,S302,2,"Regression diagnostics: residuals, leverage, influence",Diagnostic plots and fixes for that model,B302,2,Industry analysis: five forces,Five forces for that company's industry
+113,2028-12-04,2028-12-10,content,S302,3,"Transformations, interactions, categorical predictors",Log-log elasticity model with region interactions,B302,3,Value chain and competitive advantage,Value chain map with where data creates advantage
+114,2028-12-11,2028-12-17,content,S302,4,Heteroskedasticity and robust standard errors,Compare classic and HC3 standard errors,B302,4,Market sizing,Top-down and bottom-up market-sizing model
+115,2028-12-18,2028-12-24,content,S302,5,Logistic regression,Model conversion probability,B302,5,Case frameworks: profitability and market entry,Two recorded case drills
+116,2028-12-25,2028-12-31,Christmas,,,,,,,,
+117,2029-01-01,2029-01-07,New Year,,,,,,,,
+118,2029-01-08,2029-01-14,content,S302,6,Poisson and other generalized linear models,Model orders per customer,B302,6,"Growth strategies, M&A",Two recorded case drills
+119,2029-01-15,2029-01-21,content,S302,7,Regularization: ridge and lasso,Lasso feature selection on wide marketing data,B302,7,Pricing and go-to-market strategy,Go-to-market plan for an analytics service
+120,2029-01-22,2029-01-28,content,S302,8,Prediction vs inference; cross-validation and AIC,Out-of-sample evaluation and model choice,B302,8,Synthesis: building a strategy recommendation,Draft the final recommendation storyline
+121,2029-01-29,2029-02-04,content,S302,9,Final: exam,Build and memo,B302,9,Final: exam,Build and memo
+122,2029-02-05,2029-02-11,content,S303,1,Statistical learning and the bias-variance trade-off (ISLP ch. 2),KNN vs linear model on simulated data; plot bias and variance,B301,1,OR modeling and LP review,Formulate a real operations problem from work as an LP
+123,2029-02-12,2029-02-18,content,S303,2,"Classification: logistic, LDA, QDA, naive Bayes (ch. 4)",Baseline churn models,B301,2,Sensitivity analysis,What-if analysis on the LP's constraints
+124,2029-02-19,2029-02-25,content,S303,3,Resampling: cross-validation and bootstrap (ch. 5),Honest validation pipeline with time-aware splits,B301,3,Transportation and assignment problems,Assign technicians to jobs at minimum cost
+125,2029-02-26,2029-03-04,content,S303,4,Model selection and regularization (ch. 6),Regularized churn model,B301,4,"Network optimization: shortest path, max flow",Delivery routing on a road graph
+126,2029-03-05,2029-03-11,content,S303,5,Splines and GAMs (ch. 7),Nonlinear tenure effect on churn,B301,5,Integer and mixed-integer programming,Workforce scheduling with shift rules
+127,2029-03-12,2029-03-18,content,S303,6,"Trees, bagging, random forests, boosting (ch. 8)","Gradient-boosted churn model, compared with baselines",B301,6,Queuing theory,M/M/c staffing model for a call center
+128,2029-03-19,2029-03-25,content,S303,7,SVMs (ch. 9) and unsupervised learning (ch. 12),Customer clustering,B301,7,Discrete-event simulation,SimPy warehouse simulation
+129,2029-03-26,2029-04-01,Holy Week,,,,,,,,
+130,2029-04-02,2029-04-08,content,S303,8,"Evaluation for decisions: calibration, lift, cost curves",Expected-profit targeting curve,B301,8,Decision trees and value of information,Decision tree for an expansion choice
+131,2029-04-09,2029-04-15,content,S303,9,Final: exam,Build and memo,B301,9,Final: exam,Build and memo
+132,2029-04-16,2029-04-22,content,S304,1,Time series graphics and patterns (FPP3 ch. 2),Plot a demand series and describe its trend and seasonality,C302,1,ML systems overview and requirements,Design doc for serving the S303 churn model
+133,2029-04-23,2029-04-29,content,S304,2,Decomposition and features (ch. 3-4),STL decomposition of the series,C302,2,Data engineering for ML and feature stores,Feature pipeline with point-in-time correctness
+134,2029-04-30,2029-05-06,content,S304,3,"The forecaster's toolbox: benchmarks, accuracy, residuals (ch. 5)",Backtest naive and seasonal-naive benchmarks,C302,3,"Training data, labeling and leakage",Leakage audit of the S303 model
+135,2029-05-07,2029-05-13,content,S304,4,Exponential smoothing (ch. 8),ETS models with statsforecast,C302,4,Experiment tracking and model registry,Track runs and register the model with MLflow
+136,2029-05-14,2029-05-20,content,S304,5,"Stationarity, differencing, ARIMA (ch. 9)",AutoARIMA vs ETS backtest,C302,5,Deployment: batch vs online serving,Serve predictions with FastAPI or a batch job
+137,2029-05-21,2029-05-27,content,S304,6,Dynamic regression with predictors (ch. 10),Add promotions and Philippine holidays as regressors,C302,6,Monitoring and data drift,Drift monitor with alert thresholds
+138,2029-05-28,2029-06-03,content,S304,7,Hierarchical forecasting (ch. 11),Reconcile store and region forecasts,C302,7,CI/CD for ML and continual learning,Retraining workflow triggered by drift or schedule
+139,2029-06-04,2029-06-10,content,S304,8,Forecasting in production,"Scheduled job that trains, backtests and writes forecasts to a Delta table",C302,8,Infrastructure cost and responsible ML,Total cost of ownership estimate
+140,2029-06-11,2029-06-17,content,S304,9,Final: exam,Build and memo,C302,9,Final: exam,Build and memo
+141,2029-06-18,2029-06-24,content,S402,1,Bayesian updating and grid approximation,Posterior for a conversion rate by grid,B401,1,Lean startup and customer discovery,Interview five potential clients about their analytics pain
+142,2029-06-25,2029-07-01,Quarterly review,,,,,,,,
+143,2029-07-02,2029-07-08,content,S402,2,"Priors, posterior summaries, sampling from the posterior",Bayesian A/B test with expected loss,B401,2,Value proposition and service design,Value proposition canvas for your analytics offer
+144,2029-07-09,2029-07-15,content,S402,3,Linear models the Bayesian way,Bayesian regression in PyMC,B401,3,Business model canvas and unit economics,Unit economics per client engagement
+145,2029-07-16,2029-07-22,content,S402,4,Causal thinking and confounds in Bayesian models,DAG-guided model for a business question,B401,4,"Pricing models: value-based, tiered, retainer",Three pricing options for the offer
+146,2029-07-23,2029-07-29,content,S402,5,"MCMC: Metropolis, Hamiltonian Monte Carlo, diagnostics",Write a Metropolis sampler; check R-hat and ESS in ArviZ,B401,5,Willingness-to-pay research,Run a short WTP survey with prospects
+147,2029-07-30,2029-08-05,content,S402,6,Generalized linear models: binomial and Poisson,Bayesian Poisson model of support tickets,B401,6,Go-to-market and selling professional services,Outreach plan and a one-page offer sheet
+148,2029-08-06,2029-08-12,content,S402,7,Hierarchical models and partial pooling,Store-level conversion with partial pooling,B401,7,Financial model and cash flow,Three-year financial model
+149,2029-08-13,2029-08-19,content,S402,8,Model comparison and decisions from posteriors,Decision rule that minimizes expected loss,B401,8,"Pitching; legal and operations basics (registration, contracts, tax)",Ten-minute pitch deck
+150,2029-08-20,2029-08-26,content,S402,9,Final: exam,Build and memo,B401,9,Final: exam,Build and memo
+151,2029-08-27,2029-09-02,content,S401,1,Potential outcomes and selection bias,Simulate selection bias in a promotion's measured effect,E1,1,Week 1 of your track's elective 1,See the elective's page for this week's task
+152,2029-09-03,2029-09-09,content,S401,2,"DAGs, confounding, the backdoor criterion",Draw and defend a DAG for a real question at work,E1,2,Week 2 of your track's elective 1,See the elective's page for this week's task
+153,2029-09-10,2029-09-16,content,S401,3,Randomized experiments revisited; variance reduction,CUPED on a past A/B test dataset,E1,3,Week 3 of your track's elective 1,See the elective's page for this week's task
+154,2029-09-17,2029-09-23,content,S401,4,Matching and propensity scores,Estimate a loyalty program's effect,E1,4,Week 4 of your track's elective 1,See the elective's page for this week's task
+155,2029-09-24,2029-09-30,Quarterly review,,,,,,,,
+156,2029-10-01,2029-10-07,content,S401,5,Regression discontinuity,RDD on a threshold-based discount,E1,5,Week 5 of your track's elective 1,See the elective's page for this week's task
+157,2029-10-08,2029-10-14,content,S401,6,Instrumental variables,IV estimate on a published replication dataset,E1,6,Week 6 of your track's elective 1,See the elective's page for this week's task
+158,2029-10-15,2029-10-21,content,S401,7,Difference-in-differences and event studies,DiD on a pricing change rolled out in one region,E1,7,Week 7 of your track's elective 1,See the elective's page for this week's task
+159,2029-10-22,2029-10-28,content,S401,8,Synthetic control,Synthetic control for a single store or market launch,E1,8,Week 8 of your track's elective 1,See the elective's page for this week's task
+160,2029-10-29,2029-11-04,content,S401,9,Final: exam,Build and memo,E1,9,Final: exam,Build and memo
+161,2029-11-05,2029-11-11,content,E2,1,Week 1 of your track's elective 2,See the elective's page for this week's task,E3,1,Week 1 of your track's elective 3,See the elective's page for this week's task
+162,2029-11-12,2029-11-18,content,E2,2,Week 2 of your track's elective 2,See the elective's page for this week's task,E3,2,Week 2 of your track's elective 3,See the elective's page for this week's task
+163,2029-11-19,2029-11-25,content,E2,3,Week 3 of your track's elective 2,See the elective's page for this week's task,E3,3,Week 3 of your track's elective 3,See the elective's page for this week's task
+164,2029-11-26,2029-12-02,content,E2,4,Week 4 of your track's elective 2,See the elective's page for this week's task,E3,4,Week 4 of your track's elective 3,See the elective's page for this week's task
+165,2029-12-03,2029-12-09,content,E2,5,Week 5 of your track's elective 2,See the elective's page for this week's task,E3,5,Week 5 of your track's elective 3,See the elective's page for this week's task
+166,2029-12-10,2029-12-16,content,E2,6,Week 6 of your track's elective 2,See the elective's page for this week's task,E3,6,Week 6 of your track's elective 3,See the elective's page for this week's task
+167,2029-12-17,2029-12-23,content,E2,7,Week 7 of your track's elective 2,See the elective's page for this week's task,E3,7,Week 7 of your track's elective 3,See the elective's page for this week's task
+168,2029-12-24,2029-12-30,Christmas,,,,,,,,
+169,2029-12-31,2030-01-06,New Year,,,,,,,,
+170,2030-01-07,2030-01-13,content,E2,8,Week 8 of your track's elective 2,See the elective's page for this week's task,E3,8,Week 8 of your track's elective 3,See the elective's page for this week's task
+171,2030-01-14,2030-01-20,content,E2,9,Final: exam,Build and memo,E3,9,Final: exam,Build and memo
+172,2030-01-21,2030-01-27,content,E4,1,Week 1 of your track's elective 4,See the elective's page for this week's task,E5,1,Week 1 of your track's elective 5,See the elective's page for this week's task
+173,2030-01-28,2030-02-03,content,E4,2,Week 2 of your track's elective 4,See the elective's page for this week's task,E5,2,Week 2 of your track's elective 5,See the elective's page for this week's task
+174,2030-02-04,2030-02-10,content,E4,3,Week 3 of your track's elective 4,See the elective's page for this week's task,E5,3,Week 3 of your track's elective 5,See the elective's page for this week's task
+175,2030-02-11,2030-02-17,content,E4,4,Week 4 of your track's elective 4,See the elective's page for this week's task,E5,4,Week 4 of your track's elective 5,See the elective's page for this week's task
+176,2030-02-18,2030-02-24,content,E4,5,Week 5 of your track's elective 4,See the elective's page for this week's task,E5,5,Week 5 of your track's elective 5,See the elective's page for this week's task
+177,2030-02-25,2030-03-03,content,E4,6,Week 6 of your track's elective 4,See the elective's page for this week's task,E5,6,Week 6 of your track's elective 5,See the elective's page for this week's task
+178,2030-03-04,2030-03-10,content,E4,7,Week 7 of your track's elective 4,See the elective's page for this week's task,E5,7,Week 7 of your track's elective 5,See the elective's page for this week's task
+179,2030-03-11,2030-03-17,content,E4,8,Week 8 of your track's elective 4,See the elective's page for this week's task,E5,8,Week 8 of your track's elective 5,See the elective's page for this week's task
+180,2030-03-18,2030-03-24,content,E4,9,Final: exam,Build and memo,E5,9,Final: exam,Build and memo
+181,2030-03-25,2030-03-31,content,X401,1,"Find a client: a small business, NGO or your employer",Signed engagement agreement and stakeholder map,X401,1,"Find a client: a small business, NGO or your employer",Signed engagement agreement and stakeholder map
+182,2030-04-01,2030-04-07,Quarterly review,,,,,,,,
+183,2030-04-08,2030-04-14,content,X401,2,Problem definition,Problem statement and issue tree reviewed by the client,X401,2,Problem definition,Problem statement and issue tree reviewed by the client
+184,2030-04-15,2030-04-21,Holy Week,,,,,,,,
+185,2030-04-22,2030-04-28,content,X401,3,Data audit,"Inventory of data sources, quality issues and access",X401,3,Data audit,"Inventory of data sources, quality issues and access"
+186,2030-04-29,2030-05-05,content,X401,4,Hypotheses and analysis plan,Prioritized hypotheses and analysis plan,X401,4,Hypotheses and analysis plan,Prioritized hypotheses and analysis plan
+187,2030-05-06,2030-05-12,content,X401,5,Statement of work and success metrics,Statement of work with measurable success criteria,X401,5,Statement of work and success metrics,Statement of work with measurable success criteria
+188,2030-05-13,2030-05-19,content,X401,6,Scoping review,Client sign-off meeting; scoping report committed,X401,6,Scoping review,Client sign-off meeting; scoping report committed
+189,2030-05-20,2030-05-26,content,X402,1,Data pipeline,Ingestion and transformation pipeline running end to end,X402,1,Data pipeline,Ingestion and transformation pipeline running end to end
+190,2030-05-27,2030-06-02,content,X402,2,Data quality,Tests and data checks in CI,X402,2,Data quality,Tests and data checks in CI
+191,2030-06-03,2030-06-09,content,X402,3,Exploration and baseline,EDA and a baseline model or analysis,X402,3,Exploration and baseline,EDA and a baseline model or analysis
+192,2030-06-10,2030-06-16,content,X402,4,Modeling,Main statistical model or optimization,X402,4,Modeling,Main statistical model or optimization
+193,2030-06-17,2030-06-23,content,X402,5,Validation and sensitivity,Validation report and sensitivity analysis,X402,5,Validation and sensitivity,Validation report and sensitivity analysis
+194,2030-06-24,2030-06-30,content,X402,6,Decision tool,Dashboard or app the client can use,X402,6,Decision tool,Dashboard or app the client can use
+195,2030-07-01,2030-07-07,content,X402,7,Client iteration,Feedback session and revisions,X402,7,Client iteration,Feedback session and revisions
+196,2030-07-08,2030-07-14,content,X402,8,Final delivery,Board-style presentation and technical report,X402,8,Final delivery,Board-style presentation and technical report
+197,2030-07-15,2030-07-21,Quarterly review,,,,,,,,
+198,2030-07-22,2030-07-28,content,X402,9,Handover,"Handover docs, client testimonial, personal retrospective",X402,9,Handover,"Handover docs, client testimonial, personal retrospective"

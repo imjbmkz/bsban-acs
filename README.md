@@ -12,4 +12,12 @@ The program is 40 courses over 4 levels, about 10 hours a week, with every cours
 
 ## Start here
 
-- [`curriculum/`](curriculum/) — the program: structure, all 40 courses by level, path priorities, assessment.
+| Folder | What's in it |
+| --- | --- |
+| [`curriculum/`](curriculum/) | The program: structure, all 40 courses by level, path priorities, assessment |
+| [`plan/`](plan/) | The weekly learning plan: what to learn, apply and hand in every week, from 12 Oct 2026 |
+| [`progress/`](progress/) | Your transcript: dates, exam scores and links for every course |
+| [`templates/`](templates/) | Notes, weekly log, course README and business memo templates |
+| [`work/`](work/) | Where your course work goes |
+
+**This week:** open [plan/weeks/year-1.md](plan/weeks/year-1.md) and find the current week.

@@ -1,0 +1,428 @@
+# Level 4 track electives. Pick one track in plan/config.yaml (A, B or C).
+# Track A minors: swap A3-A5 for courses in your minor (economics, finance or industrial engineering).
+
+# ---------- Track A: MS Statistics + domain minor ----------
+
+- code: A1
+  title: Real Analysis I
+  level: 4
+  lane: elective
+  kind: full
+  prereqs: [M103, M201]
+  resources: "Abbott, Understanding Analysis; MIT OCW 18.100A (free)"
+  units:
+    - learn: "Real numbers, completeness, the axiom of completeness"
+      apply: "Prove five completeness results in writing"
+    - learn: "Sequences and limits; epsilon-N proofs"
+      apply: "Epsilon-N proofs for sequences you met in M201"
+    - learn: "Monotone convergence, Bolzano-Weierstrass, Cauchy sequences"
+      apply: "Proof set; explain why iterative algorithms converge"
+    - learn: "Series and convergence"
+      apply: "Rigorous versions of the M201 convergence tests"
+    - learn: "Topology of the real line: open, closed, compact sets"
+      apply: "Proof set"
+    - learn: "Continuity and uniform continuity"
+      apply: "Epsilon-delta proofs; link to numerical stability"
+    - learn: "Differentiation and the mean value theorem, rigorously"
+      apply: "Proof set"
+    - learn: "Sequences of functions, uniform convergence; Riemann integral"
+      apply: "Proof set; summarize why this matters for asymptotic statistics"
+  build: "Typeset proof portfolio (Markdown + LaTeX) of 40 graded proofs"
+  memo: "Why rigor matters in model guarantees: a note for a non-technical manager"
+  exam: "MIT 18.100A past exam (timed)"
+
+- code: A2
+  title: Stochastic Processes
+  level: 4
+  lane: elective
+  kind: full
+  prereqs: [S201]
+  resources: "Ross, Introduction to Probability Models"
+  units:
+    - learn: "Review of conditional probability and expectation"
+      apply: "Problem set"
+    - learn: "Discrete-time Markov chains"
+      apply: "Customer state transition model from event data"
+    - learn: "Stationary distributions and long-run behavior"
+      apply: "Long-run share of active, dormant and churned customers"
+    - learn: "Absorbing chains and first-passage times"
+      apply: "Expected time to churn"
+    - learn: "Poisson processes"
+      apply: "Simulate arrivals and check against theory"
+    - learn: "Continuous-time Markov chains"
+      apply: "Machine up/down availability model"
+    - learn: "Renewal theory"
+      apply: "Maintenance replacement policy"
+    - learn: "Queueing models as stochastic processes; intro to Brownian motion"
+      apply: "Simulate a random walk price path"
+  build: "Markov-chain customer lifecycle model with simulation"
+  memo: "Long-run customer mix and its revenue implications"
+  exam: "Ross end-of-chapter problems, 2-hour timed set"
+
+- code: A3
+  title: Econometrics
+  level: 4
+  lane: elective
+  kind: full
+  prereqs: [S302]
+  resources: "Wooldridge, Introductory Econometrics: A Modern Approach"
+  units:
+    - learn: "Econometric thinking and OLS assumptions"
+      apply: "Replicate a textbook wage regression"
+    - learn: "Inference and asymptotics in OLS"
+      apply: "Robust inference on that model"
+    - learn: "Specification, functional form, proxies"
+      apply: "Specification tests"
+    - learn: "Heteroskedasticity and serial correlation"
+      apply: "Diagnose and correct both"
+    - learn: "Panel data: fixed and random effects"
+      apply: "Panel model on regional data"
+    - learn: "Instrumental variables and 2SLS"
+      apply: "2SLS estimate with weak-instrument checks"
+    - learn: "Limited dependent variables: probit, logit, Tobit"
+      apply: "Probit model of a binary decision"
+    - learn: "Time-series regression basics"
+      apply: "Distributed lag model of advertising"
+  build: "Panel or IV study on Philippine regional data"
+  memo: "A policy or pricing question answered with econometric evidence"
+  exam: "Wooldridge problems, 2-hour timed set"
+
+- code: A4
+  title: Financial Econometrics & Risk
+  level: 4
+  lane: elective
+  kind: full
+  prereqs: [S304]
+  resources: "Tsay, Analysis of Financial Time Series; Hull, Risk Management and Financial Institutions"
+  units:
+    - learn: "Returns, stylized facts of financial data"
+      apply: "Analyze PSEi or global index returns"
+    - learn: "ARMA models for returns"
+      apply: "Fit and test ARMA on returns"
+    - learn: "Volatility: ARCH and GARCH"
+      apply: "GARCH volatility forecast"
+    - learn: "Value at risk and expected shortfall"
+      apply: "Historical, parametric and Monte Carlo VaR"
+    - learn: "Backtesting risk models"
+      apply: "Kupiec test on your VaR"
+    - learn: "Multivariate models and correlation"
+      apply: "Portfolio covariance estimation"
+    - learn: "Credit risk basics"
+      apply: "Probability-of-default scorecard"
+    - learn: "Stress testing and model risk"
+      apply: "Stress scenario report"
+  build: "VaR and expected-shortfall engine with backtests"
+  memo: "Risk report for an investment committee"
+  exam: "Tsay and Hull problems, 2-hour timed set"
+
+- code: A5
+  title: Quality Engineering, SPC & DOE
+  level: 4
+  lane: elective
+  kind: full
+  prereqs: [S202]
+  resources: "Montgomery, Introduction to Statistical Quality Control; Montgomery, Design and Analysis of Experiments"
+  units:
+    - learn: "Quality, variation and process capability"
+      apply: "Capability indices for a process metric"
+    - learn: "Control charts for variables (X-bar, R, S)"
+      apply: "Control charts for pipeline run times"
+    - learn: "Control charts for attributes (p, c, u)"
+      apply: "Defect-rate chart for data quality checks"
+    - learn: "CUSUM and EWMA charts"
+      apply: "Detect small shifts in a KPI"
+    - learn: "Factorial designs"
+      apply: "2^k design for a process-tuning experiment"
+    - learn: "Fractional factorials and blocking"
+      apply: "Screening experiment design"
+    - learn: "Response surface methods"
+      apply: "Optimize two settings with RSM"
+    - learn: "Lean Six Sigma and DMAIC"
+      apply: "DMAIC write-up of a real process issue"
+  build: "SPC monitoring toolkit and a designed experiment"
+  memo: "Process improvement recommendation for an operations manager"
+  exam: "Montgomery problems, 2-hour timed set"
+
+# ---------- Track B: MS Computer Science + statistics ----------
+
+- code: B1
+  title: Advanced Algorithm Design
+  level: 4
+  lane: elective
+  kind: full
+  prereqs: [C201]
+  resources: "Kleinberg & Tardos, Algorithm Design"
+  units:
+    - learn: "Greedy algorithms and exchange arguments"
+      apply: "Interval scheduling with proofs"
+    - learn: "Divide and conquer, recurrences"
+      apply: "Closest pair and counting inversions"
+    - learn: "Dynamic programming, advanced"
+      apply: "Sequence alignment for fuzzy record matching"
+    - learn: "Network flow"
+      apply: "Bipartite matching for resource allocation"
+    - learn: "NP-completeness and reductions"
+      apply: "Reduction proofs"
+    - learn: "Approximation algorithms"
+      apply: "Approximate set cover for sensor placement"
+    - learn: "Randomized algorithms"
+      apply: "Reservoir sampling and MinHash"
+    - learn: "Streaming and sketching algorithms"
+      apply: "HyperLogLog and Count-Min sketch from scratch"
+  build: "Sketching library (MinHash, HyperLogLog, Count-Min) with error analysis"
+  memo: "Approximate answers at a fraction of the cost: when to use them"
+  exam: "Kleinberg & Tardos problems, 2-hour timed set"
+
+- code: B2
+  title: Computational Statistics
+  level: 4
+  lane: elective
+  kind: full
+  prereqs: [S301]
+  resources: "Givens & Hoeting, Computational Statistics"
+  units:
+    - learn: "Optimization for statistics: Newton, Fisher scoring"
+      apply: "Fit a GLM by IRLS from scratch"
+    - learn: "The EM algorithm"
+      apply: "Gaussian mixture by EM"
+    - learn: "Simulation and random number generation"
+      apply: "Inverse-transform and rejection sampling"
+    - learn: "Monte Carlo integration and variance reduction"
+      apply: "Importance sampling for a rare-event probability"
+    - learn: "MCMC: Gibbs and Metropolis-Hastings"
+      apply: "Gibbs sampler for a hierarchical model"
+    - learn: "Bootstrap methods"
+      apply: "BCa intervals"
+    - learn: "Density estimation and smoothing"
+      apply: "Kernel density estimation with bandwidth selection"
+    - learn: "Scaling computation: vectorization, JAX or Numba"
+      apply: "Speed up a sampler 10x"
+  build: "Library of EM, samplers and bootstrap methods with tests"
+  memo: "Simulation-based answer to a business risk question"
+  exam: "Givens & Hoeting problems, 2-hour timed set"
+
+- code: B3
+  title: Machine Learning Engineering at Scale
+  level: 4
+  lane: elective
+  kind: full
+  prereqs: [C302]
+  resources: "Huyen, Designing ML Systems; Spark MLlib and Ray docs"
+  units:
+    - learn: "Distributed training data pipelines"
+      apply: "Feature pipeline over a large dataset in Spark"
+    - learn: "Distributed training approaches"
+      apply: "Train with Spark MLlib or Ray"
+    - learn: "Hyperparameter tuning at scale"
+      apply: "Parallel tuning run with tracked results"
+    - learn: "Model serving at scale and latency"
+      apply: "Load-test a prediction service"
+    - learn: "Feature stores and online/offline consistency"
+      apply: "Online/offline skew check"
+    - learn: "Monitoring at scale"
+      apply: "Monitoring dashboard for several models"
+    - learn: "Cost optimization for ML workloads"
+      apply: "Cost per 1,000 predictions analysis"
+    - learn: "LLM applications in analytics (retrieval, evaluation)"
+      apply: "Small retrieval app over your course notes with an evaluation set"
+  build: "Scaled training and serving pipeline with cost and latency report"
+  memo: "Build vs buy for an ML platform"
+  exam: "Timed ML system design interview (60 minutes)"
+
+- code: B4
+  title: Distributed Systems Design
+  level: 4
+  lane: elective
+  kind: full
+  prereqs: [C301]
+  resources: "MIT 6.5840 Distributed Systems (free); Kleppmann, DDIA"
+  units:
+    - learn: "Distributed systems fundamentals, RPC, failure models"
+      apply: "Implement a simple RPC service"
+    - learn: "MapReduce"
+      apply: "MapReduce lab"
+    - learn: "Replication and primary-backup"
+      apply: "Primary-backup key-value store"
+    - learn: "Consensus: Raft"
+      apply: "Raft leader election lab"
+    - learn: "Raft log replication"
+      apply: "Raft replication lab"
+    - learn: "Consistency models and transactions"
+      apply: "Explain Delta Lake's guarantees in these terms"
+    - learn: "Distributed storage and caching"
+      apply: "Consistent hashing implementation"
+    - learn: "System design practice"
+      apply: "Design a data platform for 10x growth"
+  build: "Raft-based key-value store passing the course tests"
+  memo: "Reliability vs cost trade-offs for a client platform"
+  exam: "6.5840 past exam (timed)"
+
+- code: B5
+  title: Data Privacy, Security & Governance
+  level: 4
+  lane: elective
+  kind: full
+  prereqs: [C103]
+  resources: "Philippine Data Privacy Act of 2012; EU GDPR text; Unity Catalog docs"
+  units:
+    - learn: "Data governance frameworks and roles"
+      apply: "Governance RACI for a data platform"
+    - learn: "Privacy law: Philippine DPA, GDPR, Australian Privacy Act"
+      apply: "Compare obligations across the three"
+    - learn: "Access control and data classification"
+      apply: "Classification and access model in Unity Catalog"
+    - learn: "Encryption, key management, secrets"
+      apply: "Secrets handling review of a pipeline"
+    - learn: "Anonymization and pseudonymization"
+      apply: "k-anonymity check on a dataset"
+    - learn: "Differential privacy"
+      apply: "Differentially private counts with a privacy budget"
+    - learn: "Data lineage, auditing and quality ownership"
+      apply: "Lineage and audit report for one pipeline"
+    - learn: "Security threats to data platforms"
+      apply: "Threat model of your portfolio stack"
+  build: "Governance pack: classification, access model, privacy checks and threat model"
+  memo: "Privacy compliance plan for a client moving data abroad"
+  exam: "Timed scenario: 90 minutes to assess a dataset's compliance risks"
+
+# ---------- Track C: MBA in analytics ----------
+
+- code: C1
+  title: Managerial Economics & Pricing
+  level: 4
+  lane: elective
+  kind: full
+  prereqs: [B101]
+  resources: "Baye & Prince, Managerial Economics and Business Strategy"
+  units:
+    - learn: "Economics of the firm and decision making"
+      apply: "Decision analysis of a pricing change"
+    - learn: "Demand estimation"
+      apply: "Estimate demand from transaction data"
+    - learn: "Cost analysis and economies of scale"
+      apply: "Cost curve for an analytics service"
+    - learn: "Market structure and strategic pricing"
+      apply: "Price competition simulation"
+    - learn: "Price discrimination and bundling"
+      apply: "Bundle pricing analysis"
+    - learn: "Game theory for managers"
+      apply: "Entry deterrence case"
+    - learn: "Information economics and contracts"
+      apply: "Incentive design for a sales team"
+    - learn: "Pricing strategy synthesis"
+      apply: "Pricing playbook for one product"
+  build: "Demand and pricing model for a real product"
+  memo: "Pricing strategy recommendation"
+  exam: "Baye problems, 2-hour timed set"
+
+- code: C2
+  title: Valuation & Financial Modeling
+  level: 4
+  lane: elective
+  kind: full
+  prereqs: [B202]
+  resources: "Damodaran's free valuation course; McKinsey, Valuation"
+  units:
+    - learn: "Valuation approaches overview"
+      apply: "Value one company three ways at a glance"
+    - learn: "Three-statement financial modeling"
+      apply: "Three-statement model of a listed company"
+    - learn: "Forecasting revenues and margins"
+      apply: "Driver-based revenue forecast"
+    - learn: "Discount rates in practice"
+      apply: "Country risk premium for a Philippine company"
+    - learn: "DCF in depth: terminal value, reinvestment"
+      apply: "Full DCF"
+    - learn: "Relative valuation and multiples"
+      apply: "Comparables table"
+    - learn: "Valuing startups and young companies"
+      apply: "Value a startup with scenarios"
+    - learn: "Presenting a valuation"
+      apply: "Valuation deck"
+  build: "Full valuation model of a listed company"
+  memo: "Buy, hold or sell recommendation"
+  exam: "Damodaran past valuation exam (timed)"
+
+- code: C3
+  title: Operations & Supply Chain Management
+  level: 4
+  lane: elective
+  kind: full
+  prereqs: [B301]
+  resources: "Cachon & Terwiesch, Matching Supply with Demand"
+  units:
+    - learn: "Process analysis: flow rate, utilization, Little's law"
+      apply: "Analyze a real process with Little's law"
+    - learn: "Bottlenecks and capacity"
+      apply: "Find a bottleneck in a pipeline or operation"
+    - learn: "Variability and waiting time"
+      apply: "Queue simulation of a service desk"
+    - learn: "Inventory: EOQ and the newsvendor model"
+      apply: "Newsvendor order quantity from forecast error"
+    - learn: "Service levels and safety stock"
+      apply: "Safety stock policy from S304 forecasts"
+    - learn: "Supply chain coordination and the bullwhip effect"
+      apply: "Beer game simulation"
+    - learn: "Lean operations"
+      apply: "Value-stream map of a process"
+    - learn: "Operations strategy"
+      apply: "Operations improvement plan"
+  build: "Inventory policy simulator using forecasts"
+  memo: "Inventory and service-level recommendation"
+  exam: "Cachon & Terwiesch problems, 2-hour timed set"
+
+- code: C4
+  title: Leadership & Organizational Behavior
+  level: 4
+  lane: elective
+  kind: full
+  prereqs: [B103]
+  resources: "Robbins & Judge, Organizational Behavior; HBR case studies"
+  units:
+    - learn: "Individual behavior, motivation"
+      apply: "Motivation analysis of your own team"
+    - learn: "Team dynamics and psychological safety"
+      apply: "Team health survey and debrief"
+    - learn: "Leadership styles"
+      apply: "Leadership self-assessment and development plan"
+    - learn: "Decision making and biases in organizations"
+      apply: "Pre-mortem on a real project"
+    - learn: "Power, influence and stakeholder management"
+      apply: "Stakeholder influence map"
+    - learn: "Change management"
+      apply: "Change plan for a data-driven initiative"
+    - learn: "Culture and cross-cultural work"
+      apply: "Working across PH, EU and AU business cultures: notes"
+    - learn: "Coaching and feedback"
+      apply: "Run and document two coaching conversations"
+  build: "Leadership portfolio: assessments, plans and reflections"
+  memo: "Change management plan for adopting analytics in a team"
+  exam: "Timed HBR case analysis (90 minutes)"
+
+- code: C5
+  title: Corporate Strategy & Negotiation
+  level: 4
+  lane: elective
+  kind: full
+  prereqs: [B302]
+  resources: "Fisher & Ury, Getting to Yes; Malhotra & Bazerman, Negotiation Genius"
+  units:
+    - learn: "Corporate strategy: diversification and portfolio"
+      apply: "Portfolio analysis of a conglomerate"
+    - learn: "Mergers, acquisitions and alliances"
+      apply: "Deal rationale write-up for a recent deal"
+    - learn: "Platform and data strategy"
+      apply: "Data moat analysis of a company"
+    - learn: "Negotiation basics: interests, BATNA, ZOPA"
+      apply: "Prepare a negotiation plan"
+    - learn: "Distributive negotiation"
+      apply: "Role-play a price negotiation"
+    - learn: "Integrative negotiation and value creation"
+      apply: "Role-play a multi-issue deal"
+    - learn: "Negotiating contracts and scope for services"
+      apply: "Draft a statement of work for a consulting deal"
+    - learn: "Negotiating salary and relocation packages"
+      apply: "Negotiation plan for a job offer abroad"
+  build: "Negotiation playbook with prepared plans and role-play notes"
+  memo: "Corporate strategy recommendation for a real company"
+  exam: "Timed negotiation role-play scored by a partner"

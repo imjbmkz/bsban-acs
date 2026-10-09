@@ -27,7 +27,7 @@ A course takes about 45 hours. The plan runs two courses in parallel at about 5 
 - **Lane B — applied:** computer science and business.
 
 Each full course therefore spans 9 weeks; a *test-out* course spans 3. With a review/buffer week
-every quarter, the program takes about 3.5 years. The exact calendar is generated in [`plan/`](../plan/).
+every quarter and breaks for Holy Week, Christmas and New Year, the program takes about 198 weeks (just under 4 years). The exact calendar is generated in [`plan/`](../plan/).
 
 **Fitting it around relocation.** Levels 1–2 are mostly math, which runs fine alongside a 2028
 job-abroad push; Levels 3–4 can slow down after a move if hours get tight.

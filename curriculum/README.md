@@ -4,7 +4,7 @@
 
 A 4-level, 40-course self-study "degree" that gives a working data engineer the math, statistics,
 computer science and business foundation a BSBA did not, so any of three master's paths is open
-afterward. It is built for a part-time learner: about 10 hours a week, finishing in about 3.5 years
+afterward. It is built for a part-time learner: about 10 hours a week, finishing in just under 4 years
 (see [`plan/`](../plan/) for the week-by-week schedule).
 
 ## The three target directions

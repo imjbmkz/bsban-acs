@@ -1,0 +1,20 @@
+name: Plan check
+
+on:
+  push:
+    branches: [main]
+    paths: ["plan/**", ".github/workflows/plan.yml"]
+  pull_request:
+    paths: ["plan/**", ".github/workflows/plan.yml"]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml
+      - name: Prerequisites hold and generated files are current
+        run: python plan/build_plan.py --check

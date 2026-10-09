@@ -1,0 +1,134 @@
+# Level 4 — common courses and capstone. Track electives are in electives.yaml.
+# kind: capstone uses both lanes (~10 h/week); every unit is one week and carries its own deliverable.
+
+- code: S401
+  title: Causal Inference & Experimental Design
+  level: 4
+  lane: A
+  kind: full
+  prereqs: [S302]
+  resources: "Cunningham, Causal Inference: The Mixtape (free); Huntington-Klein, The Effect (free)"
+  units:
+    - learn: "Potential outcomes and selection bias"
+      apply: "Simulate selection bias in a promotion's measured effect"
+    - learn: "DAGs, confounding, the backdoor criterion"
+      apply: "Draw and defend a DAG for a real question at work"
+    - learn: "Randomized experiments revisited; variance reduction"
+      apply: "CUPED on a past A/B test dataset"
+    - learn: "Matching and propensity scores"
+      apply: "Estimate a loyalty program's effect"
+    - learn: "Regression discontinuity"
+      apply: "RDD on a threshold-based discount"
+    - learn: "Instrumental variables"
+      apply: "IV estimate on a published replication dataset"
+    - learn: "Difference-in-differences and event studies"
+      apply: "DiD on a pricing change rolled out in one region"
+    - learn: "Synthetic control"
+      apply: "Synthetic control for a single store or market launch"
+  build: "Causal re-analysis of a real policy or pricing change"
+  memo: "Did our initiative actually work?"
+  exam: "Mixtape and The Effect exercises, 2-hour timed set"
+
+- code: S402
+  title: Bayesian Statistics
+  level: 4
+  lane: A
+  kind: full
+  prereqs: [S301]
+  resources: "McElreath, Statistical Rethinking (free 2023 lectures); PyMC and ArviZ docs"
+  units:
+    - learn: "Bayesian updating and grid approximation"
+      apply: "Posterior for a conversion rate by grid"
+    - learn: "Priors, posterior summaries, sampling from the posterior"
+      apply: "Bayesian A/B test with expected loss"
+    - learn: "Linear models the Bayesian way"
+      apply: "Bayesian regression in PyMC"
+    - learn: "Causal thinking and confounds in Bayesian models"
+      apply: "DAG-guided model for a business question"
+    - learn: "MCMC: Metropolis, Hamiltonian Monte Carlo, diagnostics"
+      apply: "Write a Metropolis sampler; check R-hat and ESS in ArviZ"
+    - learn: "Generalized linear models: binomial and Poisson"
+      apply: "Bayesian Poisson model of support tickets"
+    - learn: "Hierarchical models and partial pooling"
+      apply: "Store-level conversion with partial pooling"
+    - learn: "Model comparison and decisions from posteriors"
+      apply: "Decision rule that minimizes expected loss"
+  build: "Hierarchical model in PyMC with diagnostics and a decision rule"
+  memo: "Decisions under uncertainty with small data"
+  exam: "Statistical Rethinking homework, 2-hour timed set"
+
+- code: B401
+  title: "Analytics Ventures: Product, Pricing & Entrepreneurship"
+  level: 4
+  lane: B
+  kind: full
+  prereqs: [B302]
+  resources: "Ries, The Lean Startup; Ramanujam & Tacke, Monetizing Innovation"
+  units:
+    - learn: "Lean startup and customer discovery"
+      apply: "Interview five potential clients about their analytics pain"
+    - learn: "Value proposition and service design"
+      apply: "Value proposition canvas for your analytics offer"
+    - learn: "Business model canvas and unit economics"
+      apply: "Unit economics per client engagement"
+    - learn: "Pricing models: value-based, tiered, retainer"
+      apply: "Three pricing options for the offer"
+    - learn: "Willingness-to-pay research"
+      apply: "Run a short WTP survey with prospects"
+    - learn: "Go-to-market and selling professional services"
+      apply: "Outreach plan and a one-page offer sheet"
+    - learn: "Financial model and cash flow"
+      apply: "Three-year financial model"
+    - learn: "Pitching; legal and operations basics (registration, contracts, tax)"
+      apply: "Ten-minute pitch deck"
+  build: "Business plan and pricing model for an analytics consulting service"
+  memo: "Your own consulting offer, priced"
+  exam: "Pitch to a reviewer who scores it against a rubric (timed, 15 minutes)"
+
+- code: X401
+  title: "Capstone I: Scoping & Research"
+  level: 4
+  lane: both
+  kind: capstone
+  prereqs: [B302, S302]
+  resources: "Your client; B103 and B302 materials"
+  units:
+    - learn: "Find a client: a small business, NGO or your employer"
+      apply: "Signed engagement agreement and stakeholder map"
+    - learn: "Problem definition"
+      apply: "Problem statement and issue tree reviewed by the client"
+    - learn: "Data audit"
+      apply: "Inventory of data sources, quality issues and access"
+    - learn: "Hypotheses and analysis plan"
+      apply: "Prioritized hypotheses and analysis plan"
+    - learn: "Statement of work and success metrics"
+      apply: "Statement of work with measurable success criteria"
+    - learn: "Scoping review"
+      apply: "Client sign-off meeting; scoping report committed"
+
+- code: X402
+  title: "Capstone II: Delivery"
+  level: 4
+  lane: both
+  kind: capstone
+  prereqs: [X401]
+  resources: "Everything so far"
+  units:
+    - learn: "Data pipeline"
+      apply: "Ingestion and transformation pipeline running end to end"
+    - learn: "Data quality"
+      apply: "Tests and data checks in CI"
+    - learn: "Exploration and baseline"
+      apply: "EDA and a baseline model or analysis"
+    - learn: "Modeling"
+      apply: "Main statistical model or optimization"
+    - learn: "Validation and sensitivity"
+      apply: "Validation report and sensitivity analysis"
+    - learn: "Decision tool"
+      apply: "Dashboard or app the client can use"
+    - learn: "Client iteration"
+      apply: "Feedback session and revisions"
+    - learn: "Final delivery"
+      apply: "Board-style presentation and technical report"
+    - learn: "Handover"
+      apply: "Handover docs, client testimonial, personal retrospective"

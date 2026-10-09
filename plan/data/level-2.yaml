@@ -1,0 +1,281 @@
+# Level 2 — Core I
+
+- code: M201
+  title: Calculus II
+  level: 2
+  lane: A
+  kind: full
+  prereqs: [M102]
+  resources: "OpenStax Calculus Vol. 2 (free); MIT OCW 18.01SC"
+  units:
+    - learn: "Integration by parts"
+      apply: "Compute expected values of continuous distributions by integration"
+    - learn: "Trigonometric substitution and partial fractions"
+      apply: "Integrate a logistic growth model analytically and check it numerically"
+    - learn: "Improper integrals"
+      apply: "Value a perpetuity and a continuous cash-flow stream"
+    - learn: "Numerical integration and error bounds"
+      apply: "Compare trapezoid and Simpson accuracy against exact answers"
+    - learn: "Sequences and series; convergence tests"
+      apply: "Check convergence of discounted cash-flow streams"
+    - learn: "Power series"
+      apply: "Approximate exp and log with series and measure the error"
+    - learn: "Taylor and Maclaurin series"
+      apply: "Second-order Taylor approximation of a bond's price change (duration and convexity)"
+    - learn: "Parametric curves and first differential equations"
+      apply: "Solve a logistic adoption model numerically with Euler's method"
+  build: "Present-value toolkit: annuities, perpetuities, continuous cash flows, with tests"
+  memo: "Lease vs buy for a server or vehicle, using present value"
+  exam: "MIT 18.01SC final, integration and series parts (timed)"
+
+- code: M202
+  title: Linear Algebra
+  level: 2
+  lane: A
+  kind: full
+  prereqs: [M102]
+  resources: "Strang, MIT OCW 18.06 (free lectures); 3Blue1Brown, Essence of Linear Algebra"
+  units:
+    - learn: "Vectors, dot products, geometry of linear equations"
+      apply: "Represent customers as vectors and compute cosine similarity"
+    - learn: "Elimination, matrix multiplication, inverses"
+      apply: "Implement Gaussian elimination; compare with numpy.linalg.solve"
+    - learn: "LU factorization, transposes, permutations"
+      apply: "Time LU vs explicit inverse when solving many systems"
+    - learn: "Vector spaces, column space, null space, rank"
+      apply: "Detect collinear features in a dataset using rank"
+    - learn: "Orthogonality, projections, least squares, QR"
+      apply: "Implement OLS via normal equations and via QR; compare stability"
+    - learn: "Determinants, eigenvalues and eigenvectors"
+      apply: "Power iteration and PageRank on a small graph"
+    - learn: "Diagonalization, symmetric and positive definite matrices"
+      apply: "Examine the covariance matrix of a real dataset"
+    - learn: "Singular value decomposition and PCA"
+      apply: "PCA from scratch; segment customers on the top components"
+  build: "Least squares and PCA implemented from scratch, tested against NumPy and scikit-learn"
+  memo: "Customer segmentation for a marketing lead, or factor exposure of a stock portfolio"
+  exam: "MIT 18.06 final exam (timed)"
+
+- code: S201
+  title: Probability Theory
+  level: 2
+  lane: A
+  kind: full
+  prereqs: [M201]
+  resources: "Harvard Stat 110 lectures; Blitzstein & Hwang, Introduction to Probability (free PDF)"
+  units:
+    - learn: "Counting and naive probability (book ch. 1)"
+      apply: "Simulate the birthday problem and check it against the formula"
+    - learn: "Conditional probability and Bayes' rule (ch. 2)"
+      apply: "Base-rate calculator for a fraud or anomaly alert"
+    - learn: "Discrete random variables: Bernoulli, binomial, hypergeometric, geometric (ch. 3-4)"
+      apply: "Model defects per batch; simulate vs PMF"
+    - learn: "Expectation, linearity, indicator variables, Poisson (ch. 4)"
+      apply: "Expected support tickets per hour with a Poisson model; staffing implications"
+    - learn: "Continuous random variables: uniform, normal, exponential (ch. 5)"
+      apply: "Fit time-between-events from your pipeline logs to an exponential"
+    - learn: "Moments and moment generating functions (ch. 6)"
+      apply: "Mean, variance and skew of an insurance claim distribution"
+    - learn: "Joint distributions, covariance, correlation (ch. 7)"
+      apply: "Joint model of order size and order frequency"
+    - learn: "Conditional expectation, inequalities, LLN and CLT (ch. 9-10)"
+      apply: "Monte Carlo warranty-cost simulator with confidence bands"
+  build: "Monte Carlo simulator for a business process (warranty, queue or inventory)"
+  memo: "Pricing a warranty or insurance add-on"
+  exam: "Stat 110 final exam (timed)"
+
+- code: S202
+  title: Applied Statistical Methods
+  level: 2
+  lane: A
+  kind: full
+  prereqs: [S101, S201]
+  resources: "Penn State STAT 500 online notes (free); statsmodels and scipy.stats docs"
+  units:
+    - learn: "Inference review; t procedures and assumption checks"
+      apply: "Write an assumption-checking helper (normality, equal variance)"
+    - learn: "Power and sample size"
+      apply: "Power calculator validated against statsmodels"
+    - learn: "One-way ANOVA"
+      apply: "Compare sales across four store formats"
+    - learn: "Two-way ANOVA and interactions"
+      apply: "Promotion x region interaction analysis"
+    - learn: "Chi-square tests of independence and goodness of fit"
+      apply: "Test whether churn depends on acquisition channel"
+    - learn: "Nonparametric tests: Mann-Whitney, Wilcoxon, Kruskal-Wallis"
+      apply: "Compare skewed delivery-time distributions"
+    - learn: "Multiple testing: Bonferroni, Benjamini-Hochberg"
+      apply: "Correct p-values across 20 dashboard metrics"
+    - learn: "Correlation, regression inference, reporting effect sizes"
+      apply: "Statistical test report template with effect sizes and CIs"
+  build: "Reusable statistical testing library with a power calculator"
+  memo: "Sample size and test plan for a product launch"
+  exam: "STAT 500-style practice exam (2 hours, timed)"
+
+- code: C201
+  title: Data Structures & Algorithms
+  level: 2
+  lane: B
+  kind: full
+  prereqs: [M103, C101]
+  resources: "Princeton Algorithms I & II (Sedgewick, free on Coursera); LeetCode or NeetCode practice"
+  units:
+    - learn: "Algorithm analysis, Big-O, union-find"
+      apply: "Union-find for entity resolution on duplicate customer records; 8 practice problems"
+    - learn: "Stacks, queues, bags, iterators"
+      apply: "Implement each with tests; 8 practice problems"
+    - learn: "Elementary sorts and mergesort"
+      apply: "External merge sort for a file larger than memory"
+    - learn: "Quicksort and priority queues"
+      apply: "Top-k heavy hitters from logs with a heap; 8 practice problems"
+    - learn: "Symbol tables, BSTs, balanced trees"
+      apply: "Implement a red-black or AVL tree; 8 practice problems"
+    - learn: "Hash tables"
+      apply: "LRU cache with a hash map and linked list; 8 practice problems"
+    - learn: "Graphs: BFS, DFS, topological sort, minimum spanning trees"
+      apply: "Graph-based job scheduler for a DAG of tasks"
+    - learn: "Shortest paths and dynamic programming"
+      apply: "Knapsack for budget allocation; 8 DP practice problems"
+  build: "LRU cache and DAG job scheduler with tests, plus a log of 60+ solved problems"
+  memo: "Why a slow job costs money: algorithmic complexity vs the cloud bill"
+  exam: "Timed: 3 medium problems in 90 minutes"
+
+- code: C202
+  title: Database Systems Internals
+  level: 2
+  lane: B
+  kind: full
+  prereqs: [C103]
+  resources: "CMU 15-445 lectures (free); Kleppmann, Designing Data-Intensive Applications"
+  units:
+    - learn: "Storage: pages, files, row vs column layout"
+      apply: "Inspect Parquet and Delta file layouts with pyarrow"
+    - learn: "Buffer pool management and replacement policies"
+      apply: "Simulate an LRU buffer pool and measure hit rates"
+    - learn: "Hash tables and B+ trees"
+      apply: "Implement B+ tree insert and search"
+    - learn: "Sorting, aggregation and join algorithms"
+      apply: "Implement hash join and sort-merge join; benchmark both"
+    - learn: "Query processing models (iterator, vectorized)"
+      apply: "Tiny Volcano-style query engine over CSV files"
+    - learn: "Query optimization and cost models"
+      apply: "Read and explain EXPLAIN plans in DuckDB and Spark"
+    - learn: "Concurrency control: two-phase locking, MVCC"
+      apply: "Study the Delta Lake transaction log and write up how it isolates writers"
+    - learn: "Logging and recovery"
+      apply: "Add a write-ahead log to your toy engine"
+  build: "Toy query engine or B+ tree index with tests and benchmarks"
+  memo: "Choosing a database engine for a client's workload"
+  exam: "CMU 15-445 past midterm (timed)"
+
+- code: C203
+  title: Computer Systems & Operating Systems
+  level: 2
+  lane: B
+  kind: full
+  prereqs: [C101]
+  resources: "Arpaci-Dusseau, Operating Systems: Three Easy Pieces (OSTEP, free)"
+  units:
+    - learn: "Processes and CPU scheduling"
+      apply: "Measure process vs thread overhead with Python multiprocessing"
+    - learn: "Virtual memory and paging"
+      apply: "Profile memory of a pandas job with tracemalloc"
+    - learn: "Memory management and allocation"
+      apply: "Cut that job's memory with dtypes and Arrow; report the saving"
+    - learn: "Threads, locks, concurrency bugs"
+      apply: "Multithreaded file processor with a correct shared counter"
+    - learn: "Condition variables, semaphores, async I/O"
+      apply: "asyncio downloader with a concurrency limit"
+    - learn: "File systems, I/O, SSDs"
+      apply: "Benchmark CSV, Parquet and Arrow read/write"
+    - learn: "Networking basics: TCP/IP, HTTP, DNS, latency"
+      apply: "Trace an API call and build a latency budget"
+    - learn: "Profiling and capacity planning"
+      apply: "Right-size a cluster for one real job and document the method"
+  build: "Multithreaded file processor with profiling report"
+  memo: "Right-sizing clusters and instances: savings for one real workload"
+  exam: "OSTEP homework problems as a 90-minute timed exam"
+
+- code: B201
+  title: Principles of Macroeconomics
+  level: 2
+  lane: B
+  kind: full
+  prereqs: [B101]
+  resources: "CORE Econ, The Economy (free); MIT OCW 14.02"
+  units:
+    - learn: "GDP and national accounts"
+      apply: "Pull Philippine GDP data (PSA) and chart its components"
+    - learn: "Unemployment and labor markets"
+      apply: "Chart labor force survey data over 10 years"
+    - learn: "Inflation and price indices"
+      apply: "CPI dashboard by commodity group"
+    - learn: "Money, banks and central banks"
+      apply: "Track BSP policy rate and money supply"
+    - learn: "Interest rates and monetary policy"
+      apply: "Analyze how a rate change moves loan or sales volumes"
+    - learn: "Fiscal policy and government budgets"
+      apply: "Chart deficit and debt-to-GDP"
+    - learn: "Exchange rates and the open economy"
+      apply: "PHP vs USD/EUR/AUD and the remittance effect"
+    - learn: "Business cycles and leading indicators"
+      apply: "Leading-indicator panel for a client's demand"
+  build: "Macro dashboard from PSA, BSP and World Bank data"
+  memo: "How interest-rate changes hit a client's demand"
+  exam: "MIT 14.02 final exam (timed)"
+
+- code: B202
+  title: Corporate Finance
+  level: 2
+  lane: B
+  kind: full
+  prereqs: [B102, M201]
+  resources: "Damodaran's free NYU corporate finance course and notes"
+  units:
+    - learn: "The objective of the firm and the big picture"
+      apply: "Summarize one listed company's investment, financing and dividend decisions"
+    - learn: "Time value of money and annuities"
+      apply: "TVM functions in Python and in a spreadsheet, cross-checked"
+    - learn: "Risk, return and CAPM"
+      apply: "Estimate a stock's beta from price data"
+    - learn: "Cost of capital (WACC)"
+      apply: "WACC for a listed Philippine company"
+    - learn: "Capital budgeting: NPV, IRR, payback"
+      apply: "Compare three projects with NPV and IRR"
+    - learn: "Estimating cash flows"
+      apply: "Cash flows for a data platform investment"
+    - learn: "Capital structure and dividend policy"
+      apply: "Debt vs equity scenario for that company"
+    - learn: "Discounted cash flow valuation"
+      apply: "DCF model in Python and in a spreadsheet"
+  build: "DCF model with sensitivity tables, in Python and a spreadsheet"
+  memo: "Business case for a data platform investment"
+  exam: "Damodaran past corporate finance exam (timed)"
+
+- code: B203
+  title: Marketing Analytics & Experimentation
+  level: 2
+  lane: B
+  kind: full
+  prereqs: [S101, B101]
+  resources: "Kohavi, Tang & Xu, Trustworthy Online Controlled Experiments"
+  units:
+    - learn: "Funnel metrics and customer journeys"
+      apply: "Build a funnel from event data"
+    - learn: "Customer lifetime value"
+      apply: "CLV with a BG/NBD model (lifetimes or PyMC-Marketing)"
+    - learn: "Attribution models"
+      apply: "Compare last-touch and Markov-chain attribution"
+    - learn: "Experiment design and the overall evaluation criterion"
+      apply: "Experiment design doc for a real feature"
+    - learn: "Randomization, sample ratio mismatch, guardrails"
+      apply: "Simulate an A/B test and detect SRM"
+    - learn: "Analysis: variance, CUPED, novelty effects"
+      apply: "Apply CUPED and report the variance reduction"
+    - learn: "Pitfalls: peeking, many metrics, interference"
+      apply: "Simulate the false-positive rate of peeking"
+    - learn: "Experimentation culture and decision memos"
+      apply: "Write a decision memo template"
+  build: "Simulated A/B test with a full analysis notebook"
+  memo: "Go/no-go recommendation on a campaign"
+  exam: "Timed case: analyze a provided experiment dataset and recommend in 90 minutes"

@@ -1,0 +1,41 @@
+# Settings for the weekly plan. Edit, then run:  python plan/build_plan.py
+#
+# start_date      Monday of week 1.
+# track           Level 4 elective track: A (MS Statistics), B (MS Computer Science),
+#                 C (MBA in analytics), or "undecided" until the end of Level 2.
+# review_after    Content weeks between quarterly review/buffer weeks.
+# holiday_breaks  Make the weeks of Holy Week, Christmas and New Year's Day review weeks.
+# completed       Courses already done (placement, prior credit, or finished before a reschedule).
+#                 They are left out of the calendar and count as met prerequisites.
+
+start_date: 2026-10-12
+track: undecided
+hours_per_week: 10
+review_after: 12
+holiday_breaks: true
+completed: []
+
+# Lane A = theory (math and statistics), about 5 h/week.
+# Lane B = applied (computer science and business), about 5 h/week.
+# Courses run in this order; the build fails if a course would start before its prerequisites end.
+lane_a: [M101, M102, S101, M103, M201, M202, S201, S202, M301, M302, S301, S302, S303, S304, S402, S401]
+lane_b: [C101, C102, C103, B103, B101, B102, C201, B201, B202, C202, C203, B203, C301, B302, B301, C302, B401]
+
+# When a lane runs out of core courses it takes the next track elective.
+electives:
+  A: [A1, A2, A3, A4, A5]
+  B: [B1, B2, B3, B4, B5]
+  C: [C1, C2, C3, C4, C5]
+
+# The capstone starts once both lanes are free and uses all 10 hours.
+capstone: [X401, X402]
+
+# Shown in the final week of the named course.
+milestones:
+  M102: "Level 1 math exit check: Calculus I final at 70% or better."
+  B102: "Level 1 complete: confirm C102 and C103 builds are on GitHub."
+  M202: "Level 2 exit check, part 1: MIT 18.06 final at 70% or better."
+  S201: "Level 2 exit check, part 2: Stat 110 final at 70% or better."
+  S202: "Decide your master's path (A, B or C), set `track` in plan/config.yaml and rebuild the plan."
+  S304: "Level 3 exit check: S302, S303 and S304 each have a repo, a write-up and a business memo."
+  X402: "Program complete: update the transcript and start the statement of purpose."

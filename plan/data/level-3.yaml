@@ -1,0 +1,268 @@
+# Level 3 — Core II
+
+- code: M301
+  title: Multivariable Calculus
+  level: 3
+  lane: A
+  kind: full
+  prereqs: [M201, M202]
+  resources: "MIT OCW 18.02SC Multivariable Calculus (free)"
+  units:
+    - learn: "Vectors in 3D, lines and planes"
+      apply: "Plot a revenue surface over price and ad spend"
+    - learn: "Partial derivatives and the gradient"
+      apply: "Compute a loss function's gradient analytically and numerically"
+    - learn: "Directional derivatives, tangent planes, linear approximation"
+      apply: "Sensitivity of profit to two levers at once"
+    - learn: "Unconstrained optimization, Hessian, second-derivative test"
+      apply: "Gradient descent from scratch on a two-variable profit function"
+    - learn: "Lagrange multipliers"
+      apply: "Allocate a fixed marketing budget across two channels"
+    - learn: "Double integrals"
+      apply: "Probability over a region for a joint density"
+    - learn: "Change of variables, polar coordinates, triple integrals"
+      apply: "Derive the normal density's normalizing constant"
+    - learn: "Vector fields and line integrals (survey)"
+      apply: "Light problem set; summarize where these appear in ML"
+  build: "Gradient descent with momentum from scratch, compared with scipy.optimize"
+  memo: "Constrained budget allocation across channels"
+  exam: "MIT 18.02SC final exam (timed)"
+
+- code: M302
+  title: Optimization & Numerical Methods
+  level: 3
+  lane: A
+  kind: full
+  prereqs: [M301]
+  resources: "Boyd & Vandenberghe, Convex Optimization (free), ch. 1-5; OR-Tools and cvxpy docs"
+  units:
+    - learn: "Floating point, conditioning, numerical stability"
+      apply: "Show cancellation in the naive variance formula; fix with Welford's algorithm"
+    - learn: "Convex sets and convex functions"
+      apply: "Check convexity of common loss functions"
+    - learn: "Linear programming formulation"
+      apply: "Production-planning LP with scipy.optimize.linprog"
+    - learn: "LP duality and shadow prices"
+      apply: "Interpret shadow prices of capacity constraints"
+    - learn: "Integer programming"
+      apply: "Shift scheduling with OR-Tools CP-SAT"
+    - learn: "Convex problems and KKT conditions"
+      apply: "Mean-variance portfolio with cvxpy"
+    - learn: "Newton and quasi-Newton methods"
+      apply: "Newton vs BFGS on logistic loss"
+    - learn: "Modeling practice and solver choice"
+      apply: "Benchmark SciPy, OR-Tools and cvxpy on one problem"
+  build: "Solver comparison repo: the same business problem in three solvers"
+  memo: "Cost minimization under capacity limits"
+  exam: "Boyd exercises, 2-hour timed set"
+
+- code: S301
+  title: Mathematical Statistics
+  level: 3
+  lane: A
+  kind: full
+  prereqs: [S201, M301]
+  resources: "Rice, Mathematical Statistics and Data Analysis; MIT OCW 18.650"
+  units:
+    - learn: "Transformations and order statistics"
+      apply: "Simulate the maximum of n delivery times"
+    - learn: "Sampling distributions: chi-square, t, F"
+      apply: "Derive and simulate the t distribution"
+    - learn: "Method of moments estimation"
+      apply: "Method-of-moments fit for gamma-distributed claim sizes"
+    - learn: "Maximum likelihood and Fisher information"
+      apply: "MLE with scipy.optimize; compare standard errors to the bootstrap"
+    - learn: "Bias, variance, MSE, Cramer-Rao bound"
+      apply: "Simulation study of estimator MSE"
+    - learn: "Sufficiency and exponential families"
+      apply: "Identify sufficient statistics for common business models"
+    - learn: "Neyman-Pearson and likelihood ratio tests"
+      apply: "LRT for a change in conversion rate"
+    - learn: "Asymptotics, delta method, bootstrap"
+      apply: "Delta-method CI for revenue per user"
+  build: "MLE and bootstrap toolkit with a simulation study"
+  memo: "Defending a forecast's error bars to a CFO"
+  exam: "MIT 18.650 past exam (timed)"
+
+- code: S302
+  title: Regression & Linear Models
+  level: 3
+  lane: A
+  kind: full
+  prereqs: [S301, M202]
+  resources: "Gelman, Hill & Vehtari, Regression and Other Stories (free PDF)"
+  units:
+    - learn: "OLS review, interpretation and uncertainty"
+      apply: "Fit and interpret a price-demand regression"
+    - learn: "Regression diagnostics: residuals, leverage, influence"
+      apply: "Diagnostic plots and fixes for that model"
+    - learn: "Transformations, interactions, categorical predictors"
+      apply: "Log-log elasticity model with region interactions"
+    - learn: "Heteroskedasticity and robust standard errors"
+      apply: "Compare classic and HC3 standard errors"
+    - learn: "Logistic regression"
+      apply: "Model conversion probability"
+    - learn: "Poisson and other generalized linear models"
+      apply: "Model orders per customer"
+    - learn: "Regularization: ridge and lasso"
+      apply: "Lasso feature selection on wide marketing data"
+    - learn: "Prediction vs inference; cross-validation and AIC"
+      apply: "Out-of-sample evaluation and model choice"
+  build: "Pricing or demand model with full diagnostics (portfolio project)"
+  memo: "Driver analysis: what moves revenue"
+  exam: "Regression and Other Stories exercises, 2-hour timed set"
+
+- code: S303
+  title: Statistical Learning
+  level: 3
+  lane: A
+  kind: full
+  prereqs: [S302]
+  resources: "James et al., An Introduction to Statistical Learning with Python (ISLP, free)"
+  units:
+    - learn: "Statistical learning and the bias-variance trade-off (ISLP ch. 2)"
+      apply: "KNN vs linear model on simulated data; plot bias and variance"
+    - learn: "Classification: logistic, LDA, QDA, naive Bayes (ch. 4)"
+      apply: "Baseline churn models"
+    - learn: "Resampling: cross-validation and bootstrap (ch. 5)"
+      apply: "Honest validation pipeline with time-aware splits"
+    - learn: "Model selection and regularization (ch. 6)"
+      apply: "Regularized churn model"
+    - learn: "Splines and GAMs (ch. 7)"
+      apply: "Nonlinear tenure effect on churn"
+    - learn: "Trees, bagging, random forests, boosting (ch. 8)"
+      apply: "Gradient-boosted churn model, compared with baselines"
+    - learn: "SVMs (ch. 9) and unsupervised learning (ch. 12)"
+      apply: "Customer clustering"
+    - learn: "Evaluation for decisions: calibration, lift, cost curves"
+      apply: "Expected-profit targeting curve"
+  build: "Churn model with honest validation (portfolio project)"
+  memo: "Retention budget: who to target and the expected ROI"
+  exam: "ISLP exercises, 2-hour timed set"
+
+- code: S304
+  title: Time Series & Forecasting
+  level: 3
+  lane: A
+  kind: full
+  prereqs: [S302]
+  resources: "Hyndman & Athanasopoulos, Forecasting: Principles and Practice 3e (free); Nixtla statsforecast"
+  units:
+    - learn: "Time series graphics and patterns (FPP3 ch. 2)"
+      apply: "Plot a demand series and describe its trend and seasonality"
+    - learn: "Decomposition and features (ch. 3-4)"
+      apply: "STL decomposition of the series"
+    - learn: "The forecaster's toolbox: benchmarks, accuracy, residuals (ch. 5)"
+      apply: "Backtest naive and seasonal-naive benchmarks"
+    - learn: "Exponential smoothing (ch. 8)"
+      apply: "ETS models with statsforecast"
+    - learn: "Stationarity, differencing, ARIMA (ch. 9)"
+      apply: "AutoARIMA vs ETS backtest"
+    - learn: "Dynamic regression with predictors (ch. 10)"
+      apply: "Add promotions and Philippine holidays as regressors"
+    - learn: "Hierarchical forecasting (ch. 11)"
+      apply: "Reconcile store and region forecasts"
+    - learn: "Forecasting in production"
+      apply: "Scheduled job that trains, backtests and writes forecasts to a Delta table"
+  build: "Demand forecast pipeline on Databricks (portfolio project)"
+  memo: "Inventory and staffing plan from the forecast"
+  exam: "FPP3 exercises, 2-hour timed set"
+
+- code: C301
+  title: Distributed Data Processing
+  level: 3
+  lane: B
+  kind: test-out
+  prereqs: [C202, C203]
+  resources: "Kleppmann, DDIA part II; Databricks Structured Streaming docs"
+  units:
+    - learn: "DDIA part II review: replication, partitioning, transactions, consistency"
+      apply: "Map each concept to how Databricks and Delta Lake implement it"
+    - learn: "Stream processing: event time, watermarks, exactly-once"
+      apply: "Structured Streaming pipeline with watermarking (Databricks Free Edition or local Spark)"
+  signoff: "Databricks Certified Data Engineer Professional (held) plus the streaming project on GitHub"
+  memo: "Platform cost and performance trade-offs for a streaming use case"
+
+- code: C302
+  title: Data Products & MLOps
+  level: 3
+  lane: B
+  kind: full
+  prereqs: [C102, S303]
+  resources: "Huyen, Designing Machine Learning Systems; MLflow docs"
+  units:
+    - learn: "ML systems overview and requirements"
+      apply: "Design doc for serving the S303 churn model"
+    - learn: "Data engineering for ML and feature stores"
+      apply: "Feature pipeline with point-in-time correctness"
+    - learn: "Training data, labeling and leakage"
+      apply: "Leakage audit of the S303 model"
+    - learn: "Experiment tracking and model registry"
+      apply: "Track runs and register the model with MLflow"
+    - learn: "Deployment: batch vs online serving"
+      apply: "Serve predictions with FastAPI or a batch job"
+    - learn: "Monitoring and data drift"
+      apply: "Drift monitor with alert thresholds"
+    - learn: "CI/CD for ML and continual learning"
+      apply: "Retraining workflow triggered by drift or schedule"
+    - learn: "Infrastructure cost and responsible ML"
+      apply: "Total cost of ownership estimate"
+  build: "S303 churn model deployed with CI/CD, monitoring and retraining"
+  memo: "Total cost of ownership of an ML product"
+  exam: "Timed ML system design interview (60 minutes, recorded)"
+
+- code: B301
+  title: Operations Research & Decision Analysis
+  level: 3
+  lane: B
+  kind: full
+  prereqs: [M302, S201]
+  resources: "Hillier & Lieberman, Introduction to Operations Research; SimPy and OR-Tools docs"
+  units:
+    - learn: "OR modeling and LP review"
+      apply: "Formulate a real operations problem from work as an LP"
+    - learn: "Sensitivity analysis"
+      apply: "What-if analysis on the LP's constraints"
+    - learn: "Transportation and assignment problems"
+      apply: "Assign technicians to jobs at minimum cost"
+    - learn: "Network optimization: shortest path, max flow"
+      apply: "Delivery routing on a road graph"
+    - learn: "Integer and mixed-integer programming"
+      apply: "Workforce scheduling with shift rules"
+    - learn: "Queuing theory"
+      apply: "M/M/c staffing model for a call center"
+    - learn: "Discrete-event simulation"
+      apply: "SimPy warehouse simulation"
+    - learn: "Decision trees and value of information"
+      apply: "Decision tree for an expansion choice"
+  build: "Scheduling or routing optimizer with a simple front end"
+  memo: "Warehouse or workforce optimization case"
+  exam: "Hillier & Lieberman problems, 2-hour timed set"
+
+- code: B302
+  title: Strategy & Consulting Methods
+  level: 3
+  lane: B
+  kind: full
+  prereqs: [B103, B202]
+  resources: "Rumelt, Good Strategy Bad Strategy; Cosentino, Case in Point"
+  units:
+    - learn: "Strategy kernel: diagnosis, guiding policy, coherent action"
+      apply: "Diagnose the strategy of a Philippine company"
+    - learn: "Industry analysis: five forces"
+      apply: "Five forces for that company's industry"
+    - learn: "Value chain and competitive advantage"
+      apply: "Value chain map with where data creates advantage"
+    - learn: "Market sizing"
+      apply: "Top-down and bottom-up market-sizing model"
+    - learn: "Case frameworks: profitability and market entry"
+      apply: "Two recorded case drills"
+    - learn: "Growth strategies, M&A"
+      apply: "Two recorded case drills"
+    - learn: "Pricing and go-to-market strategy"
+      apply: "Go-to-market plan for an analytics service"
+    - learn: "Synthesis: building a strategy recommendation"
+      apply: "Draft the final recommendation storyline"
+  build: "Market-sizing model plus a log of case-interview drills"
+  memo: "Strategy recommendation for a real company"
+  exam: "Timed case interview with a peer (45 minutes, recorded)"

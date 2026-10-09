@@ -1,6 +1,6 @@
 # Weekly plan
 
-The program runs **198 weeks**, from 12 Oct 2026 to 28 Jul 2030 (about 3.8 years at 10 hours a week). Elective track: **undecided**.
+The program runs **198 weeks**, from 12 Oct 2026 to 28 Jul 2030 (about 3.8 years at 10 hours a week). Elective track: **undecided**. Fast-tracked: none. Completed before the plan: none.
 
 | Year | Weeks | Dates |
 | --- | --- | --- |

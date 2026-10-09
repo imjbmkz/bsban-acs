@@ -7,6 +7,9 @@
   kind: full
   prereqs: [M201, M202]
   resources: "MIT OCW 18.02SC Multivariable Calculus (free)"
+  assessment:
+    - {label: "MIT 18.02SC practice final, review and final exam", url: "https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/pages/final-exam-1/final-exam/"}
+    - {label: "Khan Academy Multivariable calculus", url: "https://www.khanacademy.org/math/multivariable-calculus"}
   units:
     - learn: "Vectors in 3D, lines and planes"
       apply: "Plot a revenue surface over price and ad spend"
@@ -35,6 +38,9 @@
   kind: full
   prereqs: [M301]
   resources: "Boyd & Vandenberghe, Convex Optimization (free), ch. 1-5; OR-Tools and cvxpy docs"
+  assessment:
+    - {label: "Boyd & Vandenberghe book and additional exercises", url: "https://web.stanford.edu/~boyd/cvxbook/"}
+    - {label: "MIT 15.053 problem sets with solutions", url: "https://ocw.mit.edu/courses/15-053-optimization-methods-in-management-science-spring-2013/"}
   units:
     - learn: "Floating point, conditioning, numerical stability"
       apply: "Show cancellation in the naive variance formula; fix with Welford's algorithm"
@@ -63,6 +69,8 @@
   kind: full
   prereqs: [S201, M301]
   resources: "Rice, Mathematical Statistics and Data Analysis; MIT OCW 18.650"
+  assessment:
+    - {label: "MIT 18.443 (Spring 2015) exams 1–3 with solutions", url: "https://ocw.mit.edu/courses/18-443-statistics-for-applications-spring-2015/pages/exams/"}
   units:
     - learn: "Transformations and order statistics"
       apply: "Simulate the maximum of n delivery times"
@@ -91,6 +99,8 @@
   kind: full
   prereqs: [S301, M202]
   resources: "Gelman, Hill & Vehtari, Regression and Other Stories (free PDF)"
+  assessment:
+    - {label: "Regression and Other Stories book and examples", url: "https://avehtari.github.io/ROS-Examples/"}
   units:
     - learn: "OLS review, interpretation and uncertainty"
       apply: "Fit and interpret a price-demand regression"
@@ -119,6 +129,8 @@
   kind: full
   prereqs: [S302]
   resources: "James et al., An Introduction to Statistical Learning with Python (ISLP, free)"
+  assessment:
+    - {label: "ISLP book and resources", url: "https://www.statlearning.com/"}
   units:
     - learn: "Statistical learning and the bias-variance trade-off (ISLP ch. 2)"
       apply: "KNN vs linear model on simulated data; plot bias and variance"
@@ -147,6 +159,8 @@
   kind: full
   prereqs: [S302]
   resources: "Hyndman & Athanasopoulos, Forecasting: Principles and Practice 3e (free); Nixtla statsforecast"
+  assessment:
+    - {label: "Forecasting: Principles and Practice 3e (exercises per chapter)", url: "https://otexts.com/fpp3/"}
   units:
     - learn: "Time series graphics and patterns (FPP3 ch. 2)"
       apply: "Plot a demand series and describe its trend and seasonality"
@@ -175,6 +189,8 @@
   kind: test-out
   prereqs: [C202, C203]
   resources: "Kleppmann, DDIA part II; Databricks Structured Streaming docs"
+  assessment:
+    - {label: "Databricks Certified Data Engineer Professional", url: "https://www.databricks.com/learn/certification/data-engineer-professional"}
   units:
     - learn: "DDIA part II review: replication, partitioning, transactions, consistency"
       apply: "Map each concept to how Databricks and Delta Lake implement it"
@@ -190,6 +206,9 @@
   kind: full
   prereqs: [C102, S303]
   resources: "Huyen, Designing Machine Learning Systems; MLflow docs"
+  assessment:
+    - {label: "MLOps Zoomcamp final project (self-paced)", url: "https://github.com/DataTalksClub/mlops-zoomcamp"}
+    - {label: "System design interview rubric", url: "https://github.com/imjbmkz/bsban-acs/blob/main/templates/assessment-rubrics.md#system-design-interview"}
   units:
     - learn: "ML systems overview and requirements"
       apply: "Design doc for serving the S303 churn model"
@@ -218,6 +237,8 @@
   kind: full
   prereqs: [M302, S201]
   resources: "Hillier & Lieberman, Introduction to Operations Research; SimPy and OR-Tools docs"
+  assessment:
+    - {label: "MIT 15.053 problem sets with solutions", url: "https://ocw.mit.edu/courses/15-053-optimization-methods-in-management-science-spring-2013/"}
   units:
     - learn: "OR modeling and LP review"
       apply: "Formulate a real operations problem from work as an LP"
@@ -246,6 +267,8 @@
   kind: full
   prereqs: [B103, B202]
   resources: "Rumelt, Good Strategy Bad Strategy; Cosentino, Case in Point"
+  assessment:
+    - {label: "Case interview rubric", url: "https://github.com/imjbmkz/bsban-acs/blob/main/templates/assessment-rubrics.md#timed-case"}
   units:
     - learn: "Strategy kernel: diagnosis, guiding policy, coherent action"
       apply: "Diagnose the strategy of a Philippine company"

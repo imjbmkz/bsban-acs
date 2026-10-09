@@ -7,7 +7,9 @@ what to build with it, and what to hand in. It runs from **12 Oct 2026** for 198
 | Where | What |
 | --- | --- |
 | [weeks/](weeks/) | The calendar, one file per year, with a checklist for every week |
-| [courses/](courses/) | One page per course: planned dates, final deliverables, week-by-week units |
+| [courses/](courses/) | One page per course, in folders by domain: mathematics, statistics, computer_science, business_and_economics, capstone |
+| [assessments.md](assessments.md) | Every course's final exam or assessment, with links |
+| [fast-track.md](fast-track.md) | How to test out of courses you already know, and which ones to try |
 | [schedule.csv](schedule.csv) | The same calendar as one table, for a spreadsheet or a dashboard |
 | [../progress/transcript.csv](../progress/transcript.csv) | Your record of each course: dates, exam score, links |
 | [../templates/](../templates/) | Templates for notes, the weekly log, a course README and the business memo |
@@ -69,17 +71,17 @@ The calendar is generated. Edit the inputs, then rebuild:
 
 ```bash
 pip install pyyaml
-python plan/build_plan.py          # regenerate weeks/, courses/ and schedule.csv
+python plan/build_plan.py          # regenerate weeks/, courses/, assessments.md and schedule.csv
 python plan/build_plan.py --check  # what CI runs: prerequisites hold and files are current
 ```
 
 - **Start later, or reschedule after falling behind:** change `start_date` in [config.yaml](config.yaml)
   (it must be a Monday) and list the courses you have finished under `completed`.
 - **Choose an elective track** at the end of Level 2: set `track` to `A`, `B` or `C`.
-- **Skip M101** if the placement check shows you don't need it: set `completed: [M101]`. Lane A
-  then runs 9 weeks ahead, but the end date stays the same because Lane B is the longer lane.
+- **Fast-track courses you already know:** list them under `fast_track` and set `share_lanes: true`.
+  Each becomes a diagnostic, the build and the memo. See [fast-track.md](fast-track.md).
 - **Change a course's weekly units:** edit [data/](data/). Each unit is one week.
-- **Change the order:** reorder `lane_a` / `lane_b`. The build stops with an error if a course would
-  start before its prerequisites finish.
+- **Change the order:** reorder `lane_a` / `lane_b`. A course never starts before its prerequisites
+  finish: the lane takes the next ready course, or stays free that week.
 
 The generator never overwrites `progress/transcript.csv` once it exists.

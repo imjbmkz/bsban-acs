@@ -8,6 +8,9 @@
   kind: full
   prereqs: [S302]
   resources: "Cunningham, Causal Inference: The Mixtape (free); Huntington-Klein, The Effect (free)"
+  assessment:
+    - {label: "Causal Inference: The Mixtape", url: "https://mixtape.scunning.com/"}
+    - {label: "The Effect (exercises per chapter)", url: "https://theeffectbook.net/"}
   units:
     - learn: "Potential outcomes and selection bias"
       apply: "Simulate selection bias in a promotion's measured effect"
@@ -36,6 +39,8 @@
   kind: full
   prereqs: [S301]
   resources: "McElreath, Statistical Rethinking (free 2023 lectures); PyMC and ArviZ docs"
+  assessment:
+    - {label: "Statistical Rethinking 2025 lectures and homework", url: "https://github.com/rmcelreath/stat_rethinking_2025"}
   units:
     - learn: "Bayesian updating and grid approximation"
       apply: "Posterior for a conversion rate by grid"
@@ -64,6 +69,8 @@
   kind: full
   prereqs: [B302]
   resources: "Ries, The Lean Startup; Ramanujam & Tacke, Monetizing Innovation"
+  assessment:
+    - {label: "Pitch rubric", url: "https://github.com/imjbmkz/bsban-acs/blob/main/templates/assessment-rubrics.md#pitch"}
   units:
     - learn: "Lean startup and customer discovery"
       apply: "Interview five potential clients about their analytics pain"
@@ -92,6 +99,8 @@
   kind: capstone
   prereqs: [B302, S302]
   resources: "Your client; B103 and B302 materials"
+  assessment:
+    - {label: "Capstone rubric", url: "https://github.com/imjbmkz/bsban-acs/blob/main/templates/assessment-rubrics.md#capstone"}
   units:
     - learn: "Find a client: a small business, NGO or your employer"
       apply: "Signed engagement agreement and stakeholder map"
@@ -113,6 +122,8 @@
   kind: capstone
   prereqs: [X401]
   resources: "Everything so far"
+  assessment:
+    - {label: "Capstone rubric", url: "https://github.com/imjbmkz/bsban-acs/blob/main/templates/assessment-rubrics.md#capstone"}
   units:
     - learn: "Data pipeline"
       apply: "Ingestion and transformation pipeline running end to end"

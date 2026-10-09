@@ -72,12 +72,12 @@
 
 *16–22 Oct 2028*
 
-**Lane A — theory — [S301 Mathematical Statistics](../courses/S301.md)** · week 5 of 9
+**Lane A — theory — [S301 Mathematical Statistics](../courses/statistics/S301.md)** · week 5 of 9
 
 - [ ] Learn: Bias, variance, MSE, Cramer-Rao bound
 - [ ] Apply: Simulation study of estimator MSE
 
-**Lane B — applied — [B203 Marketing Analytics & Experimentation](../courses/B203.md)** · week 8 of 9
+**Lane B — applied — [B203 Marketing Analytics & Experimentation](../courses/business_and_economics/B203.md)** · week 8 of 9
 
 - [ ] Learn: Experimentation culture and decision memos
 - [ ] Apply: Write a decision memo template
@@ -88,14 +88,14 @@
 
 *23–29 Oct 2028*
 
-**Lane A — theory — [S301 Mathematical Statistics](../courses/S301.md)** · week 6 of 9
+**Lane A — theory — [S301 Mathematical Statistics](../courses/statistics/S301.md)** · week 6 of 9
 
 - [ ] Learn: Sufficiency and exponential families
 - [ ] Apply: Identify sufficient statistics for common business models
 
-**Lane B — applied — [B203 Marketing Analytics & Experimentation](../courses/B203.md)** · week 9 of 9
+**Lane B — applied — [B203 Marketing Analytics & Experimentation](../courses/business_and_economics/B203.md)** · week 9 of 9
 
-- [ ] Exam (≥ 70%): Timed case: analyze a provided experiment dataset and recommend in 90 minutes
+- [ ] Exam (≥ 70%): Timed case: analyze a provided experiment dataset and recommend in 90 minutes — [Timed case rubric](https://github.com/imjbmkz/bsban-acs/blob/main/templates/assessment-rubrics.md#timed-case)
 - [ ] Build: Simulated A/B test with a full analysis notebook
 - [ ] Business memo: Go/no-go recommendation on a campaign
 - [ ] Record the result in `progress/transcript.csv`
@@ -106,12 +106,12 @@
 
 *30 Oct – 5 Nov 2028*
 
-**Lane A — theory — [S301 Mathematical Statistics](../courses/S301.md)** · week 7 of 9
+**Lane A — theory — [S301 Mathematical Statistics](../courses/statistics/S301.md)** · week 7 of 9
 
 - [ ] Learn: Neyman-Pearson and likelihood ratio tests
 - [ ] Apply: LRT for a change in conversion rate
 
-**Lane B — applied — [C301 Distributed Data Processing](../courses/C301.md)** · week 1 of 3
+**Lane B — applied — [C301 Distributed Data Processing](../courses/computer_science/C301.md)** · week 1 of 3
 
 - [ ] Learn: DDIA part II review: replication, partitioning, transactions, consistency
 - [ ] Apply: Map each concept to how Databricks and Delta Lake implement it
@@ -122,12 +122,12 @@
 
 *6–12 Nov 2028*
 
-**Lane A — theory — [S301 Mathematical Statistics](../courses/S301.md)** · week 8 of 9
+**Lane A — theory — [S301 Mathematical Statistics](../courses/statistics/S301.md)** · week 8 of 9
 
 - [ ] Learn: Asymptotics, delta method, bootstrap
 - [ ] Apply: Delta-method CI for revenue per user
 
-**Lane B — applied — [C301 Distributed Data Processing](../courses/C301.md)** · week 2 of 3
+**Lane B — applied — [C301 Distributed Data Processing](../courses/computer_science/C301.md)** · week 2 of 3
 
 - [ ] Learn: Stream processing: event time, watermarks, exactly-once
 - [ ] Apply: Structured Streaming pipeline with watermarking (Databricks Free Edition or local Spark)
@@ -138,16 +138,16 @@
 
 *13–19 Nov 2028*
 
-**Lane A — theory — [S301 Mathematical Statistics](../courses/S301.md)** · week 9 of 9
+**Lane A — theory — [S301 Mathematical Statistics](../courses/statistics/S301.md)** · week 9 of 9
 
-- [ ] Exam (≥ 70%): MIT 18.650 past exam (timed)
+- [ ] Exam (≥ 70%): MIT 18.650 past exam (timed) — [MIT 18.443 (Spring 2015) exams 1–3 with solutions](https://ocw.mit.edu/courses/18-443-statistics-for-applications-spring-2015/pages/exams/)
 - [ ] Build: MLE and bootstrap toolkit with a simulation study
 - [ ] Business memo: Defending a forecast's error bars to a CFO
 - [ ] Record the result in `progress/transcript.csv`
 
-**Lane B — applied — [C301 Distributed Data Processing](../courses/C301.md)** · week 3 of 3
+**Lane B — applied — [C301 Distributed Data Processing](../courses/computer_science/C301.md)** · week 3 of 3
 
-- [ ] Sign-off evidence: Databricks Certified Data Engineer Professional (held) plus the streaming project on GitHub
+- [ ] Sign-off evidence: Databricks Certified Data Engineer Professional (held) plus the streaming project on GitHub — [Databricks Certified Data Engineer Professional](https://www.databricks.com/learn/certification/data-engineer-professional)
 - [ ] Business memo: Platform cost and performance trade-offs for a streaming use case
 - [ ] Record the result in `progress/transcript.csv` as `test-out`
 
@@ -157,12 +157,12 @@
 
 *20–26 Nov 2028*
 
-**Lane A — theory — [S302 Regression & Linear Models](../courses/S302.md)** · week 1 of 9
+**Lane A — theory — [S302 Regression & Linear Models](../courses/statistics/S302.md)** · week 1 of 9
 
 - [ ] Learn: OLS review, interpretation and uncertainty
 - [ ] Apply: Fit and interpret a price-demand regression
 
-**Lane B — applied — [B302 Strategy & Consulting Methods](../courses/B302.md)** · week 1 of 9
+**Lane B — applied — [B302 Strategy & Consulting Methods](../courses/business_and_economics/B302.md)** · week 1 of 9
 
 - [ ] Learn: Strategy kernel: diagnosis, guiding policy, coherent action
 - [ ] Apply: Diagnose the strategy of a Philippine company
@@ -173,12 +173,12 @@
 
 *27 Nov – 3 Dec 2028*
 
-**Lane A — theory — [S302 Regression & Linear Models](../courses/S302.md)** · week 2 of 9
+**Lane A — theory — [S302 Regression & Linear Models](../courses/statistics/S302.md)** · week 2 of 9
 
 - [ ] Learn: Regression diagnostics: residuals, leverage, influence
 - [ ] Apply: Diagnostic plots and fixes for that model
 
-**Lane B — applied — [B302 Strategy & Consulting Methods](../courses/B302.md)** · week 2 of 9
+**Lane B — applied — [B302 Strategy & Consulting Methods](../courses/business_and_economics/B302.md)** · week 2 of 9
 
 - [ ] Learn: Industry analysis: five forces
 - [ ] Apply: Five forces for that company's industry
@@ -189,12 +189,12 @@
 
 *4–10 Dec 2028*
 
-**Lane A — theory — [S302 Regression & Linear Models](../courses/S302.md)** · week 3 of 9
+**Lane A — theory — [S302 Regression & Linear Models](../courses/statistics/S302.md)** · week 3 of 9
 
 - [ ] Learn: Transformations, interactions, categorical predictors
 - [ ] Apply: Log-log elasticity model with region interactions
 
-**Lane B — applied — [B302 Strategy & Consulting Methods](../courses/B302.md)** · week 3 of 9
+**Lane B — applied — [B302 Strategy & Consulting Methods](../courses/business_and_economics/B302.md)** · week 3 of 9
 
 - [ ] Learn: Value chain and competitive advantage
 - [ ] Apply: Value chain map with where data creates advantage
@@ -205,12 +205,12 @@
 
 *11–17 Dec 2028*
 
-**Lane A — theory — [S302 Regression & Linear Models](../courses/S302.md)** · week 4 of 9
+**Lane A — theory — [S302 Regression & Linear Models](../courses/statistics/S302.md)** · week 4 of 9
 
 - [ ] Learn: Heteroskedasticity and robust standard errors
 - [ ] Apply: Compare classic and HC3 standard errors
 
-**Lane B — applied — [B302 Strategy & Consulting Methods](../courses/B302.md)** · week 4 of 9
+**Lane B — applied — [B302 Strategy & Consulting Methods](../courses/business_and_economics/B302.md)** · week 4 of 9
 
 - [ ] Learn: Market sizing
 - [ ] Apply: Top-down and bottom-up market-sizing model
@@ -221,12 +221,12 @@
 
 *18–24 Dec 2028*
 
-**Lane A — theory — [S302 Regression & Linear Models](../courses/S302.md)** · week 5 of 9
+**Lane A — theory — [S302 Regression & Linear Models](../courses/statistics/S302.md)** · week 5 of 9
 
 - [ ] Learn: Logistic regression
 - [ ] Apply: Model conversion probability
 
-**Lane B — applied — [B302 Strategy & Consulting Methods](../courses/B302.md)** · week 5 of 9
+**Lane B — applied — [B302 Strategy & Consulting Methods](../courses/business_and_economics/B302.md)** · week 5 of 9
 
 - [ ] Learn: Case frameworks: profitability and market entry
 - [ ] Apply: Two recorded case drills
@@ -255,12 +255,12 @@
 
 *8–14 Jan 2029*
 
-**Lane A — theory — [S302 Regression & Linear Models](../courses/S302.md)** · week 6 of 9
+**Lane A — theory — [S302 Regression & Linear Models](../courses/statistics/S302.md)** · week 6 of 9
 
 - [ ] Learn: Poisson and other generalized linear models
 - [ ] Apply: Model orders per customer
 
-**Lane B — applied — [B302 Strategy & Consulting Methods](../courses/B302.md)** · week 6 of 9
+**Lane B — applied — [B302 Strategy & Consulting Methods](../courses/business_and_economics/B302.md)** · week 6 of 9
 
 - [ ] Learn: Growth strategies, M&A
 - [ ] Apply: Two recorded case drills
@@ -271,12 +271,12 @@
 
 *15–21 Jan 2029*
 
-**Lane A — theory — [S302 Regression & Linear Models](../courses/S302.md)** · week 7 of 9
+**Lane A — theory — [S302 Regression & Linear Models](../courses/statistics/S302.md)** · week 7 of 9
 
 - [ ] Learn: Regularization: ridge and lasso
 - [ ] Apply: Lasso feature selection on wide marketing data
 
-**Lane B — applied — [B302 Strategy & Consulting Methods](../courses/B302.md)** · week 7 of 9
+**Lane B — applied — [B302 Strategy & Consulting Methods](../courses/business_and_economics/B302.md)** · week 7 of 9
 
 - [ ] Learn: Pricing and go-to-market strategy
 - [ ] Apply: Go-to-market plan for an analytics service
@@ -287,12 +287,12 @@
 
 *22–28 Jan 2029*
 
-**Lane A — theory — [S302 Regression & Linear Models](../courses/S302.md)** · week 8 of 9
+**Lane A — theory — [S302 Regression & Linear Models](../courses/statistics/S302.md)** · week 8 of 9
 
 - [ ] Learn: Prediction vs inference; cross-validation and AIC
 - [ ] Apply: Out-of-sample evaluation and model choice
 
-**Lane B — applied — [B302 Strategy & Consulting Methods](../courses/B302.md)** · week 8 of 9
+**Lane B — applied — [B302 Strategy & Consulting Methods](../courses/business_and_economics/B302.md)** · week 8 of 9
 
 - [ ] Learn: Synthesis: building a strategy recommendation
 - [ ] Apply: Draft the final recommendation storyline
@@ -303,16 +303,16 @@
 
 *29 Jan – 4 Feb 2029*
 
-**Lane A — theory — [S302 Regression & Linear Models](../courses/S302.md)** · week 9 of 9
+**Lane A — theory — [S302 Regression & Linear Models](../courses/statistics/S302.md)** · week 9 of 9
 
-- [ ] Exam (≥ 70%): Regression and Other Stories exercises, 2-hour timed set
+- [ ] Exam (≥ 70%): Regression and Other Stories exercises, 2-hour timed set — [Regression and Other Stories book and examples](https://avehtari.github.io/ROS-Examples/)
 - [ ] Build: Pricing or demand model with full diagnostics (portfolio project)
 - [ ] Business memo: Driver analysis: what moves revenue
 - [ ] Record the result in `progress/transcript.csv`
 
-**Lane B — applied — [B302 Strategy & Consulting Methods](../courses/B302.md)** · week 9 of 9
+**Lane B — applied — [B302 Strategy & Consulting Methods](../courses/business_and_economics/B302.md)** · week 9 of 9
 
-- [ ] Exam (≥ 70%): Timed case interview with a peer (45 minutes, recorded)
+- [ ] Exam (≥ 70%): Timed case interview with a peer (45 minutes, recorded) — [Case interview rubric](https://github.com/imjbmkz/bsban-acs/blob/main/templates/assessment-rubrics.md#timed-case)
 - [ ] Build: Market-sizing model plus a log of case-interview drills
 - [ ] Business memo: Strategy recommendation for a real company
 - [ ] Record the result in `progress/transcript.csv`
@@ -323,12 +323,12 @@
 
 *5–11 Feb 2029*
 
-**Lane A — theory — [S303 Statistical Learning](../courses/S303.md)** · week 1 of 9
+**Lane A — theory — [S303 Statistical Learning](../courses/statistics/S303.md)** · week 1 of 9
 
 - [ ] Learn: Statistical learning and the bias-variance trade-off (ISLP ch. 2)
 - [ ] Apply: KNN vs linear model on simulated data; plot bias and variance
 
-**Lane B — applied — [B301 Operations Research & Decision Analysis](../courses/B301.md)** · week 1 of 9
+**Lane B — applied — [B301 Operations Research & Decision Analysis](../courses/business_and_economics/B301.md)** · week 1 of 9
 
 - [ ] Learn: OR modeling and LP review
 - [ ] Apply: Formulate a real operations problem from work as an LP
@@ -339,12 +339,12 @@
 
 *12–18 Feb 2029*
 
-**Lane A — theory — [S303 Statistical Learning](../courses/S303.md)** · week 2 of 9
+**Lane A — theory — [S303 Statistical Learning](../courses/statistics/S303.md)** · week 2 of 9
 
 - [ ] Learn: Classification: logistic, LDA, QDA, naive Bayes (ch. 4)
 - [ ] Apply: Baseline churn models
 
-**Lane B — applied — [B301 Operations Research & Decision Analysis](../courses/B301.md)** · week 2 of 9
+**Lane B — applied — [B301 Operations Research & Decision Analysis](../courses/business_and_economics/B301.md)** · week 2 of 9
 
 - [ ] Learn: Sensitivity analysis
 - [ ] Apply: What-if analysis on the LP's constraints
@@ -355,12 +355,12 @@
 
 *19–25 Feb 2029*
 
-**Lane A — theory — [S303 Statistical Learning](../courses/S303.md)** · week 3 of 9
+**Lane A — theory — [S303 Statistical Learning](../courses/statistics/S303.md)** · week 3 of 9
 
 - [ ] Learn: Resampling: cross-validation and bootstrap (ch. 5)
 - [ ] Apply: Honest validation pipeline with time-aware splits
 
-**Lane B — applied — [B301 Operations Research & Decision Analysis](../courses/B301.md)** · week 3 of 9
+**Lane B — applied — [B301 Operations Research & Decision Analysis](../courses/business_and_economics/B301.md)** · week 3 of 9
 
 - [ ] Learn: Transportation and assignment problems
 - [ ] Apply: Assign technicians to jobs at minimum cost
@@ -371,12 +371,12 @@
 
 *26 Feb – 4 Mar 2029*
 
-**Lane A — theory — [S303 Statistical Learning](../courses/S303.md)** · week 4 of 9
+**Lane A — theory — [S303 Statistical Learning](../courses/statistics/S303.md)** · week 4 of 9
 
 - [ ] Learn: Model selection and regularization (ch. 6)
 - [ ] Apply: Regularized churn model
 
-**Lane B — applied — [B301 Operations Research & Decision Analysis](../courses/B301.md)** · week 4 of 9
+**Lane B — applied — [B301 Operations Research & Decision Analysis](../courses/business_and_economics/B301.md)** · week 4 of 9
 
 - [ ] Learn: Network optimization: shortest path, max flow
 - [ ] Apply: Delivery routing on a road graph
@@ -387,12 +387,12 @@
 
 *5–11 Mar 2029*
 
-**Lane A — theory — [S303 Statistical Learning](../courses/S303.md)** · week 5 of 9
+**Lane A — theory — [S303 Statistical Learning](../courses/statistics/S303.md)** · week 5 of 9
 
 - [ ] Learn: Splines and GAMs (ch. 7)
 - [ ] Apply: Nonlinear tenure effect on churn
 
-**Lane B — applied — [B301 Operations Research & Decision Analysis](../courses/B301.md)** · week 5 of 9
+**Lane B — applied — [B301 Operations Research & Decision Analysis](../courses/business_and_economics/B301.md)** · week 5 of 9
 
 - [ ] Learn: Integer and mixed-integer programming
 - [ ] Apply: Workforce scheduling with shift rules
@@ -403,12 +403,12 @@
 
 *12–18 Mar 2029*
 
-**Lane A — theory — [S303 Statistical Learning](../courses/S303.md)** · week 6 of 9
+**Lane A — theory — [S303 Statistical Learning](../courses/statistics/S303.md)** · week 6 of 9
 
 - [ ] Learn: Trees, bagging, random forests, boosting (ch. 8)
 - [ ] Apply: Gradient-boosted churn model, compared with baselines
 
-**Lane B — applied — [B301 Operations Research & Decision Analysis](../courses/B301.md)** · week 6 of 9
+**Lane B — applied — [B301 Operations Research & Decision Analysis](../courses/business_and_economics/B301.md)** · week 6 of 9
 
 - [ ] Learn: Queuing theory
 - [ ] Apply: M/M/c staffing model for a call center
@@ -419,12 +419,12 @@
 
 *19–25 Mar 2029*
 
-**Lane A — theory — [S303 Statistical Learning](../courses/S303.md)** · week 7 of 9
+**Lane A — theory — [S303 Statistical Learning](../courses/statistics/S303.md)** · week 7 of 9
 
 - [ ] Learn: SVMs (ch. 9) and unsupervised learning (ch. 12)
 - [ ] Apply: Customer clustering
 
-**Lane B — applied — [B301 Operations Research & Decision Analysis](../courses/B301.md)** · week 7 of 9
+**Lane B — applied — [B301 Operations Research & Decision Analysis](../courses/business_and_economics/B301.md)** · week 7 of 9
 
 - [ ] Learn: Discrete-event simulation
 - [ ] Apply: SimPy warehouse simulation
@@ -444,12 +444,12 @@
 
 *2–8 Apr 2029*
 
-**Lane A — theory — [S303 Statistical Learning](../courses/S303.md)** · week 8 of 9
+**Lane A — theory — [S303 Statistical Learning](../courses/statistics/S303.md)** · week 8 of 9
 
 - [ ] Learn: Evaluation for decisions: calibration, lift, cost curves
 - [ ] Apply: Expected-profit targeting curve
 
-**Lane B — applied — [B301 Operations Research & Decision Analysis](../courses/B301.md)** · week 8 of 9
+**Lane B — applied — [B301 Operations Research & Decision Analysis](../courses/business_and_economics/B301.md)** · week 8 of 9
 
 - [ ] Learn: Decision trees and value of information
 - [ ] Apply: Decision tree for an expansion choice
@@ -460,16 +460,16 @@
 
 *9–15 Apr 2029*
 
-**Lane A — theory — [S303 Statistical Learning](../courses/S303.md)** · week 9 of 9
+**Lane A — theory — [S303 Statistical Learning](../courses/statistics/S303.md)** · week 9 of 9
 
-- [ ] Exam (≥ 70%): ISLP exercises, 2-hour timed set
+- [ ] Exam (≥ 70%): ISLP exercises, 2-hour timed set — [ISLP book and resources](https://www.statlearning.com/)
 - [ ] Build: Churn model with honest validation (portfolio project)
 - [ ] Business memo: Retention budget: who to target and the expected ROI
 - [ ] Record the result in `progress/transcript.csv`
 
-**Lane B — applied — [B301 Operations Research & Decision Analysis](../courses/B301.md)** · week 9 of 9
+**Lane B — applied — [B301 Operations Research & Decision Analysis](../courses/business_and_economics/B301.md)** · week 9 of 9
 
-- [ ] Exam (≥ 70%): Hillier & Lieberman problems, 2-hour timed set
+- [ ] Exam (≥ 70%): Hillier & Lieberman problems, 2-hour timed set — [MIT 15.053 problem sets with solutions](https://ocw.mit.edu/courses/15-053-optimization-methods-in-management-science-spring-2013/)
 - [ ] Build: Scheduling or routing optimizer with a simple front end
 - [ ] Business memo: Warehouse or workforce optimization case
 - [ ] Record the result in `progress/transcript.csv`
@@ -480,12 +480,12 @@
 
 *16–22 Apr 2029*
 
-**Lane A — theory — [S304 Time Series & Forecasting](../courses/S304.md)** · week 1 of 9
+**Lane A — theory — [S304 Time Series & Forecasting](../courses/statistics/S304.md)** · week 1 of 9
 
 - [ ] Learn: Time series graphics and patterns (FPP3 ch. 2)
 - [ ] Apply: Plot a demand series and describe its trend and seasonality
 
-**Lane B — applied — [C302 Data Products & MLOps](../courses/C302.md)** · week 1 of 9
+**Lane B — applied — [C302 Data Products & MLOps](../courses/computer_science/C302.md)** · week 1 of 9
 
 - [ ] Learn: ML systems overview and requirements
 - [ ] Apply: Design doc for serving the S303 churn model
@@ -496,12 +496,12 @@
 
 *23–29 Apr 2029*
 
-**Lane A — theory — [S304 Time Series & Forecasting](../courses/S304.md)** · week 2 of 9
+**Lane A — theory — [S304 Time Series & Forecasting](../courses/statistics/S304.md)** · week 2 of 9
 
 - [ ] Learn: Decomposition and features (ch. 3-4)
 - [ ] Apply: STL decomposition of the series
 
-**Lane B — applied — [C302 Data Products & MLOps](../courses/C302.md)** · week 2 of 9
+**Lane B — applied — [C302 Data Products & MLOps](../courses/computer_science/C302.md)** · week 2 of 9
 
 - [ ] Learn: Data engineering for ML and feature stores
 - [ ] Apply: Feature pipeline with point-in-time correctness
@@ -512,12 +512,12 @@
 
 *30 Apr – 6 May 2029*
 
-**Lane A — theory — [S304 Time Series & Forecasting](../courses/S304.md)** · week 3 of 9
+**Lane A — theory — [S304 Time Series & Forecasting](../courses/statistics/S304.md)** · week 3 of 9
 
 - [ ] Learn: The forecaster's toolbox: benchmarks, accuracy, residuals (ch. 5)
 - [ ] Apply: Backtest naive and seasonal-naive benchmarks
 
-**Lane B — applied — [C302 Data Products & MLOps](../courses/C302.md)** · week 3 of 9
+**Lane B — applied — [C302 Data Products & MLOps](../courses/computer_science/C302.md)** · week 3 of 9
 
 - [ ] Learn: Training data, labeling and leakage
 - [ ] Apply: Leakage audit of the S303 model
@@ -528,12 +528,12 @@
 
 *7–13 May 2029*
 
-**Lane A — theory — [S304 Time Series & Forecasting](../courses/S304.md)** · week 4 of 9
+**Lane A — theory — [S304 Time Series & Forecasting](../courses/statistics/S304.md)** · week 4 of 9
 
 - [ ] Learn: Exponential smoothing (ch. 8)
 - [ ] Apply: ETS models with statsforecast
 
-**Lane B — applied — [C302 Data Products & MLOps](../courses/C302.md)** · week 4 of 9
+**Lane B — applied — [C302 Data Products & MLOps](../courses/computer_science/C302.md)** · week 4 of 9
 
 - [ ] Learn: Experiment tracking and model registry
 - [ ] Apply: Track runs and register the model with MLflow
@@ -544,12 +544,12 @@
 
 *14–20 May 2029*
 
-**Lane A — theory — [S304 Time Series & Forecasting](../courses/S304.md)** · week 5 of 9
+**Lane A — theory — [S304 Time Series & Forecasting](../courses/statistics/S304.md)** · week 5 of 9
 
 - [ ] Learn: Stationarity, differencing, ARIMA (ch. 9)
 - [ ] Apply: AutoARIMA vs ETS backtest
 
-**Lane B — applied — [C302 Data Products & MLOps](../courses/C302.md)** · week 5 of 9
+**Lane B — applied — [C302 Data Products & MLOps](../courses/computer_science/C302.md)** · week 5 of 9
 
 - [ ] Learn: Deployment: batch vs online serving
 - [ ] Apply: Serve predictions with FastAPI or a batch job
@@ -560,12 +560,12 @@
 
 *21–27 May 2029*
 
-**Lane A — theory — [S304 Time Series & Forecasting](../courses/S304.md)** · week 6 of 9
+**Lane A — theory — [S304 Time Series & Forecasting](../courses/statistics/S304.md)** · week 6 of 9
 
 - [ ] Learn: Dynamic regression with predictors (ch. 10)
 - [ ] Apply: Add promotions and Philippine holidays as regressors
 
-**Lane B — applied — [C302 Data Products & MLOps](../courses/C302.md)** · week 6 of 9
+**Lane B — applied — [C302 Data Products & MLOps](../courses/computer_science/C302.md)** · week 6 of 9
 
 - [ ] Learn: Monitoring and data drift
 - [ ] Apply: Drift monitor with alert thresholds
@@ -576,12 +576,12 @@
 
 *28 May – 3 Jun 2029*
 
-**Lane A — theory — [S304 Time Series & Forecasting](../courses/S304.md)** · week 7 of 9
+**Lane A — theory — [S304 Time Series & Forecasting](../courses/statistics/S304.md)** · week 7 of 9
 
 - [ ] Learn: Hierarchical forecasting (ch. 11)
 - [ ] Apply: Reconcile store and region forecasts
 
-**Lane B — applied — [C302 Data Products & MLOps](../courses/C302.md)** · week 7 of 9
+**Lane B — applied — [C302 Data Products & MLOps](../courses/computer_science/C302.md)** · week 7 of 9
 
 - [ ] Learn: CI/CD for ML and continual learning
 - [ ] Apply: Retraining workflow triggered by drift or schedule
@@ -592,12 +592,12 @@
 
 *4–10 Jun 2029*
 
-**Lane A — theory — [S304 Time Series & Forecasting](../courses/S304.md)** · week 8 of 9
+**Lane A — theory — [S304 Time Series & Forecasting](../courses/statistics/S304.md)** · week 8 of 9
 
 - [ ] Learn: Forecasting in production
 - [ ] Apply: Scheduled job that trains, backtests and writes forecasts to a Delta table
 
-**Lane B — applied — [C302 Data Products & MLOps](../courses/C302.md)** · week 8 of 9
+**Lane B — applied — [C302 Data Products & MLOps](../courses/computer_science/C302.md)** · week 8 of 9
 
 - [ ] Learn: Infrastructure cost and responsible ML
 - [ ] Apply: Total cost of ownership estimate
@@ -608,17 +608,17 @@
 
 *11–17 Jun 2029*
 
-**Lane A — theory — [S304 Time Series & Forecasting](../courses/S304.md)** · week 9 of 9
+**Lane A — theory — [S304 Time Series & Forecasting](../courses/statistics/S304.md)** · week 9 of 9
 
-- [ ] Exam (≥ 70%): FPP3 exercises, 2-hour timed set
+- [ ] Exam (≥ 70%): FPP3 exercises, 2-hour timed set — [Forecasting: Principles and Practice 3e (exercises per chapter)](https://otexts.com/fpp3/)
 - [ ] Build: Demand forecast pipeline on Databricks (portfolio project)
 - [ ] Business memo: Inventory and staffing plan from the forecast
 - [ ] Record the result in `progress/transcript.csv`
 - [ ] **Milestone:** Level 3 exit check: S302, S303 and S304 each have a repo, a write-up and a business memo.
 
-**Lane B — applied — [C302 Data Products & MLOps](../courses/C302.md)** · week 9 of 9
+**Lane B — applied — [C302 Data Products & MLOps](../courses/computer_science/C302.md)** · week 9 of 9
 
-- [ ] Exam (≥ 70%): Timed ML system design interview (60 minutes, recorded)
+- [ ] Exam (≥ 70%): Timed ML system design interview (60 minutes, recorded) — [MLOps Zoomcamp final project (self-paced)](https://github.com/DataTalksClub/mlops-zoomcamp) · [System design interview rubric](https://github.com/imjbmkz/bsban-acs/blob/main/templates/assessment-rubrics.md#system-design-interview)
 - [ ] Build: S303 churn model deployed with CI/CD, monitoring and retraining
 - [ ] Business memo: Total cost of ownership of an ML product
 - [ ] Record the result in `progress/transcript.csv`
@@ -629,12 +629,12 @@
 
 *18–24 Jun 2029*
 
-**Lane A — theory — [S402 Bayesian Statistics](../courses/S402.md)** · week 1 of 9
+**Lane A — theory — [S402 Bayesian Statistics](../courses/statistics/S402.md)** · week 1 of 9
 
 - [ ] Learn: Bayesian updating and grid approximation
 - [ ] Apply: Posterior for a conversion rate by grid
 
-**Lane B — applied — [B401 Analytics Ventures: Product, Pricing & Entrepreneurship](../courses/B401.md)** · week 1 of 9
+**Lane B — applied — [B401 Analytics Ventures: Product, Pricing & Entrepreneurship](../courses/business_and_economics/B401.md)** · week 1 of 9
 
 - [ ] Learn: Lean startup and customer discovery
 - [ ] Apply: Interview five potential clients about their analytics pain
@@ -656,12 +656,12 @@
 
 *2–8 Jul 2029*
 
-**Lane A — theory — [S402 Bayesian Statistics](../courses/S402.md)** · week 2 of 9
+**Lane A — theory — [S402 Bayesian Statistics](../courses/statistics/S402.md)** · week 2 of 9
 
 - [ ] Learn: Priors, posterior summaries, sampling from the posterior
 - [ ] Apply: Bayesian A/B test with expected loss
 
-**Lane B — applied — [B401 Analytics Ventures: Product, Pricing & Entrepreneurship](../courses/B401.md)** · week 2 of 9
+**Lane B — applied — [B401 Analytics Ventures: Product, Pricing & Entrepreneurship](../courses/business_and_economics/B401.md)** · week 2 of 9
 
 - [ ] Learn: Value proposition and service design
 - [ ] Apply: Value proposition canvas for your analytics offer
@@ -672,12 +672,12 @@
 
 *9–15 Jul 2029*
 
-**Lane A — theory — [S402 Bayesian Statistics](../courses/S402.md)** · week 3 of 9
+**Lane A — theory — [S402 Bayesian Statistics](../courses/statistics/S402.md)** · week 3 of 9
 
 - [ ] Learn: Linear models the Bayesian way
 - [ ] Apply: Bayesian regression in PyMC
 
-**Lane B — applied — [B401 Analytics Ventures: Product, Pricing & Entrepreneurship](../courses/B401.md)** · week 3 of 9
+**Lane B — applied — [B401 Analytics Ventures: Product, Pricing & Entrepreneurship](../courses/business_and_economics/B401.md)** · week 3 of 9
 
 - [ ] Learn: Business model canvas and unit economics
 - [ ] Apply: Unit economics per client engagement
@@ -688,12 +688,12 @@
 
 *16–22 Jul 2029*
 
-**Lane A — theory — [S402 Bayesian Statistics](../courses/S402.md)** · week 4 of 9
+**Lane A — theory — [S402 Bayesian Statistics](../courses/statistics/S402.md)** · week 4 of 9
 
 - [ ] Learn: Causal thinking and confounds in Bayesian models
 - [ ] Apply: DAG-guided model for a business question
 
-**Lane B — applied — [B401 Analytics Ventures: Product, Pricing & Entrepreneurship](../courses/B401.md)** · week 4 of 9
+**Lane B — applied — [B401 Analytics Ventures: Product, Pricing & Entrepreneurship](../courses/business_and_economics/B401.md)** · week 4 of 9
 
 - [ ] Learn: Pricing models: value-based, tiered, retainer
 - [ ] Apply: Three pricing options for the offer
@@ -704,12 +704,12 @@
 
 *23–29 Jul 2029*
 
-**Lane A — theory — [S402 Bayesian Statistics](../courses/S402.md)** · week 5 of 9
+**Lane A — theory — [S402 Bayesian Statistics](../courses/statistics/S402.md)** · week 5 of 9
 
 - [ ] Learn: MCMC: Metropolis, Hamiltonian Monte Carlo, diagnostics
 - [ ] Apply: Write a Metropolis sampler; check R-hat and ESS in ArviZ
 
-**Lane B — applied — [B401 Analytics Ventures: Product, Pricing & Entrepreneurship](../courses/B401.md)** · week 5 of 9
+**Lane B — applied — [B401 Analytics Ventures: Product, Pricing & Entrepreneurship](../courses/business_and_economics/B401.md)** · week 5 of 9
 
 - [ ] Learn: Willingness-to-pay research
 - [ ] Apply: Run a short WTP survey with prospects
@@ -720,12 +720,12 @@
 
 *30 Jul – 5 Aug 2029*
 
-**Lane A — theory — [S402 Bayesian Statistics](../courses/S402.md)** · week 6 of 9
+**Lane A — theory — [S402 Bayesian Statistics](../courses/statistics/S402.md)** · week 6 of 9
 
 - [ ] Learn: Generalized linear models: binomial and Poisson
 - [ ] Apply: Bayesian Poisson model of support tickets
 
-**Lane B — applied — [B401 Analytics Ventures: Product, Pricing & Entrepreneurship](../courses/B401.md)** · week 6 of 9
+**Lane B — applied — [B401 Analytics Ventures: Product, Pricing & Entrepreneurship](../courses/business_and_economics/B401.md)** · week 6 of 9
 
 - [ ] Learn: Go-to-market and selling professional services
 - [ ] Apply: Outreach plan and a one-page offer sheet
@@ -736,12 +736,12 @@
 
 *6–12 Aug 2029*
 
-**Lane A — theory — [S402 Bayesian Statistics](../courses/S402.md)** · week 7 of 9
+**Lane A — theory — [S402 Bayesian Statistics](../courses/statistics/S402.md)** · week 7 of 9
 
 - [ ] Learn: Hierarchical models and partial pooling
 - [ ] Apply: Store-level conversion with partial pooling
 
-**Lane B — applied — [B401 Analytics Ventures: Product, Pricing & Entrepreneurship](../courses/B401.md)** · week 7 of 9
+**Lane B — applied — [B401 Analytics Ventures: Product, Pricing & Entrepreneurship](../courses/business_and_economics/B401.md)** · week 7 of 9
 
 - [ ] Learn: Financial model and cash flow
 - [ ] Apply: Three-year financial model
@@ -752,12 +752,12 @@
 
 *13–19 Aug 2029*
 
-**Lane A — theory — [S402 Bayesian Statistics](../courses/S402.md)** · week 8 of 9
+**Lane A — theory — [S402 Bayesian Statistics](../courses/statistics/S402.md)** · week 8 of 9
 
 - [ ] Learn: Model comparison and decisions from posteriors
 - [ ] Apply: Decision rule that minimizes expected loss
 
-**Lane B — applied — [B401 Analytics Ventures: Product, Pricing & Entrepreneurship](../courses/B401.md)** · week 8 of 9
+**Lane B — applied — [B401 Analytics Ventures: Product, Pricing & Entrepreneurship](../courses/business_and_economics/B401.md)** · week 8 of 9
 
 - [ ] Learn: Pitching; legal and operations basics (registration, contracts, tax)
 - [ ] Apply: Ten-minute pitch deck
@@ -768,16 +768,16 @@
 
 *20–26 Aug 2029*
 
-**Lane A — theory — [S402 Bayesian Statistics](../courses/S402.md)** · week 9 of 9
+**Lane A — theory — [S402 Bayesian Statistics](../courses/statistics/S402.md)** · week 9 of 9
 
-- [ ] Exam (≥ 70%): Statistical Rethinking homework, 2-hour timed set
+- [ ] Exam (≥ 70%): Statistical Rethinking homework, 2-hour timed set — [Statistical Rethinking 2025 lectures and homework](https://github.com/rmcelreath/stat_rethinking_2025)
 - [ ] Build: Hierarchical model in PyMC with diagnostics and a decision rule
 - [ ] Business memo: Decisions under uncertainty with small data
 - [ ] Record the result in `progress/transcript.csv`
 
-**Lane B — applied — [B401 Analytics Ventures: Product, Pricing & Entrepreneurship](../courses/B401.md)** · week 9 of 9
+**Lane B — applied — [B401 Analytics Ventures: Product, Pricing & Entrepreneurship](../courses/business_and_economics/B401.md)** · week 9 of 9
 
-- [ ] Exam (≥ 70%): Pitch to a reviewer who scores it against a rubric (timed, 15 minutes)
+- [ ] Exam (≥ 70%): Pitch to a reviewer who scores it against a rubric (timed, 15 minutes) — [Pitch rubric](https://github.com/imjbmkz/bsban-acs/blob/main/templates/assessment-rubrics.md#pitch)
 - [ ] Build: Business plan and pricing model for an analytics consulting service
 - [ ] Business memo: Your own consulting offer, priced
 - [ ] Record the result in `progress/transcript.csv`
@@ -788,14 +788,14 @@
 
 *27 Aug – 2 Sep 2029*
 
-**Lane A — theory — [S401 Causal Inference & Experimental Design](../courses/S401.md)** · week 1 of 9
+**Lane A — theory — [S401 Causal Inference & Experimental Design](../courses/statistics/S401.md)** · week 1 of 9
 
 - [ ] Learn: Potential outcomes and selection bias
 - [ ] Apply: Simulate selection bias in a promotion's measured effect
 
-**Lane B — applied — [E1 Track elective 1: A1 Real Analysis I / B1 Advanced Algorithm Design / C1 Managerial Economics & Pricing](../courses/E1.md)** · week 1 of 9
+**Lane B — applied — [E1 Track elective 1: A1 Real Analysis I / B1 Advanced Algorithm Design / C1 Managerial Economics & Pricing](../courses/track_electives/E1.md)** · week 1 of 9
 
-- [ ] Learn and apply: week 1 of your elective ([A1](../courses/A1.md) · [B1](../courses/B1.md) · [C1](../courses/C1.md))
+- [ ] Learn and apply: week 1 of your elective ([A1](../courses/mathematics/A1.md) · [B1](../courses/computer_science/B1.md) · [C1](../courses/business_and_economics/C1.md))
 
 - [ ] Weekly log: `work/log/2029-W35.md`
 
@@ -803,14 +803,14 @@
 
 *3–9 Sep 2029*
 
-**Lane A — theory — [S401 Causal Inference & Experimental Design](../courses/S401.md)** · week 2 of 9
+**Lane A — theory — [S401 Causal Inference & Experimental Design](../courses/statistics/S401.md)** · week 2 of 9
 
 - [ ] Learn: DAGs, confounding, the backdoor criterion
 - [ ] Apply: Draw and defend a DAG for a real question at work
 
-**Lane B — applied — [E1 Track elective 1: A1 Real Analysis I / B1 Advanced Algorithm Design / C1 Managerial Economics & Pricing](../courses/E1.md)** · week 2 of 9
+**Lane B — applied — [E1 Track elective 1: A1 Real Analysis I / B1 Advanced Algorithm Design / C1 Managerial Economics & Pricing](../courses/track_electives/E1.md)** · week 2 of 9
 
-- [ ] Learn and apply: week 2 of your elective ([A1](../courses/A1.md) · [B1](../courses/B1.md) · [C1](../courses/C1.md))
+- [ ] Learn and apply: week 2 of your elective ([A1](../courses/mathematics/A1.md) · [B1](../courses/computer_science/B1.md) · [C1](../courses/business_and_economics/C1.md))
 
 - [ ] Weekly log: `work/log/2029-W36.md`
 
@@ -818,14 +818,14 @@
 
 *10–16 Sep 2029*
 
-**Lane A — theory — [S401 Causal Inference & Experimental Design](../courses/S401.md)** · week 3 of 9
+**Lane A — theory — [S401 Causal Inference & Experimental Design](../courses/statistics/S401.md)** · week 3 of 9
 
 - [ ] Learn: Randomized experiments revisited; variance reduction
 - [ ] Apply: CUPED on a past A/B test dataset
 
-**Lane B — applied — [E1 Track elective 1: A1 Real Analysis I / B1 Advanced Algorithm Design / C1 Managerial Economics & Pricing](../courses/E1.md)** · week 3 of 9
+**Lane B — applied — [E1 Track elective 1: A1 Real Analysis I / B1 Advanced Algorithm Design / C1 Managerial Economics & Pricing](../courses/track_electives/E1.md)** · week 3 of 9
 
-- [ ] Learn and apply: week 3 of your elective ([A1](../courses/A1.md) · [B1](../courses/B1.md) · [C1](../courses/C1.md))
+- [ ] Learn and apply: week 3 of your elective ([A1](../courses/mathematics/A1.md) · [B1](../courses/computer_science/B1.md) · [C1](../courses/business_and_economics/C1.md))
 
 - [ ] Weekly log: `work/log/2029-W37.md`
 
@@ -833,14 +833,14 @@
 
 *17–23 Sep 2029*
 
-**Lane A — theory — [S401 Causal Inference & Experimental Design](../courses/S401.md)** · week 4 of 9
+**Lane A — theory — [S401 Causal Inference & Experimental Design](../courses/statistics/S401.md)** · week 4 of 9
 
 - [ ] Learn: Matching and propensity scores
 - [ ] Apply: Estimate a loyalty program's effect
 
-**Lane B — applied — [E1 Track elective 1: A1 Real Analysis I / B1 Advanced Algorithm Design / C1 Managerial Economics & Pricing](../courses/E1.md)** · week 4 of 9
+**Lane B — applied — [E1 Track elective 1: A1 Real Analysis I / B1 Advanced Algorithm Design / C1 Managerial Economics & Pricing](../courses/track_electives/E1.md)** · week 4 of 9
 
-- [ ] Learn and apply: week 4 of your elective ([A1](../courses/A1.md) · [B1](../courses/B1.md) · [C1](../courses/C1.md))
+- [ ] Learn and apply: week 4 of your elective ([A1](../courses/mathematics/A1.md) · [B1](../courses/computer_science/B1.md) · [C1](../courses/business_and_economics/C1.md))
 
 - [ ] Weekly log: `work/log/2029-W38.md`
 
@@ -859,13 +859,13 @@
 
 *1–7 Oct 2029*
 
-**Lane A — theory — [S401 Causal Inference & Experimental Design](../courses/S401.md)** · week 5 of 9
+**Lane A — theory — [S401 Causal Inference & Experimental Design](../courses/statistics/S401.md)** · week 5 of 9
 
 - [ ] Learn: Regression discontinuity
 - [ ] Apply: RDD on a threshold-based discount
 
-**Lane B — applied — [E1 Track elective 1: A1 Real Analysis I / B1 Advanced Algorithm Design / C1 Managerial Economics & Pricing](../courses/E1.md)** · week 5 of 9
+**Lane B — applied — [E1 Track elective 1: A1 Real Analysis I / B1 Advanced Algorithm Design / C1 Managerial Economics & Pricing](../courses/track_electives/E1.md)** · week 5 of 9
 
-- [ ] Learn and apply: week 5 of your elective ([A1](../courses/A1.md) · [B1](../courses/B1.md) · [C1](../courses/C1.md))
+- [ ] Learn and apply: week 5 of your elective ([A1](../courses/mathematics/A1.md) · [B1](../courses/computer_science/B1.md) · [C1](../courses/business_and_economics/C1.md))
 
 - [ ] Weekly log: `work/log/2029-W40.md`

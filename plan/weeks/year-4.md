@@ -51,14 +51,14 @@
 
 *8–14 Oct 2029*
 
-**Lane A — theory — [S401 Causal Inference & Experimental Design](../courses/S401.md)** · week 6 of 9
+**Lane A — theory — [S401 Causal Inference & Experimental Design](../courses/statistics/S401.md)** · week 6 of 9
 
 - [ ] Learn: Instrumental variables
 - [ ] Apply: IV estimate on a published replication dataset
 
-**Lane B — applied — [E1 Track elective 1: A1 Real Analysis I / B1 Advanced Algorithm Design / C1 Managerial Economics & Pricing](../courses/E1.md)** · week 6 of 9
+**Lane B — applied — [E1 Track elective 1: A1 Real Analysis I / B1 Advanced Algorithm Design / C1 Managerial Economics & Pricing](../courses/track_electives/E1.md)** · week 6 of 9
 
-- [ ] Learn and apply: week 6 of your elective ([A1](../courses/A1.md) · [B1](../courses/B1.md) · [C1](../courses/C1.md))
+- [ ] Learn and apply: week 6 of your elective ([A1](../courses/mathematics/A1.md) · [B1](../courses/computer_science/B1.md) · [C1](../courses/business_and_economics/C1.md))
 
 - [ ] Weekly log: `work/log/2029-W41.md`
 
@@ -66,14 +66,14 @@
 
 *15–21 Oct 2029*
 
-**Lane A — theory — [S401 Causal Inference & Experimental Design](../courses/S401.md)** · week 7 of 9
+**Lane A — theory — [S401 Causal Inference & Experimental Design](../courses/statistics/S401.md)** · week 7 of 9
 
 - [ ] Learn: Difference-in-differences and event studies
 - [ ] Apply: DiD on a pricing change rolled out in one region
 
-**Lane B — applied — [E1 Track elective 1: A1 Real Analysis I / B1 Advanced Algorithm Design / C1 Managerial Economics & Pricing](../courses/E1.md)** · week 7 of 9
+**Lane B — applied — [E1 Track elective 1: A1 Real Analysis I / B1 Advanced Algorithm Design / C1 Managerial Economics & Pricing](../courses/track_electives/E1.md)** · week 7 of 9
 
-- [ ] Learn and apply: week 7 of your elective ([A1](../courses/A1.md) · [B1](../courses/B1.md) · [C1](../courses/C1.md))
+- [ ] Learn and apply: week 7 of your elective ([A1](../courses/mathematics/A1.md) · [B1](../courses/computer_science/B1.md) · [C1](../courses/business_and_economics/C1.md))
 
 - [ ] Weekly log: `work/log/2029-W42.md`
 
@@ -81,14 +81,14 @@
 
 *22–28 Oct 2029*
 
-**Lane A — theory — [S401 Causal Inference & Experimental Design](../courses/S401.md)** · week 8 of 9
+**Lane A — theory — [S401 Causal Inference & Experimental Design](../courses/statistics/S401.md)** · week 8 of 9
 
 - [ ] Learn: Synthetic control
 - [ ] Apply: Synthetic control for a single store or market launch
 
-**Lane B — applied — [E1 Track elective 1: A1 Real Analysis I / B1 Advanced Algorithm Design / C1 Managerial Economics & Pricing](../courses/E1.md)** · week 8 of 9
+**Lane B — applied — [E1 Track elective 1: A1 Real Analysis I / B1 Advanced Algorithm Design / C1 Managerial Economics & Pricing](../courses/track_electives/E1.md)** · week 8 of 9
 
-- [ ] Learn and apply: week 8 of your elective ([A1](../courses/A1.md) · [B1](../courses/B1.md) · [C1](../courses/C1.md))
+- [ ] Learn and apply: week 8 of your elective ([A1](../courses/mathematics/A1.md) · [B1](../courses/computer_science/B1.md) · [C1](../courses/business_and_economics/C1.md))
 
 - [ ] Weekly log: `work/log/2029-W43.md`
 
@@ -96,14 +96,14 @@
 
 *29 Oct – 4 Nov 2029*
 
-**Lane A — theory — [S401 Causal Inference & Experimental Design](../courses/S401.md)** · week 9 of 9
+**Lane A — theory — [S401 Causal Inference & Experimental Design](../courses/statistics/S401.md)** · week 9 of 9
 
-- [ ] Exam (≥ 70%): Mixtape and The Effect exercises, 2-hour timed set
+- [ ] Exam (≥ 70%): Mixtape and The Effect exercises, 2-hour timed set — [Causal Inference: The Mixtape](https://mixtape.scunning.com/) · [The Effect (exercises per chapter)](https://theeffectbook.net/)
 - [ ] Build: Causal re-analysis of a real policy or pricing change
 - [ ] Business memo: Did our initiative actually work?
 - [ ] Record the result in `progress/transcript.csv`
 
-**Lane B — applied — [E1 Track elective 1: A1 Real Analysis I / B1 Advanced Algorithm Design / C1 Managerial Economics & Pricing](../courses/E1.md)** · week 9 of 9
+**Lane B — applied — [E1 Track elective 1: A1 Real Analysis I / B1 Advanced Algorithm Design / C1 Managerial Economics & Pricing](../courses/track_electives/E1.md)** · week 9 of 9
 
 - [ ] Exam (≥ 70%): See the chosen elective's page
 - [ ] Build: See the chosen elective's page
@@ -116,13 +116,13 @@
 
 *5–11 Nov 2029*
 
-**Lane A — theory — [E2 Track elective 2: A2 Stochastic Processes / B2 Computational Statistics / C2 Valuation & Financial Modeling](../courses/E2.md)** · week 1 of 9
+**Lane A — theory — [E2 Track elective 2: A2 Stochastic Processes / B2 Computational Statistics / C2 Valuation & Financial Modeling](../courses/track_electives/E2.md)** · week 1 of 9
 
-- [ ] Learn and apply: week 1 of your elective ([A2](../courses/A2.md) · [B2](../courses/B2.md) · [C2](../courses/C2.md))
+- [ ] Learn and apply: week 1 of your elective ([A2](../courses/statistics/A2.md) · [B2](../courses/statistics/B2.md) · [C2](../courses/business_and_economics/C2.md))
 
-**Lane B — applied — [E3 Track elective 3: A3 Econometrics / B3 Machine Learning Engineering at Scale / C3 Operations & Supply Chain Management](../courses/E3.md)** · week 1 of 9
+**Lane B — applied — [E3 Track elective 3: A3 Econometrics / B3 Machine Learning Engineering at Scale / C3 Operations & Supply Chain Management](../courses/track_electives/E3.md)** · week 1 of 9
 
-- [ ] Learn and apply: week 1 of your elective ([A3](../courses/A3.md) · [B3](../courses/B3.md) · [C3](../courses/C3.md))
+- [ ] Learn and apply: week 1 of your elective ([A3](../courses/business_and_economics/A3.md) · [B3](../courses/computer_science/B3.md) · [C3](../courses/business_and_economics/C3.md))
 
 - [ ] Weekly log: `work/log/2029-W45.md`
 
@@ -130,13 +130,13 @@
 
 *12–18 Nov 2029*
 
-**Lane A — theory — [E2 Track elective 2: A2 Stochastic Processes / B2 Computational Statistics / C2 Valuation & Financial Modeling](../courses/E2.md)** · week 2 of 9
+**Lane A — theory — [E2 Track elective 2: A2 Stochastic Processes / B2 Computational Statistics / C2 Valuation & Financial Modeling](../courses/track_electives/E2.md)** · week 2 of 9
 
-- [ ] Learn and apply: week 2 of your elective ([A2](../courses/A2.md) · [B2](../courses/B2.md) · [C2](../courses/C2.md))
+- [ ] Learn and apply: week 2 of your elective ([A2](../courses/statistics/A2.md) · [B2](../courses/statistics/B2.md) · [C2](../courses/business_and_economics/C2.md))
 
-**Lane B — applied — [E3 Track elective 3: A3 Econometrics / B3 Machine Learning Engineering at Scale / C3 Operations & Supply Chain Management](../courses/E3.md)** · week 2 of 9
+**Lane B — applied — [E3 Track elective 3: A3 Econometrics / B3 Machine Learning Engineering at Scale / C3 Operations & Supply Chain Management](../courses/track_electives/E3.md)** · week 2 of 9
 
-- [ ] Learn and apply: week 2 of your elective ([A3](../courses/A3.md) · [B3](../courses/B3.md) · [C3](../courses/C3.md))
+- [ ] Learn and apply: week 2 of your elective ([A3](../courses/business_and_economics/A3.md) · [B3](../courses/computer_science/B3.md) · [C3](../courses/business_and_economics/C3.md))
 
 - [ ] Weekly log: `work/log/2029-W46.md`
 
@@ -144,13 +144,13 @@
 
 *19–25 Nov 2029*
 
-**Lane A — theory — [E2 Track elective 2: A2 Stochastic Processes / B2 Computational Statistics / C2 Valuation & Financial Modeling](../courses/E2.md)** · week 3 of 9
+**Lane A — theory — [E2 Track elective 2: A2 Stochastic Processes / B2 Computational Statistics / C2 Valuation & Financial Modeling](../courses/track_electives/E2.md)** · week 3 of 9
 
-- [ ] Learn and apply: week 3 of your elective ([A2](../courses/A2.md) · [B2](../courses/B2.md) · [C2](../courses/C2.md))
+- [ ] Learn and apply: week 3 of your elective ([A2](../courses/statistics/A2.md) · [B2](../courses/statistics/B2.md) · [C2](../courses/business_and_economics/C2.md))
 
-**Lane B — applied — [E3 Track elective 3: A3 Econometrics / B3 Machine Learning Engineering at Scale / C3 Operations & Supply Chain Management](../courses/E3.md)** · week 3 of 9
+**Lane B — applied — [E3 Track elective 3: A3 Econometrics / B3 Machine Learning Engineering at Scale / C3 Operations & Supply Chain Management](../courses/track_electives/E3.md)** · week 3 of 9
 
-- [ ] Learn and apply: week 3 of your elective ([A3](../courses/A3.md) · [B3](../courses/B3.md) · [C3](../courses/C3.md))
+- [ ] Learn and apply: week 3 of your elective ([A3](../courses/business_and_economics/A3.md) · [B3](../courses/computer_science/B3.md) · [C3](../courses/business_and_economics/C3.md))
 
 - [ ] Weekly log: `work/log/2029-W47.md`
 
@@ -158,13 +158,13 @@
 
 *26 Nov – 2 Dec 2029*
 
-**Lane A — theory — [E2 Track elective 2: A2 Stochastic Processes / B2 Computational Statistics / C2 Valuation & Financial Modeling](../courses/E2.md)** · week 4 of 9
+**Lane A — theory — [E2 Track elective 2: A2 Stochastic Processes / B2 Computational Statistics / C2 Valuation & Financial Modeling](../courses/track_electives/E2.md)** · week 4 of 9
 
-- [ ] Learn and apply: week 4 of your elective ([A2](../courses/A2.md) · [B2](../courses/B2.md) · [C2](../courses/C2.md))
+- [ ] Learn and apply: week 4 of your elective ([A2](../courses/statistics/A2.md) · [B2](../courses/statistics/B2.md) · [C2](../courses/business_and_economics/C2.md))
 
-**Lane B — applied — [E3 Track elective 3: A3 Econometrics / B3 Machine Learning Engineering at Scale / C3 Operations & Supply Chain Management](../courses/E3.md)** · week 4 of 9
+**Lane B — applied — [E3 Track elective 3: A3 Econometrics / B3 Machine Learning Engineering at Scale / C3 Operations & Supply Chain Management](../courses/track_electives/E3.md)** · week 4 of 9
 
-- [ ] Learn and apply: week 4 of your elective ([A3](../courses/A3.md) · [B3](../courses/B3.md) · [C3](../courses/C3.md))
+- [ ] Learn and apply: week 4 of your elective ([A3](../courses/business_and_economics/A3.md) · [B3](../courses/computer_science/B3.md) · [C3](../courses/business_and_economics/C3.md))
 
 - [ ] Weekly log: `work/log/2029-W48.md`
 
@@ -172,13 +172,13 @@
 
 *3–9 Dec 2029*
 
-**Lane A — theory — [E2 Track elective 2: A2 Stochastic Processes / B2 Computational Statistics / C2 Valuation & Financial Modeling](../courses/E2.md)** · week 5 of 9
+**Lane A — theory — [E2 Track elective 2: A2 Stochastic Processes / B2 Computational Statistics / C2 Valuation & Financial Modeling](../courses/track_electives/E2.md)** · week 5 of 9
 
-- [ ] Learn and apply: week 5 of your elective ([A2](../courses/A2.md) · [B2](../courses/B2.md) · [C2](../courses/C2.md))
+- [ ] Learn and apply: week 5 of your elective ([A2](../courses/statistics/A2.md) · [B2](../courses/statistics/B2.md) · [C2](../courses/business_and_economics/C2.md))
 
-**Lane B — applied — [E3 Track elective 3: A3 Econometrics / B3 Machine Learning Engineering at Scale / C3 Operations & Supply Chain Management](../courses/E3.md)** · week 5 of 9
+**Lane B — applied — [E3 Track elective 3: A3 Econometrics / B3 Machine Learning Engineering at Scale / C3 Operations & Supply Chain Management](../courses/track_electives/E3.md)** · week 5 of 9
 
-- [ ] Learn and apply: week 5 of your elective ([A3](../courses/A3.md) · [B3](../courses/B3.md) · [C3](../courses/C3.md))
+- [ ] Learn and apply: week 5 of your elective ([A3](../courses/business_and_economics/A3.md) · [B3](../courses/computer_science/B3.md) · [C3](../courses/business_and_economics/C3.md))
 
 - [ ] Weekly log: `work/log/2029-W49.md`
 
@@ -186,13 +186,13 @@
 
 *10–16 Dec 2029*
 
-**Lane A — theory — [E2 Track elective 2: A2 Stochastic Processes / B2 Computational Statistics / C2 Valuation & Financial Modeling](../courses/E2.md)** · week 6 of 9
+**Lane A — theory — [E2 Track elective 2: A2 Stochastic Processes / B2 Computational Statistics / C2 Valuation & Financial Modeling](../courses/track_electives/E2.md)** · week 6 of 9
 
-- [ ] Learn and apply: week 6 of your elective ([A2](../courses/A2.md) · [B2](../courses/B2.md) · [C2](../courses/C2.md))
+- [ ] Learn and apply: week 6 of your elective ([A2](../courses/statistics/A2.md) · [B2](../courses/statistics/B2.md) · [C2](../courses/business_and_economics/C2.md))
 
-**Lane B — applied — [E3 Track elective 3: A3 Econometrics / B3 Machine Learning Engineering at Scale / C3 Operations & Supply Chain Management](../courses/E3.md)** · week 6 of 9
+**Lane B — applied — [E3 Track elective 3: A3 Econometrics / B3 Machine Learning Engineering at Scale / C3 Operations & Supply Chain Management](../courses/track_electives/E3.md)** · week 6 of 9
 
-- [ ] Learn and apply: week 6 of your elective ([A3](../courses/A3.md) · [B3](../courses/B3.md) · [C3](../courses/C3.md))
+- [ ] Learn and apply: week 6 of your elective ([A3](../courses/business_and_economics/A3.md) · [B3](../courses/computer_science/B3.md) · [C3](../courses/business_and_economics/C3.md))
 
 - [ ] Weekly log: `work/log/2029-W50.md`
 
@@ -200,13 +200,13 @@
 
 *17–23 Dec 2029*
 
-**Lane A — theory — [E2 Track elective 2: A2 Stochastic Processes / B2 Computational Statistics / C2 Valuation & Financial Modeling](../courses/E2.md)** · week 7 of 9
+**Lane A — theory — [E2 Track elective 2: A2 Stochastic Processes / B2 Computational Statistics / C2 Valuation & Financial Modeling](../courses/track_electives/E2.md)** · week 7 of 9
 
-- [ ] Learn and apply: week 7 of your elective ([A2](../courses/A2.md) · [B2](../courses/B2.md) · [C2](../courses/C2.md))
+- [ ] Learn and apply: week 7 of your elective ([A2](../courses/statistics/A2.md) · [B2](../courses/statistics/B2.md) · [C2](../courses/business_and_economics/C2.md))
 
-**Lane B — applied — [E3 Track elective 3: A3 Econometrics / B3 Machine Learning Engineering at Scale / C3 Operations & Supply Chain Management](../courses/E3.md)** · week 7 of 9
+**Lane B — applied — [E3 Track elective 3: A3 Econometrics / B3 Machine Learning Engineering at Scale / C3 Operations & Supply Chain Management](../courses/track_electives/E3.md)** · week 7 of 9
 
-- [ ] Learn and apply: week 7 of your elective ([A3](../courses/A3.md) · [B3](../courses/B3.md) · [C3](../courses/C3.md))
+- [ ] Learn and apply: week 7 of your elective ([A3](../courses/business_and_economics/A3.md) · [B3](../courses/computer_science/B3.md) · [C3](../courses/business_and_economics/C3.md))
 
 - [ ] Weekly log: `work/log/2029-W51.md`
 
@@ -232,13 +232,13 @@
 
 *7–13 Jan 2030*
 
-**Lane A — theory — [E2 Track elective 2: A2 Stochastic Processes / B2 Computational Statistics / C2 Valuation & Financial Modeling](../courses/E2.md)** · week 8 of 9
+**Lane A — theory — [E2 Track elective 2: A2 Stochastic Processes / B2 Computational Statistics / C2 Valuation & Financial Modeling](../courses/track_electives/E2.md)** · week 8 of 9
 
-- [ ] Learn and apply: week 8 of your elective ([A2](../courses/A2.md) · [B2](../courses/B2.md) · [C2](../courses/C2.md))
+- [ ] Learn and apply: week 8 of your elective ([A2](../courses/statistics/A2.md) · [B2](../courses/statistics/B2.md) · [C2](../courses/business_and_economics/C2.md))
 
-**Lane B — applied — [E3 Track elective 3: A3 Econometrics / B3 Machine Learning Engineering at Scale / C3 Operations & Supply Chain Management](../courses/E3.md)** · week 8 of 9
+**Lane B — applied — [E3 Track elective 3: A3 Econometrics / B3 Machine Learning Engineering at Scale / C3 Operations & Supply Chain Management](../courses/track_electives/E3.md)** · week 8 of 9
 
-- [ ] Learn and apply: week 8 of your elective ([A3](../courses/A3.md) · [B3](../courses/B3.md) · [C3](../courses/C3.md))
+- [ ] Learn and apply: week 8 of your elective ([A3](../courses/business_and_economics/A3.md) · [B3](../courses/computer_science/B3.md) · [C3](../courses/business_and_economics/C3.md))
 
 - [ ] Weekly log: `work/log/2030-W02.md`
 
@@ -246,14 +246,14 @@
 
 *14–20 Jan 2030*
 
-**Lane A — theory — [E2 Track elective 2: A2 Stochastic Processes / B2 Computational Statistics / C2 Valuation & Financial Modeling](../courses/E2.md)** · week 9 of 9
+**Lane A — theory — [E2 Track elective 2: A2 Stochastic Processes / B2 Computational Statistics / C2 Valuation & Financial Modeling](../courses/track_electives/E2.md)** · week 9 of 9
 
 - [ ] Exam (≥ 70%): See the chosen elective's page
 - [ ] Build: See the chosen elective's page
 - [ ] Business memo: See the chosen elective's page
 - [ ] Record the result in `progress/transcript.csv`
 
-**Lane B — applied — [E3 Track elective 3: A3 Econometrics / B3 Machine Learning Engineering at Scale / C3 Operations & Supply Chain Management](../courses/E3.md)** · week 9 of 9
+**Lane B — applied — [E3 Track elective 3: A3 Econometrics / B3 Machine Learning Engineering at Scale / C3 Operations & Supply Chain Management](../courses/track_electives/E3.md)** · week 9 of 9
 
 - [ ] Exam (≥ 70%): See the chosen elective's page
 - [ ] Build: See the chosen elective's page
@@ -266,13 +266,13 @@
 
 *21–27 Jan 2030*
 
-**Lane A — theory — [E4 Track elective 4: A4 Financial Econometrics & Risk / B4 Distributed Systems Design / C4 Leadership & Organizational Behavior](../courses/E4.md)** · week 1 of 9
+**Lane A — theory — [E4 Track elective 4: A4 Financial Econometrics & Risk / B4 Distributed Systems Design / C4 Leadership & Organizational Behavior](../courses/track_electives/E4.md)** · week 1 of 9
 
-- [ ] Learn and apply: week 1 of your elective ([A4](../courses/A4.md) · [B4](../courses/B4.md) · [C4](../courses/C4.md))
+- [ ] Learn and apply: week 1 of your elective ([A4](../courses/statistics/A4.md) · [B4](../courses/computer_science/B4.md) · [C4](../courses/business_and_economics/C4.md))
 
-**Lane B — applied — [E5 Track elective 5: A5 Quality Engineering, SPC & DOE / B5 Data Privacy, Security & Governance / C5 Corporate Strategy & Negotiation](../courses/E5.md)** · week 1 of 9
+**Lane B — applied — [E5 Track elective 5: A5 Quality Engineering, SPC & DOE / B5 Data Privacy, Security & Governance / C5 Corporate Strategy & Negotiation](../courses/track_electives/E5.md)** · week 1 of 9
 
-- [ ] Learn and apply: week 1 of your elective ([A5](../courses/A5.md) · [B5](../courses/B5.md) · [C5](../courses/C5.md))
+- [ ] Learn and apply: week 1 of your elective ([A5](../courses/statistics/A5.md) · [B5](../courses/computer_science/B5.md) · [C5](../courses/business_and_economics/C5.md))
 
 - [ ] Weekly log: `work/log/2030-W04.md`
 
@@ -280,13 +280,13 @@
 
 *28 Jan – 3 Feb 2030*
 
-**Lane A — theory — [E4 Track elective 4: A4 Financial Econometrics & Risk / B4 Distributed Systems Design / C4 Leadership & Organizational Behavior](../courses/E4.md)** · week 2 of 9
+**Lane A — theory — [E4 Track elective 4: A4 Financial Econometrics & Risk / B4 Distributed Systems Design / C4 Leadership & Organizational Behavior](../courses/track_electives/E4.md)** · week 2 of 9
 
-- [ ] Learn and apply: week 2 of your elective ([A4](../courses/A4.md) · [B4](../courses/B4.md) · [C4](../courses/C4.md))
+- [ ] Learn and apply: week 2 of your elective ([A4](../courses/statistics/A4.md) · [B4](../courses/computer_science/B4.md) · [C4](../courses/business_and_economics/C4.md))
 
-**Lane B — applied — [E5 Track elective 5: A5 Quality Engineering, SPC & DOE / B5 Data Privacy, Security & Governance / C5 Corporate Strategy & Negotiation](../courses/E5.md)** · week 2 of 9
+**Lane B — applied — [E5 Track elective 5: A5 Quality Engineering, SPC & DOE / B5 Data Privacy, Security & Governance / C5 Corporate Strategy & Negotiation](../courses/track_electives/E5.md)** · week 2 of 9
 
-- [ ] Learn and apply: week 2 of your elective ([A5](../courses/A5.md) · [B5](../courses/B5.md) · [C5](../courses/C5.md))
+- [ ] Learn and apply: week 2 of your elective ([A5](../courses/statistics/A5.md) · [B5](../courses/computer_science/B5.md) · [C5](../courses/business_and_economics/C5.md))
 
 - [ ] Weekly log: `work/log/2030-W05.md`
 
@@ -294,13 +294,13 @@
 
 *4–10 Feb 2030*
 
-**Lane A — theory — [E4 Track elective 4: A4 Financial Econometrics & Risk / B4 Distributed Systems Design / C4 Leadership & Organizational Behavior](../courses/E4.md)** · week 3 of 9
+**Lane A — theory — [E4 Track elective 4: A4 Financial Econometrics & Risk / B4 Distributed Systems Design / C4 Leadership & Organizational Behavior](../courses/track_electives/E4.md)** · week 3 of 9
 
-- [ ] Learn and apply: week 3 of your elective ([A4](../courses/A4.md) · [B4](../courses/B4.md) · [C4](../courses/C4.md))
+- [ ] Learn and apply: week 3 of your elective ([A4](../courses/statistics/A4.md) · [B4](../courses/computer_science/B4.md) · [C4](../courses/business_and_economics/C4.md))
 
-**Lane B — applied — [E5 Track elective 5: A5 Quality Engineering, SPC & DOE / B5 Data Privacy, Security & Governance / C5 Corporate Strategy & Negotiation](../courses/E5.md)** · week 3 of 9
+**Lane B — applied — [E5 Track elective 5: A5 Quality Engineering, SPC & DOE / B5 Data Privacy, Security & Governance / C5 Corporate Strategy & Negotiation](../courses/track_electives/E5.md)** · week 3 of 9
 
-- [ ] Learn and apply: week 3 of your elective ([A5](../courses/A5.md) · [B5](../courses/B5.md) · [C5](../courses/C5.md))
+- [ ] Learn and apply: week 3 of your elective ([A5](../courses/statistics/A5.md) · [B5](../courses/computer_science/B5.md) · [C5](../courses/business_and_economics/C5.md))
 
 - [ ] Weekly log: `work/log/2030-W06.md`
 
@@ -308,13 +308,13 @@
 
 *11–17 Feb 2030*
 
-**Lane A — theory — [E4 Track elective 4: A4 Financial Econometrics & Risk / B4 Distributed Systems Design / C4 Leadership & Organizational Behavior](../courses/E4.md)** · week 4 of 9
+**Lane A — theory — [E4 Track elective 4: A4 Financial Econometrics & Risk / B4 Distributed Systems Design / C4 Leadership & Organizational Behavior](../courses/track_electives/E4.md)** · week 4 of 9
 
-- [ ] Learn and apply: week 4 of your elective ([A4](../courses/A4.md) · [B4](../courses/B4.md) · [C4](../courses/C4.md))
+- [ ] Learn and apply: week 4 of your elective ([A4](../courses/statistics/A4.md) · [B4](../courses/computer_science/B4.md) · [C4](../courses/business_and_economics/C4.md))
 
-**Lane B — applied — [E5 Track elective 5: A5 Quality Engineering, SPC & DOE / B5 Data Privacy, Security & Governance / C5 Corporate Strategy & Negotiation](../courses/E5.md)** · week 4 of 9
+**Lane B — applied — [E5 Track elective 5: A5 Quality Engineering, SPC & DOE / B5 Data Privacy, Security & Governance / C5 Corporate Strategy & Negotiation](../courses/track_electives/E5.md)** · week 4 of 9
 
-- [ ] Learn and apply: week 4 of your elective ([A5](../courses/A5.md) · [B5](../courses/B5.md) · [C5](../courses/C5.md))
+- [ ] Learn and apply: week 4 of your elective ([A5](../courses/statistics/A5.md) · [B5](../courses/computer_science/B5.md) · [C5](../courses/business_and_economics/C5.md))
 
 - [ ] Weekly log: `work/log/2030-W07.md`
 
@@ -322,13 +322,13 @@
 
 *18–24 Feb 2030*
 
-**Lane A — theory — [E4 Track elective 4: A4 Financial Econometrics & Risk / B4 Distributed Systems Design / C4 Leadership & Organizational Behavior](../courses/E4.md)** · week 5 of 9
+**Lane A — theory — [E4 Track elective 4: A4 Financial Econometrics & Risk / B4 Distributed Systems Design / C4 Leadership & Organizational Behavior](../courses/track_electives/E4.md)** · week 5 of 9
 
-- [ ] Learn and apply: week 5 of your elective ([A4](../courses/A4.md) · [B4](../courses/B4.md) · [C4](../courses/C4.md))
+- [ ] Learn and apply: week 5 of your elective ([A4](../courses/statistics/A4.md) · [B4](../courses/computer_science/B4.md) · [C4](../courses/business_and_economics/C4.md))
 
-**Lane B — applied — [E5 Track elective 5: A5 Quality Engineering, SPC & DOE / B5 Data Privacy, Security & Governance / C5 Corporate Strategy & Negotiation](../courses/E5.md)** · week 5 of 9
+**Lane B — applied — [E5 Track elective 5: A5 Quality Engineering, SPC & DOE / B5 Data Privacy, Security & Governance / C5 Corporate Strategy & Negotiation](../courses/track_electives/E5.md)** · week 5 of 9
 
-- [ ] Learn and apply: week 5 of your elective ([A5](../courses/A5.md) · [B5](../courses/B5.md) · [C5](../courses/C5.md))
+- [ ] Learn and apply: week 5 of your elective ([A5](../courses/statistics/A5.md) · [B5](../courses/computer_science/B5.md) · [C5](../courses/business_and_economics/C5.md))
 
 - [ ] Weekly log: `work/log/2030-W08.md`
 
@@ -336,13 +336,13 @@
 
 *25 Feb – 3 Mar 2030*
 
-**Lane A — theory — [E4 Track elective 4: A4 Financial Econometrics & Risk / B4 Distributed Systems Design / C4 Leadership & Organizational Behavior](../courses/E4.md)** · week 6 of 9
+**Lane A — theory — [E4 Track elective 4: A4 Financial Econometrics & Risk / B4 Distributed Systems Design / C4 Leadership & Organizational Behavior](../courses/track_electives/E4.md)** · week 6 of 9
 
-- [ ] Learn and apply: week 6 of your elective ([A4](../courses/A4.md) · [B4](../courses/B4.md) · [C4](../courses/C4.md))
+- [ ] Learn and apply: week 6 of your elective ([A4](../courses/statistics/A4.md) · [B4](../courses/computer_science/B4.md) · [C4](../courses/business_and_economics/C4.md))
 
-**Lane B — applied — [E5 Track elective 5: A5 Quality Engineering, SPC & DOE / B5 Data Privacy, Security & Governance / C5 Corporate Strategy & Negotiation](../courses/E5.md)** · week 6 of 9
+**Lane B — applied — [E5 Track elective 5: A5 Quality Engineering, SPC & DOE / B5 Data Privacy, Security & Governance / C5 Corporate Strategy & Negotiation](../courses/track_electives/E5.md)** · week 6 of 9
 
-- [ ] Learn and apply: week 6 of your elective ([A5](../courses/A5.md) · [B5](../courses/B5.md) · [C5](../courses/C5.md))
+- [ ] Learn and apply: week 6 of your elective ([A5](../courses/statistics/A5.md) · [B5](../courses/computer_science/B5.md) · [C5](../courses/business_and_economics/C5.md))
 
 - [ ] Weekly log: `work/log/2030-W09.md`
 
@@ -350,13 +350,13 @@
 
 *4–10 Mar 2030*
 
-**Lane A — theory — [E4 Track elective 4: A4 Financial Econometrics & Risk / B4 Distributed Systems Design / C4 Leadership & Organizational Behavior](../courses/E4.md)** · week 7 of 9
+**Lane A — theory — [E4 Track elective 4: A4 Financial Econometrics & Risk / B4 Distributed Systems Design / C4 Leadership & Organizational Behavior](../courses/track_electives/E4.md)** · week 7 of 9
 
-- [ ] Learn and apply: week 7 of your elective ([A4](../courses/A4.md) · [B4](../courses/B4.md) · [C4](../courses/C4.md))
+- [ ] Learn and apply: week 7 of your elective ([A4](../courses/statistics/A4.md) · [B4](../courses/computer_science/B4.md) · [C4](../courses/business_and_economics/C4.md))
 
-**Lane B — applied — [E5 Track elective 5: A5 Quality Engineering, SPC & DOE / B5 Data Privacy, Security & Governance / C5 Corporate Strategy & Negotiation](../courses/E5.md)** · week 7 of 9
+**Lane B — applied — [E5 Track elective 5: A5 Quality Engineering, SPC & DOE / B5 Data Privacy, Security & Governance / C5 Corporate Strategy & Negotiation](../courses/track_electives/E5.md)** · week 7 of 9
 
-- [ ] Learn and apply: week 7 of your elective ([A5](../courses/A5.md) · [B5](../courses/B5.md) · [C5](../courses/C5.md))
+- [ ] Learn and apply: week 7 of your elective ([A5](../courses/statistics/A5.md) · [B5](../courses/computer_science/B5.md) · [C5](../courses/business_and_economics/C5.md))
 
 - [ ] Weekly log: `work/log/2030-W10.md`
 
@@ -364,13 +364,13 @@
 
 *11–17 Mar 2030*
 
-**Lane A — theory — [E4 Track elective 4: A4 Financial Econometrics & Risk / B4 Distributed Systems Design / C4 Leadership & Organizational Behavior](../courses/E4.md)** · week 8 of 9
+**Lane A — theory — [E4 Track elective 4: A4 Financial Econometrics & Risk / B4 Distributed Systems Design / C4 Leadership & Organizational Behavior](../courses/track_electives/E4.md)** · week 8 of 9
 
-- [ ] Learn and apply: week 8 of your elective ([A4](../courses/A4.md) · [B4](../courses/B4.md) · [C4](../courses/C4.md))
+- [ ] Learn and apply: week 8 of your elective ([A4](../courses/statistics/A4.md) · [B4](../courses/computer_science/B4.md) · [C4](../courses/business_and_economics/C4.md))
 
-**Lane B — applied — [E5 Track elective 5: A5 Quality Engineering, SPC & DOE / B5 Data Privacy, Security & Governance / C5 Corporate Strategy & Negotiation](../courses/E5.md)** · week 8 of 9
+**Lane B — applied — [E5 Track elective 5: A5 Quality Engineering, SPC & DOE / B5 Data Privacy, Security & Governance / C5 Corporate Strategy & Negotiation](../courses/track_electives/E5.md)** · week 8 of 9
 
-- [ ] Learn and apply: week 8 of your elective ([A5](../courses/A5.md) · [B5](../courses/B5.md) · [C5](../courses/C5.md))
+- [ ] Learn and apply: week 8 of your elective ([A5](../courses/statistics/A5.md) · [B5](../courses/computer_science/B5.md) · [C5](../courses/business_and_economics/C5.md))
 
 - [ ] Weekly log: `work/log/2030-W11.md`
 
@@ -378,14 +378,14 @@
 
 *18–24 Mar 2030*
 
-**Lane A — theory — [E4 Track elective 4: A4 Financial Econometrics & Risk / B4 Distributed Systems Design / C4 Leadership & Organizational Behavior](../courses/E4.md)** · week 9 of 9
+**Lane A — theory — [E4 Track elective 4: A4 Financial Econometrics & Risk / B4 Distributed Systems Design / C4 Leadership & Organizational Behavior](../courses/track_electives/E4.md)** · week 9 of 9
 
 - [ ] Exam (≥ 70%): See the chosen elective's page
 - [ ] Build: See the chosen elective's page
 - [ ] Business memo: See the chosen elective's page
 - [ ] Record the result in `progress/transcript.csv`
 
-**Lane B — applied — [E5 Track elective 5: A5 Quality Engineering, SPC & DOE / B5 Data Privacy, Security & Governance / C5 Corporate Strategy & Negotiation](../courses/E5.md)** · week 9 of 9
+**Lane B — applied — [E5 Track elective 5: A5 Quality Engineering, SPC & DOE / B5 Data Privacy, Security & Governance / C5 Corporate Strategy & Negotiation](../courses/track_electives/E5.md)** · week 9 of 9
 
 - [ ] Exam (≥ 70%): See the chosen elective's page
 - [ ] Build: See the chosen elective's page
@@ -398,7 +398,7 @@
 
 *25–31 Mar 2030*
 
-**Both lanes — [X401 Capstone I: Scoping & Research](../courses/X401.md)** · week 1 of 6 · about 10 h
+**Both lanes — [X401 Capstone I: Scoping & Research](../courses/capstone/X401.md)** · week 1 of 6 · about 10 h
 
 - [ ] Find a client: a small business, NGO or your employer: Signed engagement agreement and stakeholder map
 
@@ -419,7 +419,7 @@
 
 *8–14 Apr 2030*
 
-**Both lanes — [X401 Capstone I: Scoping & Research](../courses/X401.md)** · week 2 of 6 · about 10 h
+**Both lanes — [X401 Capstone I: Scoping & Research](../courses/capstone/X401.md)** · week 2 of 6 · about 10 h
 
 - [ ] Problem definition: Problem statement and issue tree reviewed by the client
 
@@ -438,7 +438,7 @@
 
 *22–28 Apr 2030*
 
-**Both lanes — [X401 Capstone I: Scoping & Research](../courses/X401.md)** · week 3 of 6 · about 10 h
+**Both lanes — [X401 Capstone I: Scoping & Research](../courses/capstone/X401.md)** · week 3 of 6 · about 10 h
 
 - [ ] Data audit: Inventory of data sources, quality issues and access
 
@@ -448,7 +448,7 @@
 
 *29 Apr – 5 May 2030*
 
-**Both lanes — [X401 Capstone I: Scoping & Research](../courses/X401.md)** · week 4 of 6 · about 10 h
+**Both lanes — [X401 Capstone I: Scoping & Research](../courses/capstone/X401.md)** · week 4 of 6 · about 10 h
 
 - [ ] Hypotheses and analysis plan: Prioritized hypotheses and analysis plan
 
@@ -458,7 +458,7 @@
 
 *6–12 May 2030*
 
-**Both lanes — [X401 Capstone I: Scoping & Research](../courses/X401.md)** · week 5 of 6 · about 10 h
+**Both lanes — [X401 Capstone I: Scoping & Research](../courses/capstone/X401.md)** · week 5 of 6 · about 10 h
 
 - [ ] Statement of work and success metrics: Statement of work with measurable success criteria
 
@@ -468,7 +468,7 @@
 
 *13–19 May 2030*
 
-**Both lanes — [X401 Capstone I: Scoping & Research](../courses/X401.md)** · week 6 of 6 · about 10 h
+**Both lanes — [X401 Capstone I: Scoping & Research](../courses/capstone/X401.md)** · week 6 of 6 · about 10 h
 
 - [ ] Scoping review: Client sign-off meeting; scoping report committed
 
@@ -478,7 +478,7 @@
 
 *20–26 May 2030*
 
-**Both lanes — [X402 Capstone II: Delivery](../courses/X402.md)** · week 1 of 9 · about 10 h
+**Both lanes — [X402 Capstone II: Delivery](../courses/capstone/X402.md)** · week 1 of 9 · about 10 h
 
 - [ ] Data pipeline: Ingestion and transformation pipeline running end to end
 
@@ -488,7 +488,7 @@
 
 *27 May – 2 Jun 2030*
 
-**Both lanes — [X402 Capstone II: Delivery](../courses/X402.md)** · week 2 of 9 · about 10 h
+**Both lanes — [X402 Capstone II: Delivery](../courses/capstone/X402.md)** · week 2 of 9 · about 10 h
 
 - [ ] Data quality: Tests and data checks in CI
 
@@ -498,7 +498,7 @@
 
 *3–9 Jun 2030*
 
-**Both lanes — [X402 Capstone II: Delivery](../courses/X402.md)** · week 3 of 9 · about 10 h
+**Both lanes — [X402 Capstone II: Delivery](../courses/capstone/X402.md)** · week 3 of 9 · about 10 h
 
 - [ ] Exploration and baseline: EDA and a baseline model or analysis
 
@@ -508,7 +508,7 @@
 
 *10–16 Jun 2030*
 
-**Both lanes — [X402 Capstone II: Delivery](../courses/X402.md)** · week 4 of 9 · about 10 h
+**Both lanes — [X402 Capstone II: Delivery](../courses/capstone/X402.md)** · week 4 of 9 · about 10 h
 
 - [ ] Modeling: Main statistical model or optimization
 
@@ -518,7 +518,7 @@
 
 *17–23 Jun 2030*
 
-**Both lanes — [X402 Capstone II: Delivery](../courses/X402.md)** · week 5 of 9 · about 10 h
+**Both lanes — [X402 Capstone II: Delivery](../courses/capstone/X402.md)** · week 5 of 9 · about 10 h
 
 - [ ] Validation and sensitivity: Validation report and sensitivity analysis
 
@@ -528,7 +528,7 @@
 
 *24–30 Jun 2030*
 
-**Both lanes — [X402 Capstone II: Delivery](../courses/X402.md)** · week 6 of 9 · about 10 h
+**Both lanes — [X402 Capstone II: Delivery](../courses/capstone/X402.md)** · week 6 of 9 · about 10 h
 
 - [ ] Decision tool: Dashboard or app the client can use
 
@@ -538,7 +538,7 @@
 
 *1–7 Jul 2030*
 
-**Both lanes — [X402 Capstone II: Delivery](../courses/X402.md)** · week 7 of 9 · about 10 h
+**Both lanes — [X402 Capstone II: Delivery](../courses/capstone/X402.md)** · week 7 of 9 · about 10 h
 
 - [ ] Client iteration: Feedback session and revisions
 
@@ -548,7 +548,7 @@
 
 *8–14 Jul 2030*
 
-**Both lanes — [X402 Capstone II: Delivery](../courses/X402.md)** · week 8 of 9 · about 10 h
+**Both lanes — [X402 Capstone II: Delivery](../courses/capstone/X402.md)** · week 8 of 9 · about 10 h
 
 - [ ] Final delivery: Board-style presentation and technical report
 
@@ -569,7 +569,7 @@
 
 *22–28 Jul 2030*
 
-**Both lanes — [X402 Capstone II: Delivery](../courses/X402.md)** · week 9 of 9 · about 10 h
+**Both lanes — [X402 Capstone II: Delivery](../courses/capstone/X402.md)** · week 9 of 9 · about 10 h
 
 - [ ] Handover: Handover docs, client testimonial, personal retrospective
 - [ ] **Milestone:** Program complete: update the transcript and start the statement of purpose.

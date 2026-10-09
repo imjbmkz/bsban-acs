@@ -7,8 +7,8 @@
 | --- | --- |
 | `planned_start`, `planned_end` | From the plan; leave as is |
 | `actual_start`, `actual_end` | The real dates |
-| `status` | `not started`, `in progress`, `passed`, `test-out`, `retake` |
-| `exam_score` | Percent on the timed final (pass at 70) |
+| `status` | `not started`, `in progress`, `passed`, `fast-track`, `test-out`, `completed`, `retake` |
+| `exam_score` | Percent on the timed final, or the diagnostic for a fast-tracked course (pass at 70) |
 | `build_link`, `memo_link` | Links to the build and the memo |
 | `notes` | Anything an admissions reader should know, e.g. a for-credit version you took |
 

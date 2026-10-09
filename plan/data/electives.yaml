@@ -10,6 +10,9 @@
   kind: full
   prereqs: [M103, M201]
   resources: "Abbott, Understanding Analysis; MIT OCW 18.100A (free)"
+  domain: mathematics
+  assessment:
+    - {label: "MIT 18.100A (Fall 2020) midterm", url: "https://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/pages/exams/"}
   units:
     - learn: "Real numbers, completeness, the axiom of completeness"
       apply: "Prove five completeness results in writing"
@@ -38,6 +41,9 @@
   kind: full
   prereqs: [S201]
   resources: "Ross, Introduction to Probability Models"
+  domain: statistics
+  assessment:
+    - {label: "MIT 6.262 past midterms and finals with solutions", url: "https://ocw.mit.edu/courses/6-262-discrete-stochastic-processes-spring-2011/pages/exams/"}
   units:
     - learn: "Review of conditional probability and expectation"
       apply: "Problem set"
@@ -66,6 +72,9 @@
   kind: full
   prereqs: [S302]
   resources: "Wooldridge, Introductory Econometrics: A Modern Approach"
+  domain: business_and_economics
+  assessment:
+    - {label: "Textbook timed-set rubric", url: "https://github.com/imjbmkz/bsban-acs/blob/main/templates/assessment-rubrics.md#textbook-timed-set"}
   units:
     - learn: "Econometric thinking and OLS assumptions"
       apply: "Replicate a textbook wage regression"
@@ -94,6 +103,9 @@
   kind: full
   prereqs: [S304]
   resources: "Tsay, Analysis of Financial Time Series; Hull, Risk Management and Financial Institutions"
+  domain: statistics
+  assessment:
+    - {label: "Textbook timed-set rubric", url: "https://github.com/imjbmkz/bsban-acs/blob/main/templates/assessment-rubrics.md#textbook-timed-set"}
   units:
     - learn: "Returns, stylized facts of financial data"
       apply: "Analyze PSEi or global index returns"
@@ -122,6 +134,9 @@
   kind: full
   prereqs: [S202]
   resources: "Montgomery, Introduction to Statistical Quality Control; Montgomery, Design and Analysis of Experiments"
+  domain: statistics
+  assessment:
+    - {label: "Textbook timed-set rubric", url: "https://github.com/imjbmkz/bsban-acs/blob/main/templates/assessment-rubrics.md#textbook-timed-set"}
   units:
     - learn: "Quality, variation and process capability"
       apply: "Capability indices for a process metric"
@@ -152,6 +167,10 @@
   kind: full
   prereqs: [C201]
   resources: "Kleinberg & Tardos, Algorithm Design"
+  domain: computer_science
+  assessment:
+    - {label: "Princeton COS 226 past exams (algorithm design sections)", url: "https://www.cs.princeton.edu/courses/archive/fall13/cos226/exams.php"}
+    - {label: "Textbook timed-set rubric", url: "https://github.com/imjbmkz/bsban-acs/blob/main/templates/assessment-rubrics.md#textbook-timed-set"}
   units:
     - learn: "Greedy algorithms and exchange arguments"
       apply: "Interval scheduling with proofs"
@@ -180,6 +199,9 @@
   kind: full
   prereqs: [S301]
   resources: "Givens & Hoeting, Computational Statistics"
+  domain: statistics
+  assessment:
+    - {label: "Textbook timed-set rubric", url: "https://github.com/imjbmkz/bsban-acs/blob/main/templates/assessment-rubrics.md#textbook-timed-set"}
   units:
     - learn: "Optimization for statistics: Newton, Fisher scoring"
       apply: "Fit a GLM by IRLS from scratch"
@@ -208,6 +230,9 @@
   kind: full
   prereqs: [C302]
   resources: "Huyen, Designing ML Systems; Spark MLlib and Ray docs"
+  domain: computer_science
+  assessment:
+    - {label: "System design interview rubric", url: "https://github.com/imjbmkz/bsban-acs/blob/main/templates/assessment-rubrics.md#system-design-interview"}
   units:
     - learn: "Distributed training data pipelines"
       apply: "Feature pipeline over a large dataset in Spark"
@@ -236,6 +261,9 @@
   kind: full
   prereqs: [C301]
   resources: "MIT 6.5840 Distributed Systems (free); Kleppmann, DDIA"
+  domain: computer_science
+  assessment:
+    - {label: "MIT 6.5840 past quizzes with answers (2002–2025)", url: "https://pdos.csail.mit.edu/6.824/quizzes.html"}
   units:
     - learn: "Distributed systems fundamentals, RPC, failure models"
       apply: "Implement a simple RPC service"
@@ -264,6 +292,9 @@
   kind: full
   prereqs: [C103]
   resources: "Philippine Data Privacy Act of 2012; EU GDPR text; Unity Catalog docs"
+  domain: computer_science
+  assessment:
+    - {label: "Timed case rubric", url: "https://github.com/imjbmkz/bsban-acs/blob/main/templates/assessment-rubrics.md#timed-case"}
   units:
     - learn: "Data governance frameworks and roles"
       apply: "Governance RACI for a data platform"
@@ -294,6 +325,9 @@
   kind: full
   prereqs: [B101]
   resources: "Baye & Prince, Managerial Economics and Business Strategy"
+  domain: business_and_economics
+  assessment:
+    - {label: "Textbook timed-set rubric", url: "https://github.com/imjbmkz/bsban-acs/blob/main/templates/assessment-rubrics.md#textbook-timed-set"}
   units:
     - learn: "Economics of the firm and decision making"
       apply: "Decision analysis of a pricing change"
@@ -322,6 +356,9 @@
   kind: full
   prereqs: [B202]
   resources: "Damodaran's free valuation course; McKinsey, Valuation"
+  domain: business_and_economics
+  assessment:
+    - {label: "Damodaran valuation course page (online class)", url: "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/webcastvalonline.htm"}
   units:
     - learn: "Valuation approaches overview"
       apply: "Value one company three ways at a glance"
@@ -350,6 +387,9 @@
   kind: full
   prereqs: [B301]
   resources: "Cachon & Terwiesch, Matching Supply with Demand"
+  domain: business_and_economics
+  assessment:
+    - {label: "Textbook timed-set rubric", url: "https://github.com/imjbmkz/bsban-acs/blob/main/templates/assessment-rubrics.md#textbook-timed-set"}
   units:
     - learn: "Process analysis: flow rate, utilization, Little's law"
       apply: "Analyze a real process with Little's law"
@@ -378,6 +418,9 @@
   kind: full
   prereqs: [B103]
   resources: "Robbins & Judge, Organizational Behavior; HBR case studies"
+  domain: business_and_economics
+  assessment:
+    - {label: "Timed case rubric", url: "https://github.com/imjbmkz/bsban-acs/blob/main/templates/assessment-rubrics.md#timed-case"}
   units:
     - learn: "Individual behavior, motivation"
       apply: "Motivation analysis of your own team"
@@ -406,6 +449,9 @@
   kind: full
   prereqs: [B302]
   resources: "Fisher & Ury, Getting to Yes; Malhotra & Bazerman, Negotiation Genius"
+  domain: business_and_economics
+  assessment:
+    - {label: "Negotiation role-play rubric", url: "https://github.com/imjbmkz/bsban-acs/blob/main/templates/assessment-rubrics.md#negotiation-role-play"}
   units:
     - learn: "Corporate strategy: diversification and portfolio"
       apply: "Portfolio analysis of a conglomerate"

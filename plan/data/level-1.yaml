@@ -9,6 +9,9 @@
   kind: full
   prereqs: []
   resources: "OpenStax Precalculus 2e (free); Khan Academy Precalculus"
+  assessment:
+    - {label: "Khan Academy Precalculus (course challenge, unit tests)", url: "https://www.khanacademy.org/math/precalculus"}
+    - {label: "OpenStax Precalculus 2e (chapter review exercises)", url: "https://openstax.org/details/books/precalculus-2e"}
   units:
     - learn: "Functions, domain and range, composition, transformations"
       apply: "Plot families of functions with matplotlib; write helpers that shift and scale any f(x)"
@@ -37,6 +40,9 @@
   kind: full
   prereqs: [M101]
   resources: "MIT OCW 18.01SC Single Variable Calculus; OpenStax Calculus Vol. 1 (free)"
+  assessment:
+    - {label: "MIT 18.01SC final exam with solutions", url: "https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010/pages/final-exam/"}
+    - {label: "Khan Academy Calculus 1 (course challenge)", url: "https://www.khanacademy.org/math/calculus-1"}
   units:
     - learn: "Limits and continuity"
       apply: "Estimate limits numerically in Python; find where a tiered pricing function is discontinuous"
@@ -65,6 +71,8 @@
   kind: full
   prereqs: [M101]
   resources: "Hammack, Book of Proof (free); MIT OCW 6.042J Mathematics for Computer Science"
+  assessment:
+    - {label: "MIT 6.042J past finals 2004/2006/2008 with solutions", url: "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/exams/"}
   units:
     - learn: "Propositional logic, truth tables, quantifiers"
       apply: "Express SQL WHERE clauses as logical statements and test equivalences in Python"
@@ -93,6 +101,9 @@
   kind: full
   prereqs: []
   resources: "OpenIntro Statistics (free)"
+  assessment:
+    - {label: "Khan Academy Statistics and probability (course challenge)", url: "https://www.khanacademy.org/math/statistics-probability"}
+    - {label: "OpenIntro Statistics (exercises with odd-numbered solutions)", url: "https://www.openintro.org/book/os/"}
   units:
     - learn: "Data, study design, observational vs experimental, sampling bias"
       apply: "Critique the sampling behind one dataset you use at work"
@@ -121,6 +132,9 @@
   kind: test-out
   prereqs: []
   resources: "Harvard CS50P (free); Python docs; pytest and mypy docs"
+  assessment:
+    - {label: "CS50P final project requirements", url: "https://cs50.harvard.edu/python/project/"}
+    - {label: "CS50P certificate", url: "https://cs50.harvard.edu/python/certificate/"}
   units:
     - learn: "Self-assess against CS50P problem sets; fill gaps in typing, OOP and pytest"
       apply: "Refactor one work script into a typed, tested Python package"
@@ -136,6 +150,9 @@
   kind: full
   prereqs: [C101]
   resources: "MIT Missing Semester (free); GitHub Actions docs; pytest docs"
+  assessment:
+    - {label: "Practical exam rubric", url: "https://github.com/imjbmkz/bsban-acs/blob/main/templates/assessment-rubrics.md#practical-exam"}
+    - {label: "MIT Missing Semester", url: "https://missing.csail.mit.edu/"}
   units:
     - learn: "Shell, scripting and command-line tooling"
       apply: "Automate a local data task end to end with a bash script"
@@ -164,6 +181,8 @@
   kind: test-out
   prereqs: []
   resources: "Kimball, The Data Warehouse Toolkit; dbt Learn 'dbt Fundamentals' (free); DuckDB"
+  assessment:
+    - {label: "dbt Analytics Engineering Certification (paid, proctored)", url: "https://www.getdbt.com/certifications/analytics-engineer-certification-exam"}
   units:
     - learn: "Kimball review: star schemas, grain, slowly changing dimensions, conformed dimensions"
       apply: "Design a star schema for a public retail dataset"
@@ -179,6 +198,9 @@
   kind: full
   prereqs: []
   resources: "CORE Econ, The Economy (free); MIT OCW 14.01"
+  assessment:
+    - {label: "MIT 14.01SC midterms and final with solutions", url: "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/"}
+    - {label: "Khan Academy Microeconomics (course challenge)", url: "https://www.khanacademy.org/economics-finance-domain/microeconomics"}
   units:
     - learn: "Scarcity, opportunity cost, incentives"
       apply: "Opportunity-cost analysis of a real decision at work"
@@ -207,6 +229,8 @@
   kind: full
   prereqs: []
   resources: "OpenStax Principles of Accounting Vol. 1 (free)"
+  assessment:
+    - {label: "OpenStax Principles of Accounting Vol. 1 (end-of-chapter questions)", url: "https://open.umn.edu/opentextbooks/textbooks/principles-of-accounting-volume-1-financial-accounting"}
   units:
     - learn: "The accounting equation and double-entry bookkeeping"
       apply: "Build a mini general ledger in Python"
@@ -235,6 +259,8 @@
   kind: full
   prereqs: []
   resources: "Minto, The Pyramid Principle; Conn & McLean, Bulletproof Problem Solving"
+  assessment:
+    - {label: "Timed case rubric", url: "https://github.com/imjbmkz/bsban-acs/blob/main/templates/assessment-rubrics.md#timed-case"}
   units:
     - learn: "Defining the problem: SMART questions, stakeholders, decision owners"
       apply: "Rewrite a vague request from work into a crisp problem statement"

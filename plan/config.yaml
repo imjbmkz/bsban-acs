@@ -7,6 +7,10 @@
 # holiday_breaks  Make the weeks of Holy Week, Christmas and New Year's Day review weeks.
 # completed       Courses already done (placement, prior credit, or finished before a reschedule).
 #                 They are left out of the calendar and count as met prerequisites.
+# fast_track      Full courses you are confident in. Each becomes 3 weeks: a timed diagnostic,
+#                 the build, then the memo. See plan/fast-track.md for candidates and rules.
+# share_lanes     When a lane has nothing ready, let it take the next ready course from the other
+#                 lane (e.g. two math courses at once). Worth turning on once you fast-track.
 
 start_date: 2026-10-12
 track: undecided
@@ -14,10 +18,13 @@ hours_per_week: 10
 review_after: 12
 holiday_breaks: true
 completed: []
+fast_track: []
+share_lanes: false
 
 # Lane A = theory (math and statistics), about 5 h/week.
 # Lane B = applied (computer science and business), about 5 h/week.
-# Courses run in this order; the build fails if a course would start before its prerequisites end.
+# Courses run in this order. A lane never starts a course before its prerequisites end: it takes the
+# next ready course in its list, or stays free that week.
 lane_a: [M101, M102, S101, M103, M201, M202, S201, S202, M301, M302, S301, S302, S303, S304, S402, S401]
 lane_b: [C101, C102, C103, B103, B101, B102, C201, B201, B202, C202, C203, B203, C301, B302, B301, C302, B401]
 

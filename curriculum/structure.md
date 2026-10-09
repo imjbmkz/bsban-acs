@@ -29,6 +29,9 @@ A course takes about 45 hours. The plan runs two courses in parallel at about 5 
 Each full course therefore spans 9 weeks; a *test-out* course spans 3. With a review/buffer week
 every quarter and breaks for Holy Week, Christmas and New Year, the program takes about 198 weeks (just under 4 years). The exact calendar is generated in [`plan/`](../plan/).
 
+**Fast track.** Courses you already know can be tested out of: a timed diagnostic, then the build
+and the memo, in 3 weeks instead of 9. See [plan/fast-track.md](../plan/fast-track.md).
+
 **Fitting it around relocation.** Levels 1–2 are mostly math, which runs fine alongside a 2028
 job-abroad push; Levels 3–4 can slow down after a move if hours get tight.
 

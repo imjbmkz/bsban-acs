@@ -7,6 +7,9 @@
   kind: full
   prereqs: [M102]
   resources: "OpenStax Calculus Vol. 2 (free); MIT OCW 18.01SC"
+  assessment:
+    - {label: "MIT 18.01SC final exam with solutions", url: "https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010/pages/final-exam/"}
+    - {label: "Khan Academy Calculus 2 (course challenge)", url: "https://www.khanacademy.org/math/calculus-2"}
   units:
     - learn: "Integration by parts"
       apply: "Compute expected values of continuous distributions by integration"
@@ -35,6 +38,8 @@
   kind: full
   prereqs: [M102]
   resources: "Strang, MIT OCW 18.06 (free lectures); 3Blue1Brown, Essence of Linear Algebra"
+  assessment:
+    - {label: "MIT 18.06 (Spring 2010) exams and final with answers", url: "https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/pages/exams/"}
   units:
     - learn: "Vectors, dot products, geometry of linear equations"
       apply: "Represent customers as vectors and compute cosine similarity"
@@ -63,6 +68,8 @@
   kind: full
   prereqs: [M201]
   resources: "Harvard Stat 110 lectures; Blitzstein & Hwang, Introduction to Probability (free PDF)"
+  assessment:
+    - {label: "Stat 110 final review with past finals (2006–2010)", url: "https://stat110.hsites.harvard.edu/resource/final-review"}
   units:
     - learn: "Counting and naive probability (book ch. 1)"
       apply: "Simulate the birthday problem and check it against the formula"
@@ -91,6 +98,8 @@
   kind: full
   prereqs: [S101, S201]
   resources: "Penn State STAT 500 online notes (free); statsmodels and scipy.stats docs"
+  assessment:
+    - {label: "Penn State STAT 500 lessons and practice questions", url: "https://online.stat.psu.edu/stat500/"}
   units:
     - learn: "Inference review; t procedures and assumption checks"
       apply: "Write an assumption-checking helper (normality, equal variance)"
@@ -119,6 +128,8 @@
   kind: full
   prereqs: [M103, C101]
   resources: "Princeton Algorithms I & II (Sedgewick, free on Coursera); LeetCode or NeetCode practice"
+  assessment:
+    - {label: "Princeton COS 226 past midterms and finals with solutions", url: "https://www.cs.princeton.edu/courses/archive/fall13/cos226/exams.php"}
   units:
     - learn: "Algorithm analysis, Big-O, union-find"
       apply: "Union-find for entity resolution on duplicate customer records; 8 practice problems"
@@ -147,6 +158,8 @@
   kind: full
   prereqs: [C103]
   resources: "CMU 15-445 lectures (free); Kleppmann, Designing Data-Intensive Applications"
+  assessment:
+    - {label: "CMU 15-445 (Fall 2024) homework 1–6 with solutions", url: "https://15445.courses.cs.cmu.edu/fall2024/assignments.html"}
   units:
     - learn: "Storage: pages, files, row vs column layout"
       apply: "Inspect Parquet and Delta file layouts with pyarrow"
@@ -175,6 +188,8 @@
   kind: full
   prereqs: [C101]
   resources: "Arpaci-Dusseau, Operating Systems: Three Easy Pieces (OSTEP, free)"
+  assessment:
+    - {label: "OSTEP book with chapter homework", url: "https://pages.cs.wisc.edu/~remzi/OSTEP/"}
   units:
     - learn: "Processes and CPU scheduling"
       apply: "Measure process vs thread overhead with Python multiprocessing"
@@ -203,6 +218,9 @@
   kind: full
   prereqs: [B101]
   resources: "CORE Econ, The Economy (free); MIT OCW 14.02"
+  assessment:
+    - {label: "MIT 14.02 (Spring 2014) exams with solutions", url: "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2014/pages/exams"}
+    - {label: "Khan Academy Macroeconomics (course challenge)", url: "https://www.khanacademy.org/economics-finance-domain/macroeconomics"}
   units:
     - learn: "GDP and national accounts"
       apply: "Pull Philippine GDP data (PSA) and chart its components"
@@ -231,6 +249,9 @@
   kind: full
   prereqs: [B102, M201]
   resources: "Damodaran's free NYU corporate finance course and notes"
+  assessment:
+    - {label: "Damodaran past corporate finance quizzes and exams", url: "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/cfprob0.html"}
+    - {label: "Damodaran practice problems with solutions", url: "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/cfprset.htm"}
   units:
     - learn: "The objective of the firm and the big picture"
       apply: "Summarize one listed company's investment, financing and dividend decisions"
@@ -259,6 +280,8 @@
   kind: full
   prereqs: [S101, B101]
   resources: "Kohavi, Tang & Xu, Trustworthy Online Controlled Experiments"
+  assessment:
+    - {label: "Timed case rubric", url: "https://github.com/imjbmkz/bsban-acs/blob/main/templates/assessment-rubrics.md#timed-case"}
   units:
     - learn: "Funnel metrics and customer journeys"
       apply: "Build a funnel from event data"
